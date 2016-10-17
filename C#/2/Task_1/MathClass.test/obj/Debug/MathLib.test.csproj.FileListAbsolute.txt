@@ -1,0 +1,9 @@
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\bin\Debug\MathClass.test.dll
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\bin\Debug\MathClass.test.pdb
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\bin\Debug\MathLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\bin\Debug\MathLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\obj\Debug\MathClass.test.dll
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\obj\Debug\MathClass.test.pdb
+F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathClass.test\obj\Debug\MathLib.test.csprojResolveAssemblyReference.cache

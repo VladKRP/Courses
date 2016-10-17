@@ -1,0 +1,15 @@
+F:\Workspace\EPAM\Projects\C#\Study\1\ConsoleApp\TextEditLib\bin\Debug\TextEditLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\1\ConsoleApp\TextEditLib\bin\Debug\TextEditLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\1\ConsoleApp\TextEditLib\obj\Debug\TextEditLib.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\1\ConsoleApp\TextEditLib\obj\Debug\TextEditLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\1\ConsoleApp\TextEditLib\obj\Debug\TextEditLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\1\taks_1\TextEditLib\bin\Debug\TextEditLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\1\taks_1\TextEditLib\bin\Debug\TextEditLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\1\taks_1\TextEditLib\obj\Debug\TextEditLib.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\1\taks_1\TextEditLib\obj\Debug\TextEditLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\1\taks_1\TextEditLib\obj\Debug\TextEditLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\1\Task_1\TextEditLib\bin\Debug\TextEditLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\1\Task_1\TextEditLib\bin\Debug\TextEditLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\1\Task_1\TextEditLib\obj\Debug\TextEditLib.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\1\Task_1\TextEditLib\obj\Debug\TextEditLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\1\Task_1\TextEditLib\obj\Debug\TextEditLib.pdb
