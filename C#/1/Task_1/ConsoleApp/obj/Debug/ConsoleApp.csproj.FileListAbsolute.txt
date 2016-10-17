@@ -30,3 +30,5 @@ F:\Workspace\VersionControl\Git\Courses\Courses\C#\1\Task_1\ConsoleApp\bin\Debug
 F:\Workspace\VersionControl\Git\Courses\Courses\C#\1\Task_1\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
 F:\Workspace\VersionControl\Git\Courses\Courses\C#\1\Task_1\ConsoleApp\obj\Debug\ConsoleApp.exe
 F:\Workspace\VersionControl\Git\Courses\Courses\C#\1\Task_1\ConsoleApp\obj\Debug\ConsoleApp.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\1\Task_1\ConsoleApp\bin\Debug\ConsoleApp.XML
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\1\Task_1\ConsoleApp\bin\Debug\TextEditLib.xml

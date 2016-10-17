@@ -22,3 +22,13 @@ F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\ConsoleApp\bin\Debug\ConsoleApp.exe
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\ConsoleApp\bin\Debug\ConsoleApp.pdb
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\ConsoleApp\bin\Debug\Converting.dll
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\ConsoleApp\bin\Debug\Converting.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\ConsoleApp.exe
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\ConsoleApp.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\Converting.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\Converting.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\Converting.xml
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\obj\Debug\ConsoleApp.exe
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\obj\Debug\ConsoleApp.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\bin\Debug\ConsoleApp.XML
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache

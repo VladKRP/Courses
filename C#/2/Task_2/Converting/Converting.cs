@@ -14,7 +14,7 @@ namespace Converting
 					/// <returns>The number in bin system.</returns>
 					static public string toBin(int number)
 					{
-						string resultString = null;//This string will strore binary representation initial number.
+						string resultString = null; //This string will strore binary representation initial number.
 						try
 						{
 							if (number < 0)
@@ -22,7 +22,7 @@ namespace Converting
 								throw new Exception("Number is negative.");
 							}
 							else
-								resultString = System.Convert.ToString(number, 2);//Convert number to bin system.
+								resultString = System.Convert.ToString(number, 2); //Convert number to bin system.
 						}
 						//If number negative run exception.
 						catch (Exception exc)

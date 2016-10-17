@@ -7,3 +7,13 @@ F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\Converting.Test\bin\Debug\Microsoft
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\Converting.Test\obj\Debug\Converting.Test.csprojResolveAssemblyReference.cache
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\Converting.Test\obj\Debug\Converting.Test.dll
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_2\Converting.Test\obj\Debug\Converting.Test.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Converting.Test.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Converting.Test.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Converting.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Converting.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Converting.xml
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\obj\Debug\Converting.Test.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\obj\Debug\Converting.Test.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_2\Converting.Test\obj\Debug\Converting.Test.pdb

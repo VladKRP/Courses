@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Converting</name>
+    </assembly>
+    <members>
+        <member name="T:Converting.ConvertingClass">
+            <summary>
+            Class for converting numbers.
+            </summary>
+        </member>
+        <member name="M:Converting.ConvertingClass.toBin(System.Int32)">
+            <summary>
+            Convert number from hex system to bin.
+            </summary>
+            <param name="number">The number in hex system.</param>
+            <returns>The number in bin system.</returns>
+        </member>
+    </members>
+</doc>

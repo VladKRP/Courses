@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TextEditLib</name>
+    </assembly>
+    <members>
+        <member name="T:TextEditLib.TextEdit">
+            <summary>
+            TextEdit class
+            </summary>
+        </member>
+        <member name="M:TextEditLib.TextEdit.outCoordinate(System.String)">
+            <summary>
+            Outs the coordinate.
+            </summary>
+            <param name="fileInDebugDirectory">The file in debug directory.</param>
+        </member>
+    </members>
+</doc>
