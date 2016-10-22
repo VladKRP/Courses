@@ -1,0 +1,9 @@
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\bin\Debug\NVectorTest.dll
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\bin\Debug\NVectorTest.pdb
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\obj\Debug\NVectorTest.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\obj\Debug\NVectorTest.dll
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\obj\Debug\NVectorTest.pdb
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\bin\Debug\VectorLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\NVectorTest\bin\Debug\VectorLib.pdb

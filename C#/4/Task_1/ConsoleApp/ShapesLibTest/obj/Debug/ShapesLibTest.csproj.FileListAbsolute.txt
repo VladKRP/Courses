@@ -1,0 +1,9 @@
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\bin\Debug\ShapesLibTest.dll
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\bin\Debug\ShapesLibTest.pdb
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\obj\Debug\ShapesLibTest.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\obj\Debug\ShapesLibTest.dll
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\obj\Debug\ShapesLibTest.pdb
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\bin\Debug\ShapesLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLibTest\bin\Debug\ShapesLib.pdb

@@ -1,0 +1,8 @@
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\bin\Debug\MathLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\bin\Debug\MathLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

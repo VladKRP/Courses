@@ -1,0 +1,5 @@
+F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\bin\Debug\Helper.dll
+F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\bin\Debug\Helper.pdb
+F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\obj\Debug\Helper.dll
+F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\obj\Debug\Helper.pdb
