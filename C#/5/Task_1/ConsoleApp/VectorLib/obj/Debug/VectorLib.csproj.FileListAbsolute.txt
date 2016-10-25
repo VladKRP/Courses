@@ -1,0 +1,11 @@
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\bin\Debug\VectorLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\bin\Debug\VectorLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\obj\Debug\VectorLib.dll
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\obj\Debug\VectorLib.pdb
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\obj\Debug\VectorLib.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_1\ConsoleApp\VectorLib\bin\Debug\VectorLib.XML
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_1\ConsoleApp\VectorLib\bin\Debug\VectorLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_1\ConsoleApp\VectorLib\bin\Debug\VectorLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_1\ConsoleApp\VectorLib\obj\Debug\VectorLib.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_1\ConsoleApp\VectorLib\obj\Debug\VectorLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_1\ConsoleApp\VectorLib\obj\Debug\VectorLib.pdb

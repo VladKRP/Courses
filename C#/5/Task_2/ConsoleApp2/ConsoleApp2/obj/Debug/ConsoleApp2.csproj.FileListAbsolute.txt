@@ -1,0 +1,11 @@
+F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.XML
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\ConsoleApp2\bin\Debug\MathLib.xml

@@ -12,17 +12,17 @@ namespace Converting
 					/// </summary>
 					/// <param name="number">The number in hex system.</param>
 					/// <returns>The number in bin system.</returns>
-					static public string toBin(int number)
+					static public string ToBin(int number)
 					{
 						string resultString = null; //This string will strore binary representation initial number.
 						try
 						{
-							if (number < 0)
+							if (number > 0)
 							{
-								throw new Exception("Number is negative.");
+									resultString = System.Convert.ToString(number, 2); //Convert number to bin system.
 							}
 							else
-								resultString = System.Convert.ToString(number, 2); //Convert number to bin system.
+									throw new Exception("Number is negative.");
 						}
 						//If number negative run exception.
 						catch (Exception exc)

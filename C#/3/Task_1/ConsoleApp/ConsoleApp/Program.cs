@@ -12,6 +12,7 @@ namespace ConsoleApp
 		static void Main(string[] args)
 		{
 				Console.WriteLine(MathClass.NOD(436, 120));
+				Console.WriteLine(MathClass.NOD(100, -10));
 				Console.ReadLine();
 		}
 	}

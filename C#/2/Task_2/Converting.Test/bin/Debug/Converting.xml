@@ -9,7 +9,7 @@
             Class for converting numbers.
             </summary>
         </member>
-        <member name="M:Converting.ConvertingClass.toBin(System.Int32)">
+        <member name="M:Converting.ConvertingClass.ToBin(System.Int32)">
             <summary>
             Convert number from hex system to bin.
             </summary>

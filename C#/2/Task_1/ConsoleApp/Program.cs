@@ -11,7 +11,7 @@ namespace ConsoleApp
 		/// <param name="args">The arguments.</param>
 		static void Main(string[] args)
 		{
-			Console.WriteLine(MathClass.sqrt(5, 2));
+			Console.WriteLine(MathClass.NRoot(27, 3));
 			Console.ReadLine();
 		}
 	}

@@ -8,7 +8,7 @@ namespace MathLibTest
 	public class MathClassTest
 	{
 		[TestMethod]
-		public void NOD_36and8()
+		public void NODTest()
 		{
 			int number1 = 36;
 			int number2 = 8;
@@ -19,11 +19,11 @@ namespace MathLibTest
 		}
 
 		[TestMethod]
-		public void NOD_8and0()
+		public void NODWithNegativeTest()
 		{
-			int number1 = 8;
-			int number2 = 0;
-			int excepted = 0;
+			int number1 = 24;
+			int number2 = -4;
+			int excepted = -1;
 
 			int actual = MathClass.NOD(number1, number2);
 			Assert.AreEqual(excepted, actual);

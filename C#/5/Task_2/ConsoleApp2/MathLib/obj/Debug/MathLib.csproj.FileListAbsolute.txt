@@ -1,0 +1,6 @@
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLib\bin\Debug\MathLib.XML
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLib\bin\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLib\bin\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLib\obj\Debug\MathLib.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLib\obj\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLib\obj\Debug\MathLib.pdb

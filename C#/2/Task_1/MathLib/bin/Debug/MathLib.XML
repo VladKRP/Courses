@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathLib</name>
+    </assembly>
+    <members>
+        <member name="T:MathLib.MathClass">
+            <summary>
+            MathClass implementation
+            </summary>
+        </member>
+        <member name="M:MathLib.MathClass.NRoot(System.Double,System.Int32,System.Double)">
+            <summary>
+            Newton method to find n-root.
+            </summary>
+            <param name="number">The number.</param>
+            <param name="power">The power.</param>
+            <param name="eps">The eps.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MathLib.MathClass.IsNRootResultsEqual(System.Double,System.Int32)">
+            <summary>
+            Compare own method NRoot and existing method Pow.
+            </summary>
+            <param name="number">The number.</param>
+            <param name="power">The power.</param>
+            <returns>Return true when 2 methods have same results.Return false if methods result not equal.</returns>
+        </member>
+    </members>
+</doc>

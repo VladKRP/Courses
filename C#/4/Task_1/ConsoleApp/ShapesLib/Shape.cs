@@ -7,10 +7,21 @@ namespace ShapesLib
 	/// </summary>
 	public abstract class Shape
     {
-				protected double perimetr;
-				protected double square;
-
-				public abstract bool isExist();
+		/// <summary>
+		/// The perimetr
+		/// </summary>
+		protected double perimetr;
+		/// <summary>
+		/// The square
+		/// </summary>
+		protected double square;
+		/// <summary>
+		/// Check can shape be exist.
+		/// </summary>
+		/// <returns>
+		///   <c>true</c> if this instance is exist; otherwise, <c>false</c>.
+		/// </returns>
+		public abstract bool isExist();
     }
 
 	/// <summary>
@@ -19,15 +30,33 @@ namespace ShapesLib
 	/// <seealso cref="ShapesLib.Shape" />
 	public class Triangle:Shape 
 		{
-				//Coordinates on the plane
-				public double x1, y1;
-				public double x2, y2;
-				public double x3, y3;
 
-				//Sides length
-				public double sideA;
-				public double sideB;
-				public double sideC;
+		/// <summary>
+		/// The x1, y1 coordinate of shape
+		/// </summary>
+		public double x1, y1;
+		/// <summary>
+		/// The x2, y2 coordinate of shape
+		/// </summary>
+		public double x2, y2;
+		/// <summary>
+		/// The x3, y3 coordinate of shape
+		/// </summary>
+		public double x3, y3;
+
+
+		/// <summary>
+		/// The side a
+		/// </summary>
+		public double sideA;
+		/// <summary>
+		/// The side b
+		/// </summary>
+		public double sideB;
+		/// <summary>
+		/// The side c
+		/// </summary>
+		public double sideC;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Triangle"/> class.
@@ -90,7 +119,7 @@ namespace ShapesLib
 		/// <summary>
 		/// Calculate triangle perimetr
 		/// </summary>
-		/// <returns></returns>
+		/// <returns>Triangle perimetr</returns>
 		public double Perimetr()
 				{
 						perimetr = sideA + sideB + sideC;
@@ -100,7 +129,7 @@ namespace ShapesLib
 		/// <summary>
 		/// Calculate triangle square
 		/// </summary>
-		/// <returns></returns>
+		/// <returns>Triangle square</returns>
 		public double Square()
 				{
 						double semiperimetr = Perimetr() / 2;

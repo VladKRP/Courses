@@ -8,11 +8,29 @@ namespace MathLib.test
 	public class MathClassTest
 	{
 		[TestMethod]
-		public void sqrt_9_equal_3()
+		public void SqrtTest1()
 		{
-			int number = 9;
+			double number = 9;
 			double expected = 3;
-			double actual = MathClass.sqrt(number, 2);
+			double actual = MathClass.NRoot(number, 2);
+			Assert.AreEqual(expected, actual);
+		}
+
+		[TestMethod]
+		public void SqrtTest2()
+		{
+			double number = 27;
+			double expected = 3;
+			double actual = MathClass.NRoot(number, 3);
+			Assert.AreEqual(expected, actual);
+		}
+
+		[TestMethod]
+		public void isSqrtResultsEqualTest()
+		{
+			double number = 64;
+			bool expected = true;
+			bool actual = MathClass.IsNRootResultsEqual(number, 2);
 			Assert.AreEqual(expected, actual);
 		}
 	}

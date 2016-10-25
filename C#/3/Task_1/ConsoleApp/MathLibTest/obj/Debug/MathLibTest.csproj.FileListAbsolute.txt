@@ -7,3 +7,13 @@ F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\Ma
 F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\MathLibTest\obj\Debug\MathLibTest.dll
 F:\Workspace\EPAM\Projects\C#\Study\3\Task_1\ConsoleApp\MathLibTest\obj\Debug\MathLibTest.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\MathLibTest.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\MathLibTest.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\obj\Debug\MathLibTest.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\obj\Debug\MathLibTest.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\obj\Debug\MathLibTest.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\3\Task_1\ConsoleApp\MathLibTest\bin\Debug\MathLib.xml

@@ -3,3 +3,8 @@ F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\bin\Debug\Helper.pdb
 F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
 F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\obj\Debug\Helper.dll
 F:\Workspace\EPAM\Projects\C#\Study\6\ConsoleApp\Helper\obj\Debug\Helper.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\Helper\bin\Debug\Helper.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\Helper\bin\Debug\Helper.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\Helper\obj\Debug\Helper.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\Helper\obj\Debug\Helper.pdb

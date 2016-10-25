@@ -7,3 +7,9 @@ F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathLib\obj\Debug\MathLib.dll
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathLib\obj\Debug\MathLib.pdb
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathLib\bin\Debug\MathLib.dll
 F:\Workspace\EPAM\Projects\C#\Study\2\Task_1\MathLib\bin\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_1\MathLib\bin\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_1\MathLib\bin\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_1\MathLib\obj\Debug\MathLib.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_1\MathLib\obj\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_1\MathLib\obj\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\2\Task_1\MathLib\bin\Debug\MathLib.XML

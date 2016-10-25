@@ -4,6 +4,11 @@
         <name>ConsoleApp</name>
     </assembly>
     <members>
+        <member name="T:ConsoleApp.Program">
+            <summary>
+            Class Program
+            </summary>
+        </member>
         <member name="M:ConsoleApp.Program.Main(System.String[])">
             <summary>
             Mains the specified arguments.

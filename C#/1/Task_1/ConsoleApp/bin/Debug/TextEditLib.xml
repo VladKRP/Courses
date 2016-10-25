@@ -9,7 +9,7 @@
             TextEdit class
             </summary>
         </member>
-        <member name="M:TextEditLib.TextEdit.outCoordinate(System.String)">
+        <member name="M:TextEditLib.TextEdit.OutCoordinate(System.String)">
             <summary>
             Outs the coordinate.
             </summary>

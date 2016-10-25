@@ -1,5 +1,0 @@
-F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\bin\Debug\VectorLib.dll
-F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\bin\Debug\VectorLib.pdb
-F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\obj\Debug\VectorLib.dll
-F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\obj\Debug\VectorLib.pdb
-F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp\VectorLib\obj\Debug\VectorLib.csprojResolveAssemblyReference.cache

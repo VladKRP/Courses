@@ -1,0 +1,10 @@
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\MathLibTest.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\MathLibTest.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\MathLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\MathLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\obj\Debug\MathLibTest.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\obj\Debug\MathLibTest.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\obj\Debug\MathLibTest.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\5\Task_2\ConsoleApp2\MathLibTest\bin\Debug\MathLib.xml

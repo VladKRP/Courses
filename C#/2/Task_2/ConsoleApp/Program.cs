@@ -11,8 +11,8 @@ namespace ConsoleApp
 		/// <param name="args">The arguments.</param>
 		static void Main(string[] args)
 		{
-			Console.WriteLine(ConvertingClass.toBin(77));
-			Console.WriteLine(ConvertingClass.toBin(-1));
+			Console.WriteLine(ConvertingClass.ToBin(77));
+			Console.WriteLine(ConvertingClass.ToBin(-1));
 			Console.ReadLine();
 		}
 	}

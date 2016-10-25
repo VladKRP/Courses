@@ -2,3 +2,9 @@ F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLib\bin\Debug\Shap
 F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLib\bin\Debug\ShapesLib.pdb
 F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLib\obj\Debug\ShapesLib.dll
 F:\Workspace\EPAM\Projects\C#\Study\4\Task_1\ConsoleApp\ShapesLib\obj\Debug\ShapesLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\4\Task_1\ConsoleApp\ShapesLib\bin\Debug\ShapesLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\4\Task_1\ConsoleApp\ShapesLib\bin\Debug\ShapesLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\4\Task_1\ConsoleApp\ShapesLib\obj\Debug\ShapesLib.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\4\Task_1\ConsoleApp\ShapesLib\obj\Debug\ShapesLib.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\4\Task_1\ConsoleApp\ShapesLib\obj\Debug\ShapesLib.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\4\Task_1\ConsoleApp\ShapesLib\bin\Debug\ShapesLib.XML

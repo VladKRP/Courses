@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VectorLib</name>
+    </assembly>
+    <members>
+        <member name="T:VectorLib.NVector">
+            <summary>
+            Class NVector
+            </summary>
+        </member>
+        <member name="P:VectorLib.NVector.X">
+            <summary>
+            Gets or sets the x coordinate of vector.
+            </summary>
+            <value>
+            The x.
+            </value>
+        </member>
+        <member name="P:VectorLib.NVector.Y">
+            <summary>
+            Gets or sets the y coordinate of vector.
+            </summary>
+            <value>
+            The y.
+            </value>
+        </member>
+        <member name="P:VectorLib.NVector.Z">
+            <summary>
+            Gets or sets the z coordinate of vector.
+            </summary>
+            <value>
+            The z.
+            </value>
+        </member>
+        <member name="M:VectorLib.NVector.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:VectorLib.NVector"/> class.
+            </summary>
+            <param name="xCoordiante">The x coordiante.</param>
+            <param name="yCoordinate">The y coordinate.</param>
+            <param name="zCoordinate">The z coordinate.</param>
+        </member>
+        <member name="M:VectorLib.NVector.displayVector">
+            <summary>
+            Displays the vector.
+            </summary>
+        </member>
+        <member name="M:VectorLib.NVector.op_Addition(VectorLib.NVector,VectorLib.NVector)">
+            <summary>
+            Implements the operator +.
+            </summary>
+            <param name="vector1">The vector1.</param>
+            <param name="vector2">The vector2.</param>
+            <returns>
+            Sum of two vector.
+            </returns>
+        </member>
+        <member name="M:VectorLib.NVector.op_Subtraction(VectorLib.NVector,VectorLib.NVector)">
+            <summary>
+            Implements the operator -.
+            </summary>
+            <param name="vector1">The vector1.</param>
+            <param name="vector2">The vector2.</param>
+            <returns>
+            Two vector residual.
+            </returns>
+        </member>
+        <member name="M:VectorLib.NVector.op_Multiply(VectorLib.NVector,VectorLib.NVector)">
+            <summary>
+            Implements the operator *.
+            </summary>
+            <param name="vector1">The vector1.</param>
+            <param name="vector2">The vector2.</param>
+            <returns>
+            Multiply two vector.
+            </returns>
+        </member>
+        <member name="M:VectorLib.NVector.op_Multiply(VectorLib.NVector,System.Double)">
+            <summary>
+            Implements the operator * for vector and number.
+            </summary>
+            <param name="vector">The vector.</param>
+            <param name="number">The number.</param>
+            <returns>
+            Result of multiplying vector and number.
+            </returns>
+        </member>
+        <member name="T:VectorLib.NVectorArray">
+            <summary>
+            NVectorArray implement array of NVector
+            </summary>
+        </member>
+        <member name="F:VectorLib.NVectorArray.vectorArray">
+            <summary>
+            The NVector array
+            </summary>
+        </member>
+        <member name="P:VectorLib.NVectorArray.Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:VectorLib.NVector"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:VectorLib.NVector"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="M:VectorLib.NVectorArray.#ctor(VectorLib.NVector[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:VectorLib.NVectorArray"/> class.
+            </summary>
+            <param name="array">The array.</param>
+        </member>
+        <member name="M:VectorLib.NVectorArray.DisplayVectorArray">
+            <summary>
+            Displays the vector array.
+            </summary>
+        </member>
+    </members>
+</doc>

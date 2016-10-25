@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathLib</name>
+    </assembly>
+    <members>
+        <member name="T:MathLib.Polynomial">
+            <summary>
+            Polynomial class
+            </summary>
+        </member>
+        <member name="F:MathLib.Polynomial.factor">
+            <summary>
+            The factor
+            </summary>
+        </member>
+        <member name="P:MathLib.Polynomial.StrPolinomial">
+            <summary>
+            Gets or sets the string polinomial.
+            </summary>
+            <value>
+            The string polinomial.
+            </value>
+        </member>
+        <member name="P:MathLib.Polynomial.Item(System.Int32)">
+            <summary>
+            Gets or sets the <see cref="T:System.Double"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="T:System.Double"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MathLib.Polynomial.#ctor(System.Double[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:MathLib.Polynomial"/> class.
+            </summary>
+            <param name="monomialsSequence">The input factor.</param>
+        </member>
+        <member name="M:MathLib.Polynomial.display">
+            <summary>
+            Displays this instance.
+            </summary>
+        </member>
+        <member name="M:MathLib.Polynomial.op_Equality(MathLib.Polynomial,MathLib.Polynomial)">
+            <summary>
+            Implements the operator ==.
+            </summary>
+            <param name="pol1">The pol1.</param>
+            <param name="pol2">The pol2.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+        <member name="M:MathLib.Polynomial.op_Inequality(MathLib.Polynomial,MathLib.Polynomial)">
+            <summary>
+            Implements the operator !=.
+            </summary>
+            <param name="pol1">The pol1.</param>
+            <param name="pol2">The pol2.</param>
+            <returns>
+            The result of the operator.
+            </returns>
+        </member>
+    </members>
+</doc>

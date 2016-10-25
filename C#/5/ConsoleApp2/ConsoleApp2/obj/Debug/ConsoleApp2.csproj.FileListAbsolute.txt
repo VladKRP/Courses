@@ -1,1 +1,0 @@
-F:\Workspace\EPAM\Projects\C#\Study\5\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
