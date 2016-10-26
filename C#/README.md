@@ -1,5 +1,5 @@
 # C# tasks
-## To-do lists
+
 Tasks | Class Lib | Unit-test | Documentation
 ----- | --------- | --------- | -------------
 1. Task1 | - [ ] | [ ] | [ ]
@@ -8,3 +8,6 @@ Tasks | Class Lib | Unit-test | Documentation
 4. Task4 |- [x] jjj | [x] | [ ]
 5. Task5 | [x] | [x] | [ ]
 6. Task6 | [x] | [ ] | [ ]
+
+- [ ] Task1
+- [x] Task2
