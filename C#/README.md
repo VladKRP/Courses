@@ -1,7 +1,7 @@
 <h1>C# tasks</h1>
 Tasks | Class Lib | Unit-test | Documentation
 ----- | --------- | --------- | -------------
-1. Task1 | [x]s | [ ] | [ ]
+1. Task1 | [ x ] s | [ ] | [ ]
 2. Task2 | [x] | [x] | [ ]
 3. Task3 | [x] | [x] | [ ]
 4. Task4 | [x] | [x] | [ ]
