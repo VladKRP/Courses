@@ -12,3 +12,11 @@ F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\ConsoleApp\bin\D
 F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\ConsoleApp\bin\Debug\Helper.dll
 F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\ConsoleApp\bin\Debug\Helper.pdb
 F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\bin\Debug\Helper.dll
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\bin\Debug\Helper.pdb
+F:\Workspace\VersionControl\Git\Courses\Courses\C#\6\Task_1\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache

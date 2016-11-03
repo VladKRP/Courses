@@ -4,18 +4,5 @@
         <name>MathLib</name>
     </assembly>
     <members>
-        <member name="T:MathLib.MathClass">
-            <summary>
-            Math class
-            </summary>
-        </member>
-        <member name="M:MathLib.MathClass.NOD(System.Int32,System.Int32)">
-            <summary>
-            Find NOD of 2 numbers.
-            </summary>
-            <param name="number1">The number1.</param>
-            <param name="number2">The number2.</param>
-            <returns></returns>
-        </member>
     </members>
 </doc>

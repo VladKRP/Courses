@@ -23,8 +23,10 @@ namespace ConsoleApp
 			testInterf[1].ConvertToVB("Hello");
 
 			ProgramHelper p1 = new ProgramHelper();
-			p1.CodeCheckerSyntax("hOHO","C++");
+			Console.WriteLine(p1.CodeCheckerSyntax("hOHO","C++"));
 
+			//ProgramHelper p2 = new ProgramConverter();
+			//Console.WriteLine(p2.CodeCheckerSyntax("goto", "C++"));
 
 			Console.Read();
 		}

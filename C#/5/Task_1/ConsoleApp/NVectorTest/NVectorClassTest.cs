@@ -14,7 +14,9 @@ namespace NVectorTest
 			NVector expectedVector = new NVector(12, 11, 6);
 			NVector actualVector = vector1 + vector2;
 
-			Assert.AreEqual(expectedVector, actualVector);
+			Assert.AreEqual(expectedVector.X, actualVector.X);
+			Assert.AreEqual(expectedVector.Y, actualVector.Y);
+			Assert.AreEqual(expectedVector.Z, actualVector.Z);
 		}
 
 		[TestMethod]
@@ -25,7 +27,9 @@ namespace NVectorTest
 			NVector expectedVector = new NVector(-2, 9, 4);
 			NVector actualVector = vector1 - vector2;
 
-			Assert.AreEqual(expectedVector, actualVector);
+			Assert.AreEqual(expectedVector.X, actualVector.X);
+			Assert.AreEqual(expectedVector.Y, actualVector.Y);
+			Assert.AreEqual(expectedVector.Z, actualVector.Z);
 		}
 
 		[TestMethod]
@@ -36,7 +40,9 @@ namespace NVectorTest
 			NVector expectedVector = new NVector(25, 50, 25);
 			NVector actualVector = vector * number;
 
-			Assert.AreEqual(expectedVector, actualVector);
+			Assert.AreEqual(expectedVector.X, actualVector.X);
+			Assert.AreEqual(expectedVector.Y, actualVector.Y);
+			Assert.AreEqual(expectedVector.Z, actualVector.Z);
 		}
 
 		[TestMethod]
@@ -47,7 +53,9 @@ namespace NVectorTest
 			NVector expectedVector = new NVector(19, -5, -13);
 			NVector actualVector = vector1 * vector2;
 
-			Assert.AreEqual(expectedVector, actualVector);
+			Assert.AreEqual(expectedVector.X, actualVector.X);
+			Assert.AreEqual(expectedVector.Y, actualVector.Y);
+			Assert.AreEqual(expectedVector.Z, actualVector.Z);
 		}
 
 	}

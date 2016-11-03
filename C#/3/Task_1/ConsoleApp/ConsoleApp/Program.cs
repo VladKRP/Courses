@@ -11,8 +11,21 @@ namespace ConsoleApp
 		/// <param name="args">The arguments.</param>
 		static void Main(string[] args)
 		{
-				Console.WriteLine(MathClass.NOD(436, 120));
-				Console.WriteLine(MathClass.NOD(100, -10));
+			
+			int number1 = 436;
+			int number2 = 120;
+			try
+			{
+				
+				Console.WriteLine(MathClass.NOD(number1, number2));
+				number1 = 100;
+				number2 = -10;
+				Console.WriteLine(MathClass.NOD(number1, number2));
+			}
+			catch(Exception exc)
+			{
+				Console.WriteLine(exc.Message);
+			}
 				Console.ReadLine();
 		}
 	}

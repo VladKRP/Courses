@@ -5,10 +5,6 @@ namespace ConsoleApp
 {
 	class Program
 	{
-		/// <summary>
-		/// Mains the specified arguments.
-		/// </summary>
-		/// <param name="args">The arguments.</param>
 		static void Main(string[] args)
 		{
 
@@ -27,7 +23,14 @@ namespace ConsoleApp
 					Console.WriteLine("\n");
 			}
 
-			Triangle exceptionTriangle = new Triangle(-10, 8, 7);//When side negative throw exception.
+			try {
+				Triangle exceptionTriangle = new Triangle(-10, 8, 7);//When side negative throw exception.
+			}
+			catch(Exception exc)
+			{
+				Console.WriteLine(exc.Message);
+			}
+			
 			Console.ReadLine();
 		}
 	}

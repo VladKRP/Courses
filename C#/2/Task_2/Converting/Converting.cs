@@ -2,16 +2,10 @@
 
 namespace Converting
 {
-		/// <summary>
-		/// Class for converting numbers.
-		/// </summary>
+	
 		public class ConvertingClass
 			{
-					/// <summary>
-					/// Convert number from hex system to bin.
-					/// </summary>
-					/// <param name="number">The number in hex system.</param>
-					/// <returns>The number in bin system.</returns>
+					
 					static public string ToBin(int number)
 					{
 						string resultString = null; //This string will strore binary representation initial number.

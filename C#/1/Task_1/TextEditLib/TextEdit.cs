@@ -3,18 +3,10 @@ using System.IO;
 
 namespace TextEditLib
 {
-	/// <summary>
-	/// TextEdit class
-	/// </summary>
 	public class TextEdit
 	{
-		/// <summary>
-		/// Outs the coordinate.
-		/// </summary>
-		/// <param name="fileInDebugDirectory">The file in debug directory.</param>
 		static public void OutCoordinate(string fileInDebugDirectory)
 		{
-
 				//File must be stored in debug folder in project ConsoleApp.
 				string path = Environment.CurrentDirectory + "\\" + fileInDebugDirectory;
 				

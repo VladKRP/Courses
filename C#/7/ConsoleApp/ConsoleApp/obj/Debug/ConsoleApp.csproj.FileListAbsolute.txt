@@ -1,9 +1,0 @@
-F:\Workspace\EPAM\Projects\C#\Study\7\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\bin\Debug\MathLib.dll
-F:\Workspace\VersionControl\Git\Courses\Courses\C#\7\ConsoleApp\ConsoleApp\bin\Debug\MathLib.pdb
