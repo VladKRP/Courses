@@ -1,0 +1,1016 @@
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\csc.exe
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\vbc.exe
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\VBCSCompiler.exe
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\SocialMedia.dll.config
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\SocialMedia.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\SocialMedia.pdb
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Antlr3.Runtime.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\EntityFramework.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\EntityFramework.SqlServer.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Newtonsoft.Json.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Owin.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Helpers.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Mvc.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Optimization.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Razor.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.WebPages.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.WebPages.Razor.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\WebGrease.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Helpers.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Mvc.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Optimization.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.Razor.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.WebPages.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\System.Web.WebPages.Razor.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Antlr3.Runtime.pdb
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Newtonsoft.Json.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\EntityFramework.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\EntityFramework.SqlServer.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\EntityFramework.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.dll
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.pdb
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.FriendModelChanged.resources
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.CleanFriendModel.resources
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.ChatModelChanged.resources
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.ChatModelChanged1.resources
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.FriendAddFK.resources
+F:\Workspace\Asp.Net\SocialMedia\SocialMedia\obj\Debug\SocialMedia.Migrations.FriendAddFK1.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.pdb
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\csc.exe
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\vbc.exe
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\VBCSCompiler.exe
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\SocialMedia.dll.config
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\SocialMedia.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\SocialMedia.pdb
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Antlr3.Runtime.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\EntityFramework.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\EntityFramework.SqlServer.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Newtonsoft.Json.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Owin.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Helpers.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Mvc.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Optimization.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Razor.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.WebPages.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.WebPages.Razor.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\WebGrease.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Helpers.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Mvc.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Optimization.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.Razor.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.WebPages.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\System.Web.WebPages.Razor.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Antlr3.Runtime.pdb
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Newtonsoft.Json.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\EntityFramework.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\EntityFramework.SqlServer.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\EntityFramework.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChats\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\csc.exe
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\vbc.exe
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\VBCSCompiler.exe
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\SocialMedia.dll.config
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\SocialMedia.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\SocialMedia.pdb
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Antlr3.Runtime.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.SqlServer.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Newtonsoft.Json.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Owin.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Helpers.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Mvc.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Optimization.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Razor.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Razor.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\WebGrease.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Helpers.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Mvc.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Optimization.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Razor.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Razor.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Antlr3.Runtime.pdb
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Newtonsoft.Json.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.SqlServer.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\EntityFramework.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.dll
+F:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\csc.exe
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\vbc.exe
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\SocialMedia.dll.config
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\SocialMedia.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\SocialMedia.pdb
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Antlr3.Runtime.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Newtonsoft.Json.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Owin.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Helpers.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Mvc.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Optimization.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Razor.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\WebGrease.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Helpers.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Mvc.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Optimization.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.Razor.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Newtonsoft.Json.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\PagedList.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\PagedList.Mvc.dll
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\PagedList.xml
+E:\Workspace\Asp.Net\SocialMediaWithoutChatsWithStyles\SocialMedia\bin\PagedList.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\csc.exe
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\vbc.exe
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\SocialMedia.dll.config
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Antlr3.Runtime.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Newtonsoft.Json.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\PagedList.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\PagedList.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Helpers.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Optimization.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.WebPages.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\WebGrease.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\PagedList.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\PagedList.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Helpers.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Optimization.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.WebPages.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Newtonsoft.Json.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinal\SocialMedia\obj\Debug\SocialMedia.Migrations.AddUserWallPostEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\csc.exe
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\vbc.exe
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\SocialMedia.dll.config
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Antlr3.Runtime.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Newtonsoft.Json.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\PagedList.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\PagedList.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Helpers.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Optimization.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.WebPages.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\WebGrease.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\PagedList.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\PagedList.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Helpers.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Optimization.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.WebPages.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Newtonsoft.Json.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddUserWallPostEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.DeleteDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddUserWallPostEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.DeleteDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\csc.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\vbc.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\SocialMedia.dll.config
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Antlr3.Runtime.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Newtonsoft.Json.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\PagedList.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\PagedList.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Helpers.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Optimization.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.WebPages.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\WebGrease.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\PagedList.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\PagedList.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Helpers.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Optimization.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.WebPages.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Newtonsoft.Json.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity1.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\csc.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\vbc.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\SocialMedia.dll.config
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Antlr3.Runtime.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Newtonsoft.Json.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\PagedList.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\PagedList.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Helpers.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Optimization.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.WebPages.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\WebGrease.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\PagedList.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\PagedList.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Helpers.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Optimization.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.WebPages.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Newtonsoft.Json.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddUserWallPostEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.DeleteDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity1.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\csc.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\vbc.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\SocialMedia.dll.config
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\SocialMedia.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Antlr3.Runtime.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Newtonsoft.Json.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Owin.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\PagedList.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\PagedList.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Helpers.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Mvc.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Optimization.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.WebPages.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\WebGrease.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\PagedList.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\PagedList.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Helpers.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Mvc.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Optimization.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.WebPages.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Newtonsoft.Json.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddUserWallPostEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.DeleteDialogEntity.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity1.resources
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.dll
+E:\Workspace\FinalProject\SocialMediaFinalNeedToAddDialog — копия — копия\SocialMedia\obj\Debug\SocialMedia.pdb
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\csc.exe
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\System.Collections.Immutable.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\System.Reflection.Metadata.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\vbc.exe
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\VBCSCompiler.exe
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\roslyn\VBCSCompiler.exe.config
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\SocialMedia.dll.config
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\SocialMedia.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\SocialMedia.pdb
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Antlr3.Runtime.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\EntityFramework.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\EntityFramework.SqlServer.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.Identity.Core.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Cookies.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Facebook.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Google.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.OAuth.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Twitter.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Web.Infrastructure.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Newtonsoft.Json.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Owin.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\PagedList.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\PagedList.Mvc.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Helpers.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Mvc.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Optimization.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Razor.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.WebPages.Deployment.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.WebPages.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.WebPages.Razor.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\WebGrease.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\PagedList.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\PagedList.Mvc.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Helpers.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Mvc.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Optimization.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.Razor.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.WebPages.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.WebPages.Deployment.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\System.Web.WebPages.Razor.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Antlr3.Runtime.pdb
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Newtonsoft.Json.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\EntityFramework.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\EntityFramework.SqlServer.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.Identity.Core.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Facebook.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Cookies.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.OAuth.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Google.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.Twitter.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.Core.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.Helpers.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.Mvc.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.Optimization.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.Razor.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.WebPages.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\EntityFramework.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\EntityFramework.SqlServer.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.csprojResolveAssemblyReference.cache
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.InitializeDB.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.AddFriendConfirmedProperty.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.MessageEntityMergedWithUserMessageEntity.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.AddImagePropertyForUser.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.ChangeNameOfPropertyInUserEntity.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.AddUserWallPostEntity.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.DeleteDialogEntity.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.Migrations.AddDialogEntity1.resources
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.csproj.GenerateResource.Cache
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.dll
+E:\SocialMediaFinal 03.02.2017 - 2\SocialMedia\obj\Debug\SocialMedia.pdb
