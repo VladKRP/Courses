@@ -9,19 +9,19 @@ using System.Web;
 using System.Web.Mvc;
 using SocialMedia.Models;
 using Microsoft.AspNet.Identity;
-using PagedList;
+using SocialMedia.DAL;
 
 namespace SocialMedia.Controllers
 {
     [Authorize]
     public class UserMessagesController : Controller
     {
-        private ApplicationDbContext context = new ApplicationDbContext();
+        private UnitOfWork unitOfWork = new UnitOfWork();
 
         public ActionResult Index()
         {
             var currentUserId = User.Identity.GetUserId();
-            var userDialogs = context.Dialogs.Include(d => d.Receiver).Include(d => d.Sender).Include(d => d.Messages).Where(d => d.ReceiverId == currentUserId || d.SenderId == currentUserId);
+            var userDialogs = unitOfWork.Dialogs.GetAll().Where(d => d.ReceiverId == currentUserId || d.SenderId == currentUserId);
             return View(userDialogs);
         }
 
@@ -34,7 +34,7 @@ namespace SocialMedia.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             ViewBag.ReceiverId = id;
-            var userMessages = context.UserMessages.Where(u => (u.ReceiverId == id && u.SenderId == currentUserId) || (u.ReceiverId == currentUserId && u.SenderId == id));
+            var userMessages = unitOfWork.UserMessages.GetAll().Where(u => (u.ReceiverId == id && u.SenderId == currentUserId) || (u.ReceiverId == currentUserId && u.SenderId == id));
             userMessages = userMessages.OrderBy(d => d.PostedDate);
             if (userMessages == null)
             {
@@ -45,12 +45,12 @@ namespace SocialMedia.Controllers
 
         private Dialog findOrCreateDialog(ApplicationUser sender, ApplicationUser receiver)
         {
-            Dialog existingDialog = context.Dialogs.SingleOrDefault(u => (u.SenderId == sender.Id && u.ReceiverId == receiver.Id) || (u.ReceiverId == sender.Id && u.SenderId == receiver.Id));
+            Dialog existingDialog = unitOfWork.Dialogs.GetAll().SingleOrDefault(u => (u.SenderId == sender.Id && u.ReceiverId == receiver.Id) || (u.ReceiverId == sender.Id && u.SenderId == receiver.Id));
             if(existingDialog == null)
             {
                 Dialog dialog = new Dialog() { Receiver = receiver, ReceiverId = receiver.Id, Sender = sender, SenderId = sender.Id };
-                context.Dialogs.Add(dialog);
-                context.SaveChanges();
+                unitOfWork.Dialogs.Create(dialog);
+                unitOfWork.Save();
                 return dialog;
             }
             return existingDialog;  
@@ -59,7 +59,7 @@ namespace SocialMedia.Controllers
         private void SaveMessageToDialog(Dialog dialog, UserMessage message)
         {
             dialog.Messages.Add(message);
-            context.SaveChanges();
+            unitOfWork.Save();
         }
 
         private List<string> ChooseView(int? view, string receiverId)
@@ -89,17 +89,17 @@ namespace SocialMedia.Controllers
 
         public ActionResult Create(string id)
         {
-            var user = context.Users.SingleOrDefault(u => u.Id == id);
+            var user = unitOfWork.Users.GetById(id);
             return View(new UserMessage {Receiver = user, ReceiverId = id });
         }
 
 
         [HttpPost]
-        public async Task<ActionResult> Create(string receiverId, string messageText, int? view)
+        public ActionResult Create(string receiverId, string messageText, int? view)
         {
             var currentUserId = User.Identity.GetUserId();
-            var sender = await context.Users.SingleOrDefaultAsync(u => u.Id == currentUserId);
-            var receiver = await context.Users.SingleOrDefaultAsync(u => u.Id == receiverId);
+            var sender = unitOfWork.Users.GetById(currentUserId);
+            var receiver = unitOfWork.Users.GetById(receiverId);
             if (receiver == null || sender == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.NotFound);
@@ -115,9 +115,9 @@ namespace SocialMedia.Controllers
                 SenderId = currentUserId
             };
             var dialog = findOrCreateDialog(sender, receiver);
-           
-            context.UserMessages.Add(message);
-            await context.SaveChangesAsync();
+
+            unitOfWork.UserMessages.Create(message);
+            unitOfWork.Save();
 
             SaveMessageToDialog(dialog, message);
             if(view != null)
@@ -128,14 +128,5 @@ namespace SocialMedia.Controllers
             return View("Index");
         }
 
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                context.Dispose();
-            }
-            base.Dispose(disposing);
-        }
     }
 }

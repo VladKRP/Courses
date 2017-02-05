@@ -1,31 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
-using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using SocialMedia.Models;
+using SocialMedia.DAL;
 using Microsoft.AspNet.Identity;
 using PagedList;
+using SocialMedia.Models;
 
 namespace SocialMedia.Controllers
 {
     [Authorize]
     public class FriendsController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private UnitOfWork unitOfWork = new UnitOfWork();
 
-        private IQueryable<Friend> IsConfirmRequest(bool isConfirmed)
+        private IEnumerable<Friend> IsConfirmRequest(bool isConfirmed)
         {
-            var friends = db.Friends.Include(f => f.User).Include(f => f.UserFriend); 
+            var friends = unitOfWork.Friends.GetAll();
             friends = friends.Where(f => f.IsConfirmed == isConfirmed);
             return friends;
         }
 
-        private PagedList<Friend> GenerateFriendList(IQueryable<Friend> friends, int? page)
+        private PagedList<Friend> GenerateFriendList(IEnumerable<Friend> friends, int? page)
         {
             int pageSize = 3;
             int pageNumber = (page ?? 1);
@@ -57,7 +55,7 @@ namespace SocialMedia.Controllers
             return View(GenerateFriendList(friends, page));
         }
 
-        public async Task<ActionResult> ConfirmRequest(string receiverId)
+        public ActionResult ConfirmRequest(string receiverId)
         {
             var currentUserId = User.Identity.GetUserId();
             if (receiverId == null)
@@ -65,15 +63,15 @@ namespace SocialMedia.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            ApplicationUser user = db.Users.Find(receiverId);
-            ApplicationUser userFriend = db.Users.Find(currentUserId);
+            ApplicationUser user = unitOfWork.Users.GetById(receiverId);
+            ApplicationUser userFriend = unitOfWork.Users.GetById(currentUserId);
 
             if (user != null && userFriend != null)
             {
-                Friend friend = db.Friends.FirstOrDefault(f => f.UserId == receiverId && f.UserFriendId == currentUserId);
+                Friend friend = unitOfWork.Friends.GetAll().FirstOrDefault(f => f.UserId == receiverId && f.UserFriendId == currentUserId);
                 friend.IsConfirmed = true;
-                db.Entry(friend).State = EntityState.Modified;
-                await db.SaveChangesAsync();
+                unitOfWork.Friends.Update(friend);
+                unitOfWork.Save();
             }
             return RedirectToAction("Index");
         }
@@ -84,7 +82,7 @@ namespace SocialMedia.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Friend friend = await db.Friends.FindAsync(id);
+            Friend friend = await unitOfWork.Friends.GetByIdAsync(id);
             if (friend == null)
             {
                 return HttpNotFound();
@@ -92,11 +90,12 @@ namespace SocialMedia.Controllers
             return View(friend);
         }
 
-        public async Task<ActionResult> Create(string id)
+        public ActionResult Create(string id)
         {
             string currentUserId = User.Identity.GetUserId();
-            var currentUser = db.Users.FirstOrDefault(u => u.Id == currentUserId);
-            var userFriend = db.Users.FirstOrDefault(u => u.Id == id);
+            ApplicationUser currentUser = unitOfWork.Users.GetById(currentUserId);
+            ApplicationUser userFriend = unitOfWork.Users.GetById(id);
+
             Friend friend = new Friend()
             {
                 User = currentUser,
@@ -107,36 +106,23 @@ namespace SocialMedia.Controllers
 
             if (ModelState.IsValid)
             {
-                db.Friends.Add(friend);
-                await db.SaveChangesAsync();
+                unitOfWork.Friends.Create(friend);
+                unitOfWork.Save();
             }
             return RedirectToAction("GetPeople","User");
         }
 
-        public async Task<ActionResult> Delete(int? id)
+        public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Friend friend = await db.Friends.FindAsync(id);
-            if (friend != null)
-            {
-                db.Friends.Remove(friend);
-                await db.SaveChangesAsync();
-                return RedirectToAction("Index");
-            }
-            return HttpNotFound();
+           
+             unitOfWork.Friends.Delete(id);
+             unitOfWork.Save();
+             return RedirectToAction("Index");
         }
 
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
     }
 }

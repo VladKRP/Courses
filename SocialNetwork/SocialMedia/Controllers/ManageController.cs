@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
@@ -8,13 +6,14 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using SocialMedia.Models;
 using System.Data.Entity;
+using SocialMedia.DAL;
 
 namespace SocialMedia.Controllers
 {
     [Authorize]
     public class ManageController : Controller
     {
-        private ApplicationDbContext context = new ApplicationDbContext();
+        private UnitOfWork unitOfWork = new UnitOfWork();
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -66,10 +65,10 @@ namespace SocialMedia.Controllers
             return View(model);
         }
 
-        public ActionResult Edit()
+        public async Task<ActionResult> Edit()
         {
             var currentUserId = User.Identity.GetUserId();
-            ApplicationUser currentUser = context.Users.Find(currentUserId);
+            ApplicationUser currentUser = await UserManager.FindByIdAsync(currentUserId);
             if(currentUser == null)
             {
                 return HttpNotFound();
@@ -78,15 +77,14 @@ namespace SocialMedia.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Edit([Bind(Include = "Id,FirstName,LastName,Age,Country,Gender,Email, UserName, RegistrDate, PasswordHash, SecurityStamp, ImageData, ImageMimeType")]  ApplicationUser user)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,Age,Country,Gender,Email, UserName, RegistrDate, PasswordHash, SecurityStamp, ImageData, ImageMimeType")]  ApplicationUser user)
         {
 
             if (ModelState.IsValid)
             {
-                    context.Entry(user).State = EntityState.Modified;
-                    await context.SaveChangesAsync();
-                    return RedirectToAction("Index","User");
-                
+                unitOfWork.Users.Update(user);
+                unitOfWork.Save();
+                return RedirectToAction("Index","User");      
             }
             return View(user);
         }

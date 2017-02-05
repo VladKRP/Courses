@@ -149,6 +149,10 @@
                 <div class="col-sm-12 userPost volumeStyle">
                     <span class="col-xs-10 col-sm-11"><b>@wallPost.User.FirstName @wallPost.User.LastName</b></span>
                     <span class="pull-right">
+                        @*@using (Html.BeginForm("Delete", "UserWallPosts", new {id = wallPost.Id },FormMethod.Post))
+                        {
+                            <input type="submit" class="fa fa-times" value="" />
+                        }*@
                         <a href="@Url.Action("Delete", "UserWallPosts", new { id = wallPost.Id })"><i class="fa fa-times" aria-hidden="true"></i></a>
                     </span>
                     <hr />
@@ -156,7 +160,7 @@
                     <hr />
                     <span class="customDateTextSize">@wallPost.PostedDate</span>
                 </div>      
-            }
+                        }
         </section>
  </div>
 

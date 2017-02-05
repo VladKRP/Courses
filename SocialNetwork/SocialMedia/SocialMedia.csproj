@@ -191,6 +191,13 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\UserMessagesController.cs" />
     <Compile Include="Controllers\UserWallPostsController.cs" />
+    <Compile Include="DAL\DialogsRepository.cs" />
+    <Compile Include="DAL\FriendsRepository.cs" />
+    <Compile Include="DAL\IRepository.cs" />
+    <Compile Include="DAL\UserMessagesRepository.cs" />
+    <Compile Include="DAL\UnitOfWork.cs" />
+    <Compile Include="DAL\UsersRepository.cs" />
+    <Compile Include="DAL\UserWallPostsRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -9,18 +9,19 @@ using System.Web;
 using System.Data.Entity;
 using System.Threading.Tasks;
 using PagedList;
+using SocialMedia.DAL;
 
 namespace SocialMedia.Controllers
 {
     [Authorize]
     public class UserController : Controller
     {
-        private ApplicationDbContext context = new ApplicationDbContext();
+        private UnitOfWork unitOfWork = new UnitOfWork();
 
         public ActionResult Index()
         {
             var currentUserId = User.Identity.GetUserId();
-            var user = context.Users.SingleOrDefault(u => u.Id == currentUserId);
+            var user = unitOfWork.Users.GetById(currentUserId);
             if(user == null)
             {
                 return HttpNotFound();
@@ -43,8 +44,8 @@ namespace SocialMedia.Controllers
             }
 
             var currentUserId = User.Identity.GetUserId();
-            var users = context.Users.Where(u => u.Id != currentUserId);
-            var currentUserFriends = context.Friends.Where(u => u.UserId == currentUserId || u.UserFriendId == currentUserId);
+            var users = unitOfWork.Users.GetAll().Where(u => u.Id != currentUserId);
+            var currentUserFriends = unitOfWork.Friends.GetAll().Where(u => u.UserId == currentUserId || u.UserFriendId == currentUserId);
             foreach(var friend in currentUserFriends)
             {
                 users = users.Where(u => u.Id != friend.UserFriendId && u.Id != friend.UserId);
@@ -71,7 +72,7 @@ namespace SocialMedia.Controllers
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            ApplicationUser user = context.Users.FirstOrDefault(u => u.Id == id);
+            ApplicationUser user = unitOfWork.Users.GetById(id);
             if (user == null)
             {
                 return HttpNotFound();
@@ -81,8 +82,8 @@ namespace SocialMedia.Controllers
 
         public FileContentResult GetImage(string userId)
         {
-            ApplicationUser user = context.Users.FirstOrDefault(u => u.Id == userId);
-            if(user != null)
+            ApplicationUser user = unitOfWork.Users.GetById(userId);
+            if (user != null)
             {
                 return File(user.ImageData, user.ImageMimeType);
             }
@@ -94,10 +95,10 @@ namespace SocialMedia.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult> ChangeUserPhoto(HttpPostedFileBase image)
+        public ActionResult ChangeUserPhoto(HttpPostedFileBase image)
         {
-            string currentUser = User.Identity.GetUserId();
-            ApplicationUser user = context.Users.FirstOrDefault(u => u.Id == currentUser);
+            string currentUserId = User.Identity.GetUserId();
+            ApplicationUser user = unitOfWork.Users.GetById(currentUserId);
 
             if (user == null)
             {
@@ -109,8 +110,8 @@ namespace SocialMedia.Controllers
                  user.ImageMimeType = image.ContentType;
                  user.ImageData = new byte[image.ContentLength];
                  image.InputStream.Read(user.ImageData, 0, image.ContentLength);
-                 context.Entry(user).State = EntityState.Modified;
-                 await context.SaveChangesAsync();
+                 unitOfWork.Users.Update(user);
+                 unitOfWork.Save();
             }
 
             return RedirectToAction("Index");

@@ -1,25 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using SocialMedia.Models;
 using Microsoft.AspNet.Identity;
+using SocialMedia.DAL;
 
 namespace SocialMedia.Controllers
 {
     public class UserWallPostsController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private UnitOfWork unitOfWork = new UnitOfWork();
 
         [HttpPost]
         public ActionResult Create(string postText)
         {
             var currentUserId = User.Identity.GetUserId();
-            var currentUser = db.Users.SingleOrDefault(u => u.Id == currentUserId);
+            var currentUser = unitOfWork.Users.GetById(currentUserId);
             if (currentUser == null)
             {
                 return HttpNotFound();
@@ -29,36 +25,24 @@ namespace SocialMedia.Controllers
             {
                 return RedirectToAction("Index", "User");
             }
+
             UserWallPost userPost = new UserWallPost() { Text = postText, PostedDate = DateTime.Now, UserId = currentUserId, User = currentUser };
-            
-            db.UserWallPosts.Add(userPost);
-            db.SaveChanges();
+
+            unitOfWork.UserWallPosts.Create(userPost);
+            unitOfWork.Save();
             return RedirectToAction("Index", "User");
         }
 
-     
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            UserWallPost userWallPost = db.UserWallPosts.SingleOrDefault(p => p.Id == id);
-            if(userWallPost != null)
-            {
-                db.UserWallPosts.Remove(userWallPost);
-                db.SaveChanges();
-            }
-            return RedirectToAction("Index","User");
-        }
+            unitOfWork.UserWallPosts.Delete(id);
+            unitOfWork.Save();
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
+            return RedirectToAction("Index","User");
         }
     }
 }

@@ -10,14 +10,17 @@ using Microsoft.AspNet.Identity.Owin;
 using System;
 using Microsoft.AspNet.Identity.EntityFramework;
 using PagedList;
+using SocialMedia.DAL;
 
 namespace SocialMedia.Controllers
 {
     [Authorize(Roles = "admin")]
     public class AdminController : Controller
     {
-        private ApplicationDbContext context = new ApplicationDbContext();
+
         private ApplicationUserManager _userManager;
+        private UnitOfWork unitOfWork = new UnitOfWork();
+        private ApplicationDbContext context = new ApplicationDbContext();
 
         public AdminController()
         {
@@ -52,7 +55,7 @@ namespace SocialMedia.Controllers
                 page = 1;
             }
 
-            var users = from u in context.Users select u;
+            var users = unitOfWork.Users.GetAll();
             if (!String.IsNullOrEmpty(searchString))
             {
                 users = users.Where(u => u.FirstName.Contains(searchString)
@@ -70,7 +73,6 @@ namespace SocialMedia.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-
             ApplicationUser user = await UserManager.FindByIdAsync(id);
             if (user == null)
             {
@@ -123,13 +125,13 @@ namespace SocialMedia.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([Bind(Include = "Id,FirstName,LastName,Age,Country,Gender,Email, UserName, RegistrDate, PasswordHash, SecurityStamp , ImageData, ImageMimeType")] ApplicationUser user)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,Age,Country,Gender,Email, UserName, RegistrDate, PasswordHash, SecurityStamp , ImageData, ImageMimeType")] ApplicationUser user)
         {
             
             if (ModelState.IsValid)
             {
-                context.Entry(user).State = EntityState.Modified;
-                await context.SaveChangesAsync();
+                unitOfWork.Users.Update(user);
+                unitOfWork.Save();
                 return RedirectToAction("Index");
             }
             return View(user);
@@ -156,7 +158,6 @@ namespace SocialMedia.Controllers
                 foreach (var entity in entities)
                 {
                     context.Entry(entity).State = EntityState.Deleted;
-
                 }
                 context.SaveChanges();
             }
