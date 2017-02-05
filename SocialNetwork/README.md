@@ -6,6 +6,7 @@
   <li>Every user have it own page with the wall</li>
   <li>User can add posts on the wall</li>
   <li>User can search people, add they to friend list</li>
-  <li>User can send message to another users</li>
+  <li>Sending messages to another users</li>
+  <li>User can change profile photo, edit personal info and change password</li>
 <ul>
  
