@@ -44,12 +44,10 @@ namespace SocialMedia.Controllers
             }
 
             var currentUserId = User.Identity.GetUserId();
-            var users = unitOfWork.Users.GetAll().Where(u => u.Id != currentUserId);
-            var currentUserFriends = unitOfWork.Friends.GetAll().Where(u => u.UserId == currentUserId || u.UserFriendId == currentUserId);
-            foreach(var friend in currentUserFriends)
-            {
-                users = users.Where(u => u.Id != friend.UserFriendId && u.Id != friend.UserId);
-            }
+            var friends1 = unitOfWork.Friends.GetAll().Select(u => new { userId = u.UserId, user = u.UserFriend }).Where(u => u.userId == currentUserId);
+            var friends2 = unitOfWork.Friends.GetAll().Select(u => new { userId = u.UserFriendId, user = u.User }).Where(u => u.userId == currentUserId);
+            var currentUserFriends = friends1.Union(friends2).Select(u => u.user);
+            var users = unitOfWork.Users.GetAll().Where(u => u.Id != currentUserId).Except(currentUserFriends);
 
             if (!String.IsNullOrEmpty(searchString))
             {
