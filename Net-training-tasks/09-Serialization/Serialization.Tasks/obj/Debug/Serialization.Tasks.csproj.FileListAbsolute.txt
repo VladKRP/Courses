@@ -1,0 +1,10 @@
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\09-Serialization\Serialization.Tasks\bin\Debug\Serialization.Tasks.dll
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\09-Serialization\Serialization.Tasks\bin\Debug\Serialization.Tasks.pdb
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\09-Serialization\Serialization.Tasks\obj\Debug\Serialization.Tasks.csprojResolveAssemblyReference.cache
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\09-Serialization\Serialization.Tasks\obj\Debug\Serialization.Tasks.dll
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\09-Serialization\Serialization.Tasks\obj\Debug\Serialization.Tasks.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\09-Serialization\Serialization.Tasks\bin\Debug\Serialization.Tasks.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\09-Serialization\Serialization.Tasks\bin\Debug\Serialization.Tasks.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\09-Serialization\Serialization.Tasks\obj\Debug\Serialization.Tasks.csprojResolveAssemblyReference.cache
+E:\Workspace\VersionControl\Courses\Net-training-tasks\09-Serialization\Serialization.Tasks\obj\Debug\Serialization.Tasks.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\09-Serialization\Serialization.Tasks\obj\Debug\Serialization.Tasks.pdb

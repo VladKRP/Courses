@@ -1,0 +1,8 @@
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO\bin\Debug\AsyncIO.dll
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO\bin\Debug\AsyncIO.pdb
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.csprojResolveAssemblyReference.cache
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.dll
+E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.csprojResolveAssemblyReference.cache
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.pdb
