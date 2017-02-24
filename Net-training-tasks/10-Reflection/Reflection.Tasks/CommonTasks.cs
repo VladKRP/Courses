@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
 
 namespace Reflection.Tasks
 {
     public static class CommonTasks
     {
-
         /// <summary>
         /// Returns the lists of public and obsolete classes for specified assembly.
         /// Please take attention: classes (not interfaces, not structs)
@@ -16,8 +14,21 @@ namespace Reflection.Tasks
         /// <param name="assemblyName">name of assembly</param>
         /// <returns>List of public but obsolete classes</returns>
         public static IEnumerable<string> GetPublicObsoleteClasses(string assemblyName) {
-            // TODO : Implement GetPublicObsoleteClasses method
-            throw new NotImplementedException();
+
+            List<string> obsoleteClassList = new List<string>();
+        
+            var classesQuery = from entity in Assembly.Load(assemblyName).GetTypes()
+                    where entity.IsClass && entity.IsPublic
+                               select entity;
+
+            foreach(var qclass in classesQuery)
+            {
+                 if(Attribute.IsDefined(qclass, typeof(ObsoleteAttribute)))
+                 {
+                    obsoleteClassList.Add(qclass.Name);
+                 }
+            }
+            return obsoleteClassList;
         }
 
         /// <summary>
@@ -38,8 +49,23 @@ namespace Reflection.Tasks
         /// <param name="propertyPath">dot-separated property path</param>
         /// <returns>property value of obj for required propertyPath</returns>
         public static T GetPropertyValue<T>(this object obj, string propertyPath) {
-            // TODO : Implement GetPropertyValue method
-            throw new NotImplementedException();
+            Type objType = obj.GetType();
+            if (!propertyPath.Contains('.'))
+            {
+                return (T)(objType.GetProperty(propertyPath).GetValue(obj, null));
+            }
+            else
+            {
+                string[] propertyLevel = propertyPath.Split('.');
+                object propertyValue = null;
+                for(int i = 0; i < propertyLevel.Length - 1; i++)
+                {
+                    PropertyInfo propertyInfo = objType.GetProperty(propertyLevel[i]);
+                    propertyValue = propertyInfo.GetValue(obj, null);
+                    objType = propertyValue.GetType();
+                }
+                return (T)objType.GetProperty(propertyLevel.Last()).GetValue(propertyValue, null);
+            }
         }
 
 
@@ -60,10 +86,27 @@ namespace Reflection.Tasks
         /// <param name="propertyPath">dot-separated property path</param>
         /// <param name="value">assigned value</param>
         public static void SetPropertyValue(this object obj, string propertyPath, object value) {
-            // TODO : Implement SetPropertyValue method
-            throw new NotImplementedException();
-        }
 
+            Type objType = obj.GetType();
+            if (!propertyPath.Contains('.'))
+            {
+                objType.GetProperty(propertyPath).SetValue(obj, value, null);
+               //var prop =  objType.GetProperty(propertyPath);
+
+            }
+            else
+            {
+                string[] propertyLevel = propertyPath.Split('.');
+                object propertyValue = null;
+                for (int i = 0; i < propertyLevel.Length - 1; i++)
+                {
+                    PropertyInfo propertyInfo = objType.GetProperty(propertyLevel[i]);
+                    propertyValue = propertyInfo.GetValue(obj, null);
+                    objType = propertyValue.GetType();
+                }
+                objType.GetProperty(propertyLevel.Last()).SetValue(propertyValue, value, null);
+            }  
+        }
 
     }
 }

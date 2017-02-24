@@ -208,7 +208,7 @@ namespace Serialization.Tests
         [DeploymentItem(@"Resources\CLR-ETW.man")]
         public void InstrumentationManifest_class_should_deserialized()
         {
-            var serializer = new XmlSerializer(typeof(InstrumentationManifest));
+            var serializer = new XmlSerializer(typeof(instrumentationManifest));
 
             using (var stream = File.OpenRead("CLR-ETW.man")) {
                 var data = serializer.Deserialize(stream) as dynamic;
