@@ -7,3 +7,12 @@ E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-3
 E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.csprojResolveAssemblyReference.cache
 E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.dll
 E:\Download\aorgish-net-training-tasks-32449dfbbae5\aorgish-net-training-tasks-32449dfbbae5\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.Tests.dll.config
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.Tests.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.Tests.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.csprojResolveAssemblyReference.cache
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.pdb

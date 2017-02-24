@@ -78,7 +78,7 @@ namespace AsyncIO.Tests
         [TestCategory("GetUrlContentAsync")]
         public void GetUrlContentAsync_Should_Run_Asynchronous()
         {
-            Action<Uri> action = (uri) => (new[] {uri}).GetUrlContentAsync(2).ToArray();
+            Action<Uri> action = (uri) => (new[] { uri }).GetUrlContentAsync(2).ToArray();
             Check_Is_Action_Asynchronous(action, true);
         }
 
@@ -103,7 +103,7 @@ namespace AsyncIO.Tests
 
         // Wrapper to allow using async as well as no async signature for GetMD5Async mrthod
         private void GetMD5Wrapper(Uri uri)
-        {
+        {   
             var result = uri.GetMD5Async().Result;
         }
 
