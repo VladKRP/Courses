@@ -29,8 +29,19 @@ namespace Collections.Tasks {
         ///   12 => { 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 }
         /// </example>
         public static IEnumerable<int> GetFibonacciSequence(int count) {
-            // TODO : Implement Fibonacci sequence generator
-            throw new NotImplementedException();
+            if (count < 0) throw new ArgumentException();
+
+            int value = 0;
+            int next = 1;
+            List<int> fibonacciSequence = new List<int>() { };
+            for(int i = 0; i < count; i++)
+            {
+                int temp = value;
+                value = next;
+                next = temp + value;
+                fibonacciSequence.Add(value);
+            }
+            return fibonacciSequence;
         }
 
         /// <summary>
@@ -46,9 +57,16 @@ namespace Collections.Tasks {
         ///   {"TextReader","is","the","abstract","base","class","of","StreamReader","and","StringReader","which",...}
         /// </example>
         public static IEnumerable<string> Tokenize(TextReader reader) {
+            if (reader == null) throw new ArgumentNullException();
+
             char[] delimeters = new[] { ',', ' ', '.', '\t', '\n' };
-            // TODO : Implement the tokenizer
-            throw new NotImplementedException();
+            string readedText = null;
+            string textLine;
+
+            while ((textLine = reader.ReadLine()) != null)
+                readedText += textLine;
+            reader.Close();
+            return readedText == null ? new string[] { } : readedText.Split(delimeters, StringSplitOptions.RemoveEmptyEntries);
         }
 
 
@@ -75,6 +93,7 @@ namespace Collections.Tasks {
         ///    result = { 1, 2, 3, 4, 5, 6, 7, 8 } 
         /// </example>
         public static IEnumerable<T> DepthTraversalTree<T>(ITreeNode<T> root) {
+            if (root == null) throw new ArgumentNullException();
             // TODO : Implement the tree depth traversal algorithm
             throw new NotImplementedException(); 
         }
