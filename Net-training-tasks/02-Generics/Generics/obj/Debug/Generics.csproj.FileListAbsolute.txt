@@ -1,0 +1,5 @@
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\bin\Debug\Generics.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\bin\Debug\Generics.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.csprojResolveAssemblyReference.cache
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.pdb

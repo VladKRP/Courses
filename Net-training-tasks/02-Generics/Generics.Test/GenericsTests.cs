@@ -120,7 +120,7 @@ namespace Task.Generics.Test {
         public void ArrayExtentions_SwapArrayElements_Should_Throw_IndexOutOfRangeException_If_Indexes_Are_Out_Of_Range() {
             ArrayExtentions_SwapArrayElements_Test(
                    new[] { 1, 2, 3, 4, 5 }, 0, 10,
-                   new[] { 2, 1, 3, 4, 5 },
+                   new[] { 1, 2, 3, 4, 5 },
                    string.Empty
                 );
         }

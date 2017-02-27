@@ -1,0 +1,8 @@
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.Test.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.Test.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.pdb
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.csprojResolveAssemblyReference.cache
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.dll
+E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.pdb
