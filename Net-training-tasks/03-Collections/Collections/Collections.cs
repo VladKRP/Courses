@@ -34,6 +34,7 @@ namespace Collections.Tasks {
             int value = 0;
             int next = 1;
             List<int> fibonacciSequence = new List<int>() { };
+
             for(int i = 0; i < count; i++)
             {
                 int temp = value;
@@ -170,9 +171,13 @@ namespace Collections.Tasks {
         ///   Person value = cache.GetOrBuildValue(10, ()=>LoadPersonById(10) );  // should return a loaded Person and put it into the cache
         ///   Person cached = cache.GetOrBuildValue(10, ()=>LoadPersonById(10) );  // should get a Person from the cache
         /// </example>
+        /// 
         public static TValue GetOrBuildValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, Func<TValue> builder) {
-            // TODO : Implement GetOrBuildValue method for cache
-            throw new NotImplementedException();
+            //TValue entity = dictionary.ContainsKey(key) ? dictionary.TryGetValue(key, out entity) : null;
+            TValue entity = default(TValue);
+            if (dictionary.ContainsKey(key))
+                dictionary.TryGetValue(key,out entity);
+            return entity;
         }
 
     }

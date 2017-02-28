@@ -3,3 +3,8 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\03-Collections\Collection
 E:\Workspace\VersionControl\Courses\Net-training-tasks\03-Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\03-Collections\Collections\obj\Debug\Collections.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\03-Collections\Collections\obj\Debug\Collections.pdb
+D:\Courses\Net-training-tasks\03-Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\03-Collections\Collections\obj\Debug\Collections.dll
+D:\Courses\Net-training-tasks\03-Collections\Collections\obj\Debug\Collections.pdb
+D:\Courses\Net-training-tasks\03-Collections\Collections\bin\Debug\Collections.dll
+D:\Courses\Net-training-tasks\03-Collections\Collections\bin\Debug\Collections.pdb
