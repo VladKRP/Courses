@@ -131,8 +131,8 @@ namespace Task.Generics {
                     break;
             }
 
+          }
         }
-    }
 	}
 
 	/// <summary>
@@ -184,11 +184,11 @@ namespace Task.Generics {
                 }
                 catch(WebException exc)
                 {
-                    Trace.TraceInformation(exc.Message);  
+                        Debug.WriteLine(exc);
                 }
             }
-            Trace.Flush();
             throw new WebException("The operation has timed out", WebExceptionStatus.Timeout);
+
         }
 
 
@@ -216,8 +216,15 @@ namespace Task.Generics {
 		///       })
 		/// </example>
 		public static Predicate<T> CombinePredicates<T>(Predicate<T>[] predicates) {
-			// TODO : Implement CombinePredicates<T>
-			throw new NotImplementedException();
+            return delegate (T condition)
+            {
+                foreach(var predicate in predicates)
+                {
+                    if (!predicate(condition))
+                        return false;
+                }
+                return true;
+            };
 		}
 
 	}

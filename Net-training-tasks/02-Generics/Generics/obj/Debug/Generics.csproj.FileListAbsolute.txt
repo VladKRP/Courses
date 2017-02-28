@@ -3,3 +3,8 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\bin\
 E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.pdb
+D:\Courses\Net-training-tasks\02-Generics\Generics\bin\Debug\Generics.dll
+D:\Courses\Net-training-tasks\02-Generics\Generics\bin\Debug\Generics.pdb
+D:\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.dll
+D:\Courses\Net-training-tasks\02-Generics\Generics\obj\Debug\Generics.pdb
