@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Diagnostics;
 
 namespace Task.Generics {
 
@@ -174,9 +176,20 @@ namespace Task.Generics {
 		/// </example>
 		public static T TimeoutSafeInvoke<T>(this Func<T> function) {
             
-			// TODO : Implement TimeoutSafeInvoke<T>
-			throw new NotImplementedException();
-		}
+            for(int i = 0; i < 3; i++)
+            {
+                try
+                {
+                    return function();
+                }
+                catch(WebException exc)
+                {
+                    Trace.TraceInformation(exc.Message);  
+                }
+            }
+            Trace.Flush();
+            throw new WebException("The operation has timed out", WebExceptionStatus.Timeout);
+        }
 
 
 		/// <summary>
@@ -199,7 +212,7 @@ namespace Task.Generics {
 		///   The following example should create predicate that returns true if int value between -10 and 10:
 		///   var result = CombinePredicates(new Predicate<int>[] {
 		///            x=> x>-10,
-		///            x=> x<10
+		///            x=> x< 10
 		///       })
 		/// </example>
 		public static Predicate<T> CombinePredicates<T>(Predicate<T>[] predicates) {
