@@ -99,10 +99,7 @@ namespace Task.Generics {
         ///     { 1, "a", false },
         ///   }
         /// </example>
-        public static void SortTupleArray<T1, T2, T3>(this Tuple<T1, T2, T3>[] array, int sortedColumn, bool ascending) 
-            where T1:struct
-            where T2:struct
-            where T3:struct
+        public static Tuple<T1, T2, T3>[] SortTupleArray<T1, T2, T3>(this Tuple<T1, T2, T3>[] array, int sortedColumn, bool ascending) 
         {
             // TODO :SortTupleArray<T1, T2, T3>
             // HINT : Add required constraints to generic types
@@ -113,24 +110,24 @@ namespace Task.Generics {
             {
                 case 0:
                     if (ascending)
-                       array.Select(x => x).OrderBy(x => x.Item1).ToArray();
+                       array = array.Select(x => x).OrderBy(x => x.Item1).ToArray();
                     else
-                         array.Select(x => x).OrderByDescending(x => x.Item1).ToArray();
+                         array = array.Select(x => x).OrderByDescending(x => x.Item1).ToArray();
                     break;
                 case 1:
                     if (ascending)
-                        array.Select(x => x).OrderBy(x => x.Item2).ToArray();
+                        array = array.Select(x => x).OrderBy(x => x.Item2).ToArray();
                     else
-                        array.Select(x => x).OrderByDescending(x => x.Item2).ToArray();
+                        array = array.Select(x => x).OrderByDescending(x => x.Item2).ToArray();
                     break;
                 case 2:
                     if (ascending)
-                        array.Select(x => x).OrderBy(x => x.Item3).ToArray();
+                        array = array.Select(x => x).OrderBy(x => x.Item3).ToArray();
                     else
-                        array.Select(x => x).OrderByDescending(x => x.Item3).ToArray();
+                        array = array.Select(x => x).OrderByDescending(x => x.Item3).ToArray();
                     break;
             }
-
+            return array;
           }
         }
 	}

@@ -14,3 +14,11 @@ D:\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.pdb
 D:\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.csprojResolveAssemblyReference.cache
 D:\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.dll
 D:\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.csprojResolveAssemblyReference.cache
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.dll
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\obj\Debug\Generics.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.Test.dll
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.dll
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\C#\Courses\Net-training-tasks\02-Generics\Generics.Test\bin\Debug\Generics.pdb

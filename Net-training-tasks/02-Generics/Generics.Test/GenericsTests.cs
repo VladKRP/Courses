@@ -129,7 +129,7 @@ namespace Task.Generics.Test {
 
         #region ArrayExtentions.SortTupleArray tests
         public void ArrayExtentions_SortTupleArray_Test(Tuple<int,int,int>[] data, int colIndex, bool desc, Tuple<int,int,int>[] expected, string assertMessage) {
-            data.SortTupleArray(colIndex, desc);
+            data = data.SortTupleArray(colIndex, desc);
             Assert.IsTrue(expected.SequenceEqual(data), assertMessage);
         }
 
