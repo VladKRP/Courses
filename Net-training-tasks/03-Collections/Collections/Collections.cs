@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Collections.Tasks {
 
@@ -95,8 +96,26 @@ namespace Collections.Tasks {
         /// </example>
         public static IEnumerable<T> DepthTraversalTree<T>(ITreeNode<T> root) {
             if (root == null) throw new ArgumentNullException();
-            // TODO : Implement the tree depth traversal algorithm
-            throw new NotImplementedException(); 
+
+            List<T> traversalResult = new List<T>() {};
+            Stack<ITreeNode<T>> treeNodes = new Stack<ITreeNode<T>>();
+
+            treeNodes.Push(root);
+            while (treeNodes.Count > 0)
+            {
+                var currentNode = treeNodes.Pop();
+                traversalResult.Add(currentNode.Data);
+
+                if(currentNode.Children != null)
+                {
+                    foreach (var child in currentNode.Children.Reverse())
+                    {
+                        treeNodes.Push(child);
+                    }
+                }
+                
+            }
+            return traversalResult;
         }
 
         /// <summary>
@@ -121,8 +140,26 @@ namespace Collections.Tasks {
         ///    result = { 1, 2, 3, 4, 5, 6, 7, 8 } 
         /// </example>
         public static IEnumerable<T> WidthTraversalTree<T>(ITreeNode<T> root) {
-            // TODO : Implement the tree width traversal algorithm
-            throw new NotImplementedException();
+            if (root == null) throw new ArgumentNullException();
+
+            List<T> traversalResult = new List<T>() {root.Data};
+            Queue<ITreeNode<T>> currentLevel = new Queue<ITreeNode<T>>();
+
+            currentLevel.Enqueue(root);
+
+            while(currentLevel.Count > 0)
+            {
+                ITreeNode<T> currentNode = currentLevel.Dequeue();
+                if(currentNode.Children != null)
+                {
+                    foreach (var node in currentNode.Children)
+                    {
+                        traversalResult.Add(node.Data);
+                        currentLevel.Enqueue(node);
+                    }
+                }       
+            }
+            return traversalResult;
         }
 
 
@@ -145,8 +182,24 @@ namespace Collections.Tasks {
         ///   source = { 1,2,3,4 }, count=5 => ArgumentOutOfRangeException
         /// </example>
         public static IEnumerable<T[]> GenerateAllPermutations<T>(T[] source, int count) {
-            // TODO : Implement GenerateAllPermutations method
-            throw new NotImplementedException();
+            if (count < 0 || count > source.Length)
+                throw new ArgumentOutOfRangeException();
+
+            List<T[]> permutions = new List<T[]>();
+            if (count == 1)
+                for(int i = 0; i < source.Length; i++)
+                    permutions.Add(new[] { source.ElementAt(i) });
+            else
+            {
+                //for (int i = 0; i < source.Length; i++)
+                //{
+                //    for (int j = i + count - 1; j < source.Length; j++)
+                //    {
+                //        permutions.Add(source.TakeWhile((x, y) => y < j).ToArray());
+                //    }
+                //}
+            }
+            return permutions.Count != 0 ? permutions : Enumerable.Empty<T[]>();    
         }
 
     }
@@ -173,10 +226,15 @@ namespace Collections.Tasks {
         /// </example>
         /// 
         public static TValue GetOrBuildValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, Func<TValue> builder) {
-            //TValue entity = dictionary.ContainsKey(key) ? dictionary.TryGetValue(key, out entity) : null;
+
             TValue entity = default(TValue);
             if (dictionary.ContainsKey(key))
-                dictionary.TryGetValue(key,out entity);
+                dictionary.TryGetValue(key, out entity);
+            else
+            {
+                entity = builder.Invoke();
+                dictionary.Add(key,entity);
+            }
             return entity;
         }
 

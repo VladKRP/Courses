@@ -14,3 +14,11 @@ D:\Courses\Net-training-tasks\03-Collections\Collections.Test\bin\Debug\Collecti
 D:\Courses\Net-training-tasks\03-Collections\Collections.Test\obj\Debug\Collections.Test.csprojResolveAssemblyReference.cache
 D:\Courses\Net-training-tasks\03-Collections\Collections.Test\obj\Debug\Collections.Test.dll
 D:\Courses\Net-training-tasks\03-Collections\Collections.Test\obj\Debug\Collections.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\bin\Debug\Collections.Test.dll
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\bin\Debug\Collections.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\bin\Debug\Collections.dll
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\bin\Debug\Collections.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\obj\Debug\Collections.Test.csprojResolveAssemblyReference.cache
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\obj\Debug\Collections.Test.dll
+E:\Workspace\C#\Courses\Net-training-tasks\03-Collections\Collections.Test\obj\Debug\Collections.Test.pdb
