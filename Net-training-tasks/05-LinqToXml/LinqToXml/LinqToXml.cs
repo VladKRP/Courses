@@ -16,18 +16,23 @@ namespace LinqToXml
         /// <returns>Xml representation (refer to CreateHierarchyResultFile.xml in Resources)</returns>
         public static string CreateHierarchy(string xmlRepresentation)
         {
-            XDocument xDocument = XDocument.Load(xmlRepresentation);
-            xDocument.Element("TaxRate").Remove();
-            xDocument.Add("Group");
+            XDocument xDocument = XDocument.Parse(xmlRepresentation);
+            XElement rootElement = xDocument.Element("Root");
+            rootElement.Element("TaxRate").Remove();
+            
 
-            IEnumerable<XElement> dataTagElements = xDocument.Elements();
-         
-            foreach(var dataTag in dataTagElements)
-                if (dataTag.Element("Category") != null)
-                {
-                    dataTag.SetAttributeValue("ID", dataTag.Element("Category").Value);
-                    dataTag.Element("Category").Remove();
-                }
+            var categoryElementA = from dataTag in rootElement.Elements()
+                                   where dataTag.Element("Category").Value == "A"
+                                   select dataTag;
+            
+            var categoryElementB = from dataTag in rootElement.Elements()
+                                   where dataTag.Element("Category").Value == "B"
+                                   select dataTag;
+
+            rootElement.ReplaceAll(new XElement("Group", new XAttribute("ID", "A")),
+                new XElement("Group", new XAttribute("ID", "B")));
+
+
             return xDocument.ToString();
         }
 
@@ -41,7 +46,12 @@ namespace LinqToXml
         /// </example>
         public static string GetPurchaseOrders(string xmlRepresentation)
         {
-            throw new NotImplementedException();
+            XDocument xmlDocument = XDocument.Parse(xmlRepresentation);
+            var purchases = from purchace in xmlDocument.Elements()
+                            where purchace.Element("Address").Attribute("Type").Value == "Shipping"
+                            && purchace.Element("Address").Element("State").Value == "NY"
+                            select purchace.Attribute("PurchaseOrderNumber").Value;
+            return xmlDocument.ToString();
         }
 
         /// <summary>
@@ -51,7 +61,25 @@ namespace LinqToXml
         /// <returns>Xml customers representation (refer to XmlFromCsvResultFile.xml in Resources)</returns>
         public static string ReadCustomersFromCsv(string customers)
         {
-            throw new NotImplementedException();
+            string[] csvCustomers = customers.Split('\n');
+
+            XElement xmlCustomers = new XElement("Root",
+                from customer in csvCustomers
+                let fields = customer.Split(',')
+                select new XElement("Customer",
+                new XAttribute("CustomerID", fields[0]),
+                new XElement("CompanyName", fields[1]),
+                new XElement("ContactName", fields[2]),
+                new XElement("ContactTitle", fields[3]),
+                new XElement("Phone", fields[4]),
+                new XElement("FullAddress",
+                    new XElement("Address", fields[5]),
+                    new XElement("City", fields[6]),
+                    new XElement("Region", fields[7]),
+                    new XElement("PostalCode", fields[8]),
+                    new XElement("Country", fields[9]))
+                ));
+            return xmlCustomers.ToString();
         }
 
         /// <summary>
