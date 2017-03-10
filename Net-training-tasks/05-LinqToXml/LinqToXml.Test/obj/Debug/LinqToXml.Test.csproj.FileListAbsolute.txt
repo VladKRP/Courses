@@ -8,3 +8,13 @@ D:\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Te
 D:\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.csproj.GenerateResource.Cache
 D:\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.dll
 D:\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\bin\Debug\LinqToXml.Test.dll
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\bin\Debug\LinqToXml.Test.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\bin\Debug\LinqToXml.dll
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\bin\Debug\LinqToXml.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.csprojResolveAssemblyReference.cache
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.LinqToXmlResources.resources
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.csproj.GenerateResource.Cache
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.dll
+E:\Workspace\C#\Courses\Net-training-tasks\05-LinqToXml\LinqToXml.Test\obj\Debug\LinqToXml.Test.pdb
