@@ -60,8 +60,8 @@ namespace LinqToXml.Test
         }
 
         [TestMethod]
-        [TestCategory("LinqToXml.GetFlattenString")]
-        public void GetFlattenStringTest()
+        [TestCategory("LinqToXml.GetOrdersValue")]
+        public void GetOrdersValueTest()
         {
             Assert.AreEqual(1510, LinqToXml.GetOrdersValue(LinqToXmlResources.GeneralOrdersFileSource));
         }

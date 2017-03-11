@@ -58,12 +58,11 @@ namespace LinqToXml
         {
             XDocument xmlDocument = XDocument.Parse(xmlRepresentation);
             XElement rootElement = xmlDocument.Root;
-            var orderNumbersOfNYShipping = from purchace in xmlDocument.Elements()
-                                           where purchace.Element("Address").Attribute("Type").Value == "Shipping"
-                                           && purchace.Element("Address").Element("State").Value == "NY"
-                                           select purchace.Attribute("PurchaseOrderNumber").Value;
-            var orderNumbers = String.Concat(orderNumbersOfNYShipping);
-            return orderNumbers;
+            var orderNumbersOfNYShipping = from purchace in rootElement.Elements()
+                                           let shippingAddress = purchace.Elements().First()
+                                           where shippingAddress.Elements().Skip(3).FirstOrDefault().Value == "NY"
+                                           select purchace.FirstAttribute.Value;
+            return String.Join(",", orderNumbersOfNYShipping);
         }
 
         /// <summary>
@@ -103,8 +102,24 @@ namespace LinqToXml
         public static string GetConcatenationString(string xmlRepresentation)
         {
             XDocument xDocument = XDocument.Parse(xmlRepresentation);
-            return "";
+            XElement rootElement = xDocument.Root;
+            
+           var textFromXmlRepresentation = String.Concat(from sentence in rootElement.Elements()
+                            let words = sentence.Elements()
+                            from word in words
+                            select word.Value);
+
+            //string textFromXmlRepresentation = null;
+            //var sentences = from sentence in rootElement.Elements()
+            //                select sentence;                               
+            //foreach(var sentence in sentences)
+            //{
+            //    textFromXmlRepresentation += sentence.Value;
+            //}
+            return textFromXmlRepresentation;
         }
+
+
 
         /// <summary>
         /// Replaces all "customer" elements with "contact" elements with the same childs
@@ -145,8 +160,6 @@ namespace LinqToXml
                            select channel.Attribute("id").Value;
             var channelsInInteger = channels.Select(x => int.Parse(x));
             return channelsInInteger;
-
-
         }
 
         /// <summary>
@@ -190,8 +203,16 @@ namespace LinqToXml
         {
             XDocument xDocument = XDocument.Parse(xmlRepresentation);
             XElement rootElement = xDocument.Root;
-            var totalCountOfOrders = rootElement.Elements().Count();
-            return totalCountOfOrders;
+            int totalPurchaseValue = 0;
+            var ordersOfProduct = from order in rootElement.Element("Orders").Elements()
+                                  select order.Element("product").Value;
+            var products = rootElement.Element("products").Elements()
+                           .Select(x => new { id = x.Attribute("Id").Value, value = x.Attribute("Value").Value });
+            foreach(var order in ordersOfProduct)
+            {
+                totalPurchaseValue += int.Parse(products.FirstOrDefault(x => x.id == order).value);
+            }
+            return totalPurchaseValue;
         }
     }
 }
