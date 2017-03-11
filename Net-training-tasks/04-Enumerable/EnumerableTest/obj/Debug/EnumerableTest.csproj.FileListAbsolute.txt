@@ -6,3 +6,11 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableT
 E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\EnumerableTest.dll
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\EnumerableTest.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Enumerable.dll
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Enumerable.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.csprojResolveAssemblyReference.cache
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.dll
+E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.pdb
