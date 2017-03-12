@@ -83,9 +83,9 @@ namespace IOStreams.Tests
 				foreach (var data in testData)
 				{
 					stream.Position = 0;
-					var actual = stream.CalculateHash(data.Key);
 					var expected = data.Value;
-					Assert.AreEqual(expected, actual, "Error calculation hash "+data.Key);
+                    var actual = stream.CalculateHash(data.Key);
+                    Assert.AreEqual(expected, actual, "Error calculation hash "+data.Key);
 				}
 			}
 		}

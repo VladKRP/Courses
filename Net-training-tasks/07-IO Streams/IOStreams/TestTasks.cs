@@ -15,7 +15,7 @@ namespace IOStreams
 	public static class TestTasks
 	{
 		/// <summary>
-		/// Parses Resourses\Planets.xlsx file and returns the planet data: 
+		/// Parses Resourses\Planets.xlsx file and returns the planet data:
 		///   Jupiter     69911.00
 		///   Saturn      58232.00
 		///   Uranus      25362.00
@@ -26,15 +26,20 @@ namespace IOStreams
 		/// <returns>sequence of PlanetInfo</returns>
 		public static IEnumerable<PlanetInfo> ReadPlanetInfoFromXlsx(string xlsxFileName)
 		{
-			// TODO : Implement ReadPlanetInfoFromXlsx method using System.IO.Packaging + Linq-2-Xml
-
-			// HINT : Please be as simple & clear as possible.
-			//        No complex and common use cases, just this specified file.
-			//        Required data are stored in Planets.xlsx archive in 2 files:
-			//         /xl/sharedStrings.xml      - dictionary of all string values
-			//         /xl/worksheets/sheet1.xml  - main worksheet
-
-			throw new NotImplementedException();
+            // TODO : Implement ReadPlanetInfoFromXlsx method using System.IO.Packaging + Linq-2-Xml
+            // HINT : Please be as simple & clear as possible.
+            //        No complex and common use cases, just this specified file.
+            //        Required data are stored in Planets.xlsx archive in 2 files:
+            //         /xl/sharedStrings.xml      - dictionary of all string values
+            //         /xl/worksheets/sheet1.xml  - main worksheet
+            string path = @"..\..\..\IOStreams.Tests\" + xlsxFileName;
+            List<PlanetInfo> planets = new List<PlanetInfo>();
+            using (var package = Package.Open(xlsxFileName, FileMode.Open, FileAccess.Read))
+            {
+  
+            }
+            
+            throw new NotImplementedException();
 		}
 
 
@@ -46,21 +51,32 @@ namespace IOStreams
 		/// <returns></returns>
 		public static string CalculateHash(this Stream stream, string hashAlgorithmName)
 		{
-			// TODO : Implement CalculateHash method
-			throw new NotImplementedException();
-		}
+            // TODO : Implement CalculateHash method
+            HashAlgorithm hashAlgorithm = HashAlgorithm.Create(hashAlgorithmName);
+            if (hashAlgorithm == null)
+                throw new ArgumentException();
+            byte[] streamHashAsByteSequence = hashAlgorithm.ComputeHash(stream);
+            string streamHashStringRepresentation = BitConverter.ToString(streamHashAsByteSequence).Replace("-","");
+            return streamHashStringRepresentation;
+        }
 
 
 		/// <summary>
-		/// Returns decompressed strem from file. 
+		/// Returns decompressed stream from file.
 		/// </summary>
 		/// <param name="fileName">source file</param>
 		/// <param name="method">method used for compression (none, deflate, gzip)</param>
 		/// <returns>output stream</returns>
 		public static Stream DecompressStream(string fileName, DecompressionMethods method)
 		{
-			// TODO : Implement DecompressStream method
-			throw new NotImplementedException();
+            string path = @"..\..\..\IOStreams.Tests\" + fileName;
+            GZipStream decompressedStream = null;
+            var fileText = File.ReadAllBytes(path);
+            using(var decompressionStream = new GZipStream(new MemoryStream(fileText),CompressionMode.Decompress))
+            {
+                    decompressionStream.CopyTo(decompressedStream);
+            }
+            return decompressedStream;
 		}
 
 
@@ -72,8 +88,12 @@ namespace IOStreams
 		/// <returns>Unicoded file content</returns>
 		public static string ReadEncodedText(string fileName, string encoding)
 		{
-			// TODO : Implement ReadEncodedText method
-			throw new NotImplementedException();
+            // TODO : Implement ReadEncodedText method
+            string path = @"..\..\..\IOStreams.Tests\" + fileName;
+            byte[] fileText = File.ReadAllBytes(path);
+            var convertedFileText = Encoding.Convert(Encoding.GetEncoding(encoding), Encoding.Unicode, fileText);
+            return Encoding.Unicode.GetString(convertedFileText);
+            
 		}
 	}
 
