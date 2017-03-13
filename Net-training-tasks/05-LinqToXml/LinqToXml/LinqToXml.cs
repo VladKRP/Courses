@@ -108,14 +108,6 @@ namespace LinqToXml
                             let words = sentence.Elements()
                             from word in words
                             select word.Value);
-
-            //string textFromXmlRepresentation = null;
-            //var sentences = from sentence in rootElement.Elements()
-            //                select sentence;                               
-            //foreach(var sentence in sentences)
-            //{
-            //    textFromXmlRepresentation += sentence.Value;
-            //}
             return textFromXmlRepresentation;
         }
 
@@ -130,16 +122,13 @@ namespace LinqToXml
         {
             XDocument xDocument = XDocument.Parse(xmlRepresentation);
             XElement rootElement = xDocument.Root;
-            List<XElement> contacts = new List<XElement>();
-            var customers = from customer in rootElement.Elements()
+            var contacts = from customer in rootElement.Elements()
                             select
                             new XElement("contact",
                                 new XElement("name", customer.Element("name").Value),
                                 new XElement("lastname", customer.Element("lastname").Value)
                             );
 
-            foreach (var customer in customers)
-                contacts.Add(customer);
             rootElement.ReplaceAll(contacts);
             return rootElement.ToString();
         }
