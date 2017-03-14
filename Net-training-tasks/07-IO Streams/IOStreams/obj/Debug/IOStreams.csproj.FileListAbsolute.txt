@@ -1,0 +1,5 @@
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\bin\Debug\IOStreams.dll
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\bin\Debug\IOStreams.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.csprojResolveAssemblyReference.cache
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.dll
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.pdb

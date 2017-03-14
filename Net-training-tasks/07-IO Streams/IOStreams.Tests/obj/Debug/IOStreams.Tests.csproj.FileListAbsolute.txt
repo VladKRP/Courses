@@ -1,0 +1,12 @@
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\german_ISO-8859-1.txt
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\Planets.xlsx
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\Planets.xlsx.deflate
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\Planets.xlsx.gzip
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.Tests.dll
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.Tests.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.dll
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.pdb
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.csprojResolveAssemblyReference.cache
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.dll
+E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.pdb

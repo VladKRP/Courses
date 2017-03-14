@@ -34,16 +34,14 @@ namespace Collections.Tasks {
 
             int value = 0;
             int next = 1;
-            List<int> fibonacciSequence = new List<int>() { };
 
             for(int i = 0; i < count; i++)
             {
                 int temp = value;
                 value = next;
                 next = temp + value;
-                fibonacciSequence.Add(value);
+                yield return value;
             }
-            return fibonacciSequence;
         }
 
         /// <summary>
@@ -97,14 +95,13 @@ namespace Collections.Tasks {
         public static IEnumerable<T> DepthTraversalTree<T>(ITreeNode<T> root) {
             if (root == null) throw new ArgumentNullException();
 
-            List<T> traversalResult = new List<T>() {};
             Stack<ITreeNode<T>> treeNodes = new Stack<ITreeNode<T>>();
 
             treeNodes.Push(root);
             while (treeNodes.Count > 0)
             {
                 var currentNode = treeNodes.Pop();
-                traversalResult.Add(currentNode.Data);
+                yield return currentNode.Data;
 
                 if(currentNode.Children != null)
                 {
@@ -115,7 +112,6 @@ namespace Collections.Tasks {
                 }
                 
             }
-            return traversalResult;
         }
 
         /// <summary>
@@ -142,7 +138,6 @@ namespace Collections.Tasks {
         public static IEnumerable<T> WidthTraversalTree<T>(ITreeNode<T> root) {
             if (root == null) throw new ArgumentNullException();
 
-            List<T> traversalResult = new List<T>() {root.Data};
             Queue<ITreeNode<T>> currentLevel = new Queue<ITreeNode<T>>();
 
             currentLevel.Enqueue(root);
@@ -150,16 +145,16 @@ namespace Collections.Tasks {
             while(currentLevel.Count > 0)
             {
                 ITreeNode<T> currentNode = currentLevel.Dequeue();
+                yield return currentNode.Data;
+
                 if(currentNode.Children != null)
                 {
                     foreach (var node in currentNode.Children)
                     {
-                        traversalResult.Add(node.Data);
                         currentLevel.Enqueue(node);
                     }
                 }       
             }
-            return traversalResult;
         }
 
 
@@ -189,16 +184,16 @@ namespace Collections.Tasks {
             if (count == 1)
                 for(int i = 0; i < source.Length; i++)
                     permutions.Add(new[] { source.ElementAt(i) });
-            else
-            {
-                //for (int i = 0; i < source.Length; i++)
-                //{
-                //    for (int j = i + count - 1; j < source.Length; j++)
-                //    {
-                //        permutions.Add(source.TakeWhile((x, y) => y < j).ToArray());
-                //    }
-                //}
-            }
+            //else
+            //{
+            //    for (int i = 0; i < source.Length; i++)
+            //    {
+            //        for (int j = i + count - 1; j < source.Length; j++)
+            //        {
+            //            permutions.Add();
+            //        }
+            //    }
+            //}
             return permutions.Count != 0 ? permutions : Enumerable.Empty<T[]>();    
         }
 
@@ -228,13 +223,12 @@ namespace Collections.Tasks {
         public static TValue GetOrBuildValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, Func<TValue> builder) {
 
             TValue entity = default(TValue);
-            if (dictionary.ContainsKey(key))
-                dictionary.TryGetValue(key, out entity);
-            else
+            if (!dictionary.TryGetValue(key, out entity))
             {
-                entity = builder.Invoke();
-                dictionary.Add(key,entity);
+                entity = builder();
+                dictionary.Add(key, entity);
             }
+
             return entity;
         }
 

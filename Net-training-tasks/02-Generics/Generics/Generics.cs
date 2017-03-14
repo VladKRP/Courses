@@ -48,7 +48,8 @@ namespace Task.Generics {
 		///  </example>
 		public static IEnumerable<T> ConvertToList<T>(this string list) {
             var separatedString = list.Split(ListSeparator);
-            return separatedString.Select(x => (T)System.ComponentModel.TypeDescriptor.GetConverter(typeof(T)).ConvertFromString(x));
+            var typeConverter = System.ComponentModel.TypeDescriptor.GetConverter(typeof(T));
+            return separatedString.Select(x => (T)typeConverter.ConvertFromString(x));
         }
 
 	}
@@ -63,9 +64,6 @@ namespace Task.Generics {
 		/// <param name="index1">first index</param>
 		/// <param name="index2">second index</param>
 		public static void SwapArrayElements<T>(this T[] array, int index1, int index2) {
-
-            if (array.Length < index1 || array.Length < index2)
-                throw new IndexOutOfRangeException();
 
                     T temporaryValue = array[index1];
                     array[index1] = array[index2];
@@ -110,21 +108,21 @@ namespace Task.Generics {
             {
                 case 0:
                     if (ascending)
-                       array = array.Select(x => x).OrderBy(x => x.Item1).ToArray();
+                       array = array.OrderBy(x => x.Item1).ToArray();
                     else
-                         array = array.Select(x => x).OrderByDescending(x => x.Item1).ToArray();
+                         array = array.OrderByDescending(x => x.Item1).ToArray();
                     break;
                 case 1:
                     if (ascending)
-                        array = array.Select(x => x).OrderBy(x => x.Item2).ToArray();
+                        array = array.OrderBy(x => x.Item2).ToArray();
                     else
-                        array = array.Select(x => x).OrderByDescending(x => x.Item2).ToArray();
+                        array = array.OrderByDescending(x => x.Item2).ToArray();
                     break;
                 case 2:
                     if (ascending)
-                        array = array.Select(x => x).OrderBy(x => x.Item3).ToArray();
+                        array = array.OrderBy(x => x.Item3).ToArray();
                     else
-                        array = array.Select(x => x).OrderByDescending(x => x.Item3).ToArray();
+                        array = array.OrderByDescending(x => x.Item3).ToArray();
                     break;
             }
             return array;
@@ -140,6 +138,7 @@ namespace Task.Generics {
 	///   MyService singleton = Singleton<MyService>.Instance;
 	/// </example>
 	public static class Singleton<T> where T: class, new() {
+
         private static readonly Lazy<T> instance = new Lazy<T>(() => new T());
 
         static Singleton() { }
@@ -172,8 +171,10 @@ namespace Task.Generics {
 		///   If the third attemp fails then this exception should be rethrow to the application.
 		/// </example>
 		public static T TimeoutSafeInvoke<T>(this Func<T> function) {
-            
-            for(int i = 0; i < 3; i++)
+
+            const int functionCallAttempt = 3;
+
+            for(int i = 0; i < functionCallAttempt; i++)
             {
                 try
                 {
