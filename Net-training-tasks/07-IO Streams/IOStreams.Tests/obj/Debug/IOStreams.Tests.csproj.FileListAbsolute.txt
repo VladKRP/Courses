@@ -10,3 +10,15 @@ E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Deb
 E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.csprojResolveAssemblyReference.cache
 E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.dll
 E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.pdb
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\german_ISO-8859-1.txt
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\Planets.xlsx
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\Planets.xlsx.deflate
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Resources\Planets.xlsx.gzip
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.Tests.dll
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.Tests.pdb
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.dll
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\bin\Debug\IOStreams.pdb
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.dll
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams.Tests\obj\Debug\IOStreams.Tests.pdb

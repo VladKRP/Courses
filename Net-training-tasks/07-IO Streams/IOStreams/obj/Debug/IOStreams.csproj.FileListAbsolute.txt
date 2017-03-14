@@ -3,3 +3,8 @@ E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\bin\Debug\IOS
 E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.csprojResolveAssemblyReference.cache
 E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.dll
 E:\Workspace\C#\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.pdb
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams\bin\Debug\IOStreams.dll
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams\bin\Debug\IOStreams.pdb
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.dll
+D:\Courses\Net-training-tasks\07-IO Streams\IOStreams\obj\Debug\IOStreams.pdb

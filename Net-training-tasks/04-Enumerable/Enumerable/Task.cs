@@ -416,7 +416,7 @@ namespace EnumerableTask {
         ///   {"ab","ba","aabb","baba"} => {"a","b"}
         /// </example>
         public IEnumerable<char> GetCommonChars(IEnumerable<string> data) {
-            var firstString = data.FirstOrDefault();
+            var firstString = data.FirstOrDefault().Select(x => x);
 
             //var commonCharacters = data.Select(x => x.)
             //if (commonCharacters.Count() > 0)
@@ -453,13 +453,7 @@ namespace EnumerableTask {
         ///   { } => { }
         /// </example>
         public IEnumerable<string> GetStringsOnly(object[] data) {
-<<<<<<< HEAD
-            data.Select(x => x);
-            // TODO : Implement GetStringsOnly
-            throw new NotImplementedException();
-=======
             return data.Where(x => x != null && x.GetType() == typeof(String)).Select(x => (String)x);
->>>>>>> 58e73f8f8bba4ff261524df5a07fe878471b25e9
         }
 
         /// <summary> Calculates the total length of strings</summary>
@@ -565,9 +559,6 @@ namespace EnumerableTask {
         ///    { "1.1", "1.2", "1.5", "2.0" }, "2.0" => null
         /// </example>
         public string GetNextVersionFromList(IEnumerable<string> versions, string currentVersion) {
-<<<<<<< HEAD
-            var nextVersion = versions.Select(x => x).Where(x => x.Contains(currentVersion) && Convert.ToDouble(x) > Convert.ToDouble(currentVersion)).Single();
-=======
             int indexOfCurrentVersion;
             string nextVersion = null;
             if (versions.Contains(currentVersion))
@@ -575,8 +566,6 @@ namespace EnumerableTask {
                 indexOfCurrentVersion = versions.ToList().IndexOf(currentVersion);
                 nextVersion = versions.ElementAtOrDefault(++indexOfCurrentVersion);
             }
-                 
->>>>>>> 58e73f8f8bba4ff261524df5a07fe878471b25e9
             return nextVersion;
         }
 
