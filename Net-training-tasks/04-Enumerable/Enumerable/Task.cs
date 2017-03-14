@@ -462,7 +462,7 @@ namespace EnumerableTask {
         ///   { } => { }
         /// </example>
         public IEnumerable<string> GetStringsOnly(object[] data) {
-            //data.Select(x => x).Where(x => char.IsSymbol(x)? x);
+            data.Select(x => x);
             // TODO : Implement GetStringsOnly
             throw new NotImplementedException();
         }
@@ -607,8 +607,8 @@ namespace EnumerableTask {
         ///    { "1.1", "1.2", "1.5", "2.0" }, "2.0" => null
         /// </example>
         public string GetNextVersionFromList(IEnumerable<string> versions, string currentVersion) {
-            versions.Select(x => x != currentVersion || x == versions.Last() ? null : x);
-            return "Done";
+            var nextVersion = versions.Select(x => x).Where(x => x.Contains(currentVersion) && Convert.ToDouble(x) > Convert.ToDouble(currentVersion)).Single();
+            return nextVersion;
         }
 
         /// <summary>
