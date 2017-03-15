@@ -240,8 +240,14 @@ namespace EnumerableTask {
         ///   { } => { }
         /// </example>
         public IEnumerable<Tuple<string,int>> GetCountOfStrings(IEnumerable<string> data) {
-            var countOfStrings  = data.Select(x => new Tuple<string,int>(x, x.Count()));
-            return countOfStrings;
+            List<Tuple<string, int>> occurenceOfStrings = new List<Tuple<string, int>>();
+            var uniquaStrings = data.Distinct();
+            foreach (var str in uniquaStrings)
+            {
+                var occurence = data.Where(x => x == str).Count();
+                occurenceOfStrings.Add(new Tuple<string, int>( str, occurence ));            
+            }
+            return occurenceOfStrings;
         }
 
         /// <summary> Counts the number of strings with max length in sequence </summary>
@@ -333,8 +339,10 @@ namespace EnumerableTask {
         ///    {(1/1/2010, 10)  , (4/4/2010, 10), (10/10/2010, 10) } => { 10, 10, 0, 10 }
         /// </example>
         public int[] GetQuarterSales(IEnumerable<Tuple<DateTime, int>> sales) {
-            // TODO : Implement GetQuarterSales
-            throw new NotImplementedException();
+            int[] result = { 0, 0, 0, 0 };
+            for(int i = 0; i < 4; i++)
+                result[i] = sales.Where(x => x.Item1.Month > (i * 3) && x.Item1.Month <= (i + 1) * 3).Aggregate(result[i], (x, y) => x += y.Item2);
+            return result;
         }
 
 
@@ -417,12 +425,17 @@ namespace EnumerableTask {
         /// </example>
         public IEnumerable<char> GetCommonChars(IEnumerable<string> data) {
             var firstString = data.FirstOrDefault();
+            List<char> commonCharacters = new List<char>() { };
 
-            //var commonCharacters = data.Select(x => x.)
-            //if (commonCharacters.Count() > 0)
-            //    commonCharacters = firstString.Except(commonCharacters);
-            //return commonCharacters;
-            throw new NotImplementedException();
+            if (firstString == null)
+                return commonCharacters;
+
+            foreach (var character in firstString)
+            {
+                if (data.All(x => x.Contains(character)))
+                    commonCharacters.Add(character);
+            }
+            return commonCharacters;
         }
 
         /// <summary> Calculates sum of all integers from object array </summary>
