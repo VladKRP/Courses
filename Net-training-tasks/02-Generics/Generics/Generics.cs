@@ -103,28 +103,29 @@ namespace Task.Generics {
             // HINT : Add required constraints to generic types
             if (sortedColumn < 0 || sortedColumn > 2)
                 throw new IndexOutOfRangeException();
-
-            switch (sortedColumn)
+            if (sortedColumn == 0)
             {
-                case 0:
-                    if (ascending)
-                       array = array.OrderBy(x => x.Item1).ToArray();
-                    else
-                         array = array.OrderByDescending(x => x.Item1).ToArray();
-                    break;
-                case 1:
+                if (ascending)
+                    array = array.OrderBy(x => x.Item1).ToArray();
+                else
+                    array = array.OrderByDescending(x => x.Item1).ToArray();
+            }
+            else if (sortedColumn == 1)
+            {
                     if (ascending)
                         array = array.OrderBy(x => x.Item2).ToArray();
                     else
                         array = array.OrderByDescending(x => x.Item2).ToArray();
-                    break;
-                case 2:
-                    if (ascending)
-                        array = array.OrderBy(x => x.Item3).ToArray();
-                    else
-                        array = array.OrderByDescending(x => x.Item3).ToArray();
-                    break;
             }
+            else if (sortedColumn == 2)
+            {
+                if (ascending)
+                    array = array.OrderBy(x => x.Item3).ToArray();
+                else
+                    array = array.OrderByDescending(x => x.Item3).ToArray();
+            }
+            
+
             return array;
           }
         }
@@ -172,9 +173,9 @@ namespace Task.Generics {
 		/// </example>
 		public static T TimeoutSafeInvoke<T>(this Func<T> function) {
 
-            const int functionCallAttempt = 3;
+            const int functionCallAttempts = 3;
 
-            for(int i = 0; i < functionCallAttempt; i++)
+            for(int i = 0; i < functionCallAttempts; i++)
             {
                 try
                 {

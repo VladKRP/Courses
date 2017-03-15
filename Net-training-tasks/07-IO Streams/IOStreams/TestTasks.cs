@@ -32,11 +32,17 @@ namespace IOStreams
             //        Required data are stored in Planets.xlsx archive in 2 files:
             //         /xl/sharedStrings.xml      - dictionary of all string values
             //         /xl/worksheets/sheet1.xml  - main worksheet
-            string path = @"..\..\..\IOStreams.Tests\" + xlsxFileName;
+            const string mainPath = @"..\..\..\IOStreams.Tests\";
+            string xlsxFilePath = mainPath + xlsxFileName;
+            string sharedStringsPath = mainPath + @"xl\sharedStrings.xml";
+            string worksheetPath = mainPath + @"xl\worksheets\sheet1.xml";
             List<PlanetInfo> planets = new List<PlanetInfo>();
-            using (var package = Package.Open(xlsxFileName, FileMode.Open, FileAccess.Read))
+            using (var package = Package.Open(xlsxFilePath, FileMode.Open, FileAccess.Read))
             {
-  
+                Uri uriSharedStrings = new Uri(sharedStringsPath);
+                Uri uriWorksheet = new Uri(worksheetPath);
+                PackagePart packagePartReplacement = package.CreatePart(uriWorksheet, "application/vnd.openxmlformats-officedocument.wordprocessingml.sheet1+xml");
+
             }
             
             throw new NotImplementedException();
@@ -70,13 +76,16 @@ namespace IOStreams
 		public static Stream DecompressStream(string fileName, DecompressionMethods method)
 		{
             string path = @"..\..\..\IOStreams.Tests\" + fileName;
-            GZipStream decompressedStream = null;
             var fileText = File.ReadAllBytes(path);
-            using(var decompressionStream = new GZipStream(new MemoryStream(fileText),CompressionMode.Decompress))
+            using (var decompressedStream = new MemoryStream())
             {
+                using (var decompressionStream = new GZipStream(new MemoryStream(fileText), CompressionMode.Decompress))
+                {
                     decompressionStream.CopyTo(decompressedStream);
+                }
+                return decompressedStream;
             }
-            return decompressedStream;
+            
 		}
 
 

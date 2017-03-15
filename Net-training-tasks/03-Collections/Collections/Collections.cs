@@ -180,24 +180,29 @@ namespace Collections.Tasks {
             if (count < 0 || count > source.Length)
                 throw new ArgumentOutOfRangeException();
 
-            List<T[]> permutions = new List<T[]>();
-            if (count == 1)
-                for(int i = 0; i < source.Length; i++)
-                    permutions.Add(new[] { source.ElementAt(i) });
-            //else
-            //{
-            //    for (int i = 0; i < source.Length; i++)
-            //    {
-            //        for (int j = i + count - 1; j < source.Length; j++)
-            //        {
-            //            permutions.Add();
-            //        }
-            //    }
-            //}
-            return permutions.Count != 0 ? permutions : Enumerable.Empty<T[]>();    
+            int sourceLength = source.Length;
+            int perm = sourceLength - count;
+            long p = Factorial(4);
+            while(perm >= 0)
+            {
+                var permutions = source.Skip(perm).Take(count).ToArray();
+                yield return permutions;
+                perm--;
+            } 
+        }
+
+        private static long NumberOfPermutation(int sequenceLength, int count)
+        {
+            return Factorial(sequenceLength) / (Factorial(count) * Factorial(sequenceLength - count));
+        }
+
+        private static long Factorial(long number)
+        {
+            return (number == 0) ? 1 : number * Factorial(number - 1);
         }
 
     }
+   
 
     public static class DictionaryExtentions {
         
