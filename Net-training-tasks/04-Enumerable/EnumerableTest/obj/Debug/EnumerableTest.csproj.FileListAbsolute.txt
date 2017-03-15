@@ -6,6 +6,16 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableT
 E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.pdb
+<<<<<<< HEAD
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\EnumerableTest.dll
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\EnumerableTest.pdb
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Enumerable.dll
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Enumerable.pdb
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.dll
+D:\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.pdb
+=======
 E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\EnumerableTest.dll
 E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\EnumerableTest.pdb
 E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debug\Enumerable.dll
@@ -14,3 +24,4 @@ E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\bin\Debu
 E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.csprojResolveAssemblyReference.cache
 E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.dll
 E:\Workspace\C#\Courses\Net-training-tasks\04-Enumerable\EnumerableTest\obj\Debug\EnumerableTest.pdb
+>>>>>>> 58e73f8f8bba4ff261524df5a07fe878471b25e9

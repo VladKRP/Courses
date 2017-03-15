@@ -424,11 +424,15 @@ namespace EnumerableTask {
         ///   {"ab","ba","aabb","baba"} => {"a","b"}
         /// </example>
         public IEnumerable<char> GetCommonChars(IEnumerable<string> data) {
+<<<<<<< HEAD
             var firstString = data.FirstOrDefault();
             List<char> commonCharacters = new List<char>() { };
 
             if (firstString == null)
                 return commonCharacters;
+=======
+            var firstString = data.FirstOrDefault().Select(x => x);
+>>>>>>> 7788a294059cb95a0d64f5f57fe6c5381efa58f0
 
             foreach (var character in firstString)
             {
@@ -579,7 +583,6 @@ namespace EnumerableTask {
                 indexOfCurrentVersion = versions.ToList().IndexOf(currentVersion);
                 nextVersion = versions.ElementAtOrDefault(++indexOfCurrentVersion);
             }
-                 
             return nextVersion;
         }
 

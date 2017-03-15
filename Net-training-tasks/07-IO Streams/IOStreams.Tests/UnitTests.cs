@@ -102,8 +102,8 @@ namespace IOStreams.Tests
 		public void DecompressStream_Should_Extract_Data_Correctly()
 		{
 			var testData = new Dictionary<string, DecompressionMethods> {
-					{ ResourseFileName,            DecompressionMethods.None    },
-					{ ResourseFileName+".deflate", DecompressionMethods.Deflate },
+                    { ResourseFileName,            DecompressionMethods.None    },
+                    { ResourseFileName+".deflate", DecompressionMethods.Deflate },
 					{ ResourseFileName+".gzip",    DecompressionMethods.GZip    }
 				};
 
@@ -112,7 +112,7 @@ namespace IOStreams.Tests
 			foreach (var data in testData)
 			{
 				using (var stream = TestTasks.DecompressStream(data.Key, data.Value)) 
-				{
+				{         
 					using (var memStream = new MemoryStream())
 					{
 						stream.CopyTo(memStream);

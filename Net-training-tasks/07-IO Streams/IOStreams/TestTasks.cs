@@ -7,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Security.Cryptography;
 using System.Text;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace IOStreams
@@ -32,6 +33,7 @@ namespace IOStreams
             //        Required data are stored in Planets.xlsx archive in 2 files:
             //         /xl/sharedStrings.xml      - dictionary of all string values
             //         /xl/worksheets/sheet1.xml  - main worksheet
+<<<<<<< HEAD
             const string mainPath = @"..\..\..\IOStreams.Tests\";
             string xlsxFilePath = mainPath + xlsxFileName;
             string sharedStringsPath = mainPath + @"xl\sharedStrings.xml";
@@ -43,6 +45,20 @@ namespace IOStreams
                 Uri uriWorksheet = new Uri(worksheetPath);
                 PackagePart packagePartReplacement = package.CreatePart(uriWorksheet, "application/vnd.openxmlformats-officedocument.wordprocessingml.sheet1+xml");
 
+=======
+            const string path = @"..\..\..\IOStreams.Tests\";
+            string xlsxFilePath = path + xlsxFileName;
+            string mainWorksheet = @"/xl/worksheets/sheet1.xml";
+            string worksheetDictionaryOfStrings = @"/xl/sharedStrings.xml";
+            List<object> planets = new List<object>();
+
+            using (var package = Package.Open(xlsxFilePath, FileMode.Open, FileAccess.Read))
+            {
+                Uri mainWorksheetUri = new Uri(mainWorksheet,UriKind.Relative);
+                PackagePart docPart = package.GetPart(mainWorksheetUri);
+                XmlDocument document = new XmlDocument();
+                document.Load(docPart.GetStream());
+>>>>>>> 7788a294059cb95a0d64f5f57fe6c5381efa58f0
             }
             
             throw new NotImplementedException();
@@ -57,7 +73,6 @@ namespace IOStreams
 		/// <returns></returns>
 		public static string CalculateHash(this Stream stream, string hashAlgorithmName)
 		{
-            // TODO : Implement CalculateHash method
             HashAlgorithm hashAlgorithm = HashAlgorithm.Create(hashAlgorithmName);
             if (hashAlgorithm == null)
                 throw new ArgumentException();
@@ -76,6 +91,7 @@ namespace IOStreams
 		public static Stream DecompressStream(string fileName, DecompressionMethods method)
 		{
             string path = @"..\..\..\IOStreams.Tests\" + fileName;
+<<<<<<< HEAD
             var fileText = File.ReadAllBytes(path);
             using (var decompressedStream = new MemoryStream())
             {
@@ -87,6 +103,27 @@ namespace IOStreams
             }
             
 		}
+=======
+            var decompressedStream = new MemoryStream();
+            using (var fileToDecompress = File.OpenRead(path))
+            {
+                    if(method == DecompressionMethods.GZip)
+                    {
+                        using (var decompressor = new GZipStream(fileToDecompress, CompressionMode.Decompress))
+                            decompressor.CopyTo(decompressedStream);
+                    }
+                    if (method == DecompressionMethods.Deflate)
+                    {
+                        using (var decompressor = new DeflateStream(fileToDecompress, CompressionMode.Decompress))
+                            decompressor.CopyTo(decompressedStream);
+                    }
+                    else
+                        fileToDecompress.CopyTo(decompressedStream);
+                    return decompressedStream;
+            }
+            
+        }
+>>>>>>> 7788a294059cb95a0d64f5f57fe6c5381efa58f0
 
 
 		/// <summary>
@@ -97,7 +134,6 @@ namespace IOStreams
 		/// <returns>Unicoded file content</returns>
 		public static string ReadEncodedText(string fileName, string encoding)
 		{
-            // TODO : Implement ReadEncodedText method
             string path = @"..\..\..\IOStreams.Tests\" + fileName;
             byte[] fileText = File.ReadAllBytes(path);
             var convertedFileText = Encoding.Convert(Encoding.GetEncoding(encoding), Encoding.Unicode, fileText);
