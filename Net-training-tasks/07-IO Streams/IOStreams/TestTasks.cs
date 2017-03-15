@@ -33,19 +33,7 @@ namespace IOStreams
             //        Required data are stored in Planets.xlsx archive in 2 files:
             //         /xl/sharedStrings.xml      - dictionary of all string values
             //         /xl/worksheets/sheet1.xml  - main worksheet
-<<<<<<< HEAD
-            const string mainPath = @"..\..\..\IOStreams.Tests\";
-            string xlsxFilePath = mainPath + xlsxFileName;
-            string sharedStringsPath = mainPath + @"xl\sharedStrings.xml";
-            string worksheetPath = mainPath + @"xl\worksheets\sheet1.xml";
-            List<PlanetInfo> planets = new List<PlanetInfo>();
-            using (var package = Package.Open(xlsxFilePath, FileMode.Open, FileAccess.Read))
-            {
-                Uri uriSharedStrings = new Uri(sharedStringsPath);
-                Uri uriWorksheet = new Uri(worksheetPath);
-                PackagePart packagePartReplacement = package.CreatePart(uriWorksheet, "application/vnd.openxmlformats-officedocument.wordprocessingml.sheet1+xml");
-
-=======
+       
             const string path = @"..\..\..\IOStreams.Tests\";
             string xlsxFilePath = path + xlsxFileName;
             string mainWorksheet = @"/xl/worksheets/sheet1.xml";
@@ -58,7 +46,6 @@ namespace IOStreams
                 PackagePart docPart = package.GetPart(mainWorksheetUri);
                 XmlDocument document = new XmlDocument();
                 document.Load(docPart.GetStream());
->>>>>>> 7788a294059cb95a0d64f5f57fe6c5381efa58f0
             }
             
             throw new NotImplementedException();
@@ -91,19 +78,6 @@ namespace IOStreams
 		public static Stream DecompressStream(string fileName, DecompressionMethods method)
 		{
             string path = @"..\..\..\IOStreams.Tests\" + fileName;
-<<<<<<< HEAD
-            var fileText = File.ReadAllBytes(path);
-            using (var decompressedStream = new MemoryStream())
-            {
-                using (var decompressionStream = new GZipStream(new MemoryStream(fileText), CompressionMode.Decompress))
-                {
-                    decompressionStream.CopyTo(decompressedStream);
-                }
-                return decompressedStream;
-            }
-            
-		}
-=======
             var decompressedStream = new MemoryStream();
             using (var fileToDecompress = File.OpenRead(path))
             {
@@ -123,7 +97,6 @@ namespace IOStreams
             }
             
         }
->>>>>>> 7788a294059cb95a0d64f5f57fe6c5381efa58f0
 
 
 		/// <summary>

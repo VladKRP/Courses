@@ -177,28 +177,7 @@ namespace Collections.Tasks {
         ///   source = { 1,2,3,4 }, count=5 => ArgumentOutOfRangeException
         /// </example>
         public static IEnumerable<T[]> GenerateAllPermutations<T>(T[] source, int count) {
-            if (count < 0 || count > source.Length)
-                throw new ArgumentOutOfRangeException();
-
-            int sourceLength = source.Length;
-            int perm = sourceLength - count;
-            long p = Factorial(4);
-            while(perm >= 0)
-            {
-                var permutions = source.Skip(perm).Take(count).ToArray();
-                yield return permutions;
-                perm--;
-            } 
-        }
-
-        private static long NumberOfPermutation(int sequenceLength, int count)
-        {
-            return Factorial(sequenceLength) / (Factorial(count) * Factorial(sequenceLength - count));
-        }
-
-        private static long Factorial(long number)
-        {
-            return (number == 0) ? 1 : number * Factorial(number - 1);
+            throw new NotImplementedException();
         }
 
     }
