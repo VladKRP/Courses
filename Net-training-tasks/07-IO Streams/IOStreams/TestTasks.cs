@@ -33,22 +33,39 @@ namespace IOStreams
             //        Required data are stored in Planets.xlsx archive in 2 files:
             //         /xl/sharedStrings.xml      - dictionary of all string values
             //         /xl/worksheets/sheet1.xml  - main worksheet
-       
             const string path = @"..\..\..\IOStreams.Tests\";
             string xlsxFilePath = path + xlsxFileName;
-            string mainWorksheet = @"/xl/worksheets/sheet1.xml";
-            string worksheetDictionaryOfStrings = @"/xl/sharedStrings.xml";
-            List<object> planets = new List<object>();
+            const string workSheetPath = @"/xl/worksheets/sheet1.xml";
+            const string stringValuesPath = @"/xl/sharedStrings.xml";
+            List<PlanetInfo> planets = new List<PlanetInfo>();
 
             using (var package = Package.Open(xlsxFilePath, FileMode.Open, FileAccess.Read))
             {
-                Uri mainWorksheetUri = new Uri(mainWorksheet,UriKind.Relative);
-                PackagePart docPart = package.GetPart(mainWorksheetUri);
-                XmlDocument document = new XmlDocument();
-                document.Load(docPart.GetStream());
+                Uri worksheetUri = new Uri(workSheetPath, UriKind.Relative);
+                Uri stringValuesUri = new Uri(stringValuesPath, UriKind.Relative);
+                PackagePart worksheetPart = package.GetPart(worksheetUri);
+                PackagePart stringValuesPart = package.GetPart(stringValuesUri);
+
+                XDocument xmlDocument = XDocument.Load(stringValuesPart.GetStream());
+                var planetsName = from x in xmlDocument.Root.Elements()
+                           from y in x.Elements()
+                           select y.Value;
+                planetsName = planetsName.Take((planetsName.Count() - 2));
+
+                xmlDocument = XDocument.Load(worksheetPart.GetStream());
+                var rootElements = from x in xmlDocument.Root.Elements()
+                                    select x;
+                var rowList = rootElements.Elements().Where(x => x.FirstAttribute.Name == "r").Skip(1);
+                var planetsRadius = rowList.Elements().Where(x => x.FirstAttribute.Value.Contains("B")).Elements().Select(x => x.Value);
+                for(int i = 0; i < planetsName.Count(); i++)
+                {
+                    PlanetInfo planet = new PlanetInfo();
+                    planet.Name = planetsName.ElementAt(i);
+                    planet.MeanRadius = double.Parse(planetsRadius.ElementAt(i));
+                    planets.Add(planet);
+                }
+                return planets;
             }
-            
-            throw new NotImplementedException();
 		}
 
 
@@ -81,18 +98,19 @@ namespace IOStreams
             var decompressedStream = new MemoryStream();
             using (var fileToDecompress = File.OpenRead(path))
             {
-                    if(method == DecompressionMethods.GZip)
-                    {
-                        using (var decompressor = new GZipStream(fileToDecompress, CompressionMode.Decompress))
-                            decompressor.CopyTo(decompressedStream);
-                    }
-                    if (method == DecompressionMethods.Deflate)
+                    if (method == DecompressionMethods.None)
+                        fileToDecompress.CopyTo(decompressedStream);
+                    else if (method == DecompressionMethods.Deflate)
                     {
                         using (var decompressor = new DeflateStream(fileToDecompress, CompressionMode.Decompress))
                             decompressor.CopyTo(decompressedStream);
                     }
-                    else
-                        fileToDecompress.CopyTo(decompressedStream);
+                    else if (method == DecompressionMethods.GZip)
+                    {
+                        using (var decompressor = new GZipStream(fileToDecompress, CompressionMode.Decompress))
+                            decompressor.CopyTo(decompressedStream);
+                    }
+                    decompressedStream.Position = 0;
                     return decompressedStream;
             }
             
