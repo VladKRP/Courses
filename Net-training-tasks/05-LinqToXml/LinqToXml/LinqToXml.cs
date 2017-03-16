@@ -72,7 +72,7 @@ namespace LinqToXml
         /// <returns>Xml customers representation (refer to XmlFromCsvResultFile.xml in Resources)</returns>
         public static string ReadCustomersFromCsv(string customers)
         {
-            string[] csvCustomers = customers.Split('\n');
+            string[] csvCustomers = customers.Split("\r\n".ToArray()).Where((x,i) => i % 2 == 0).ToArray();
             XElement xmlCustomers = new XElement("Root",
                 from customer in csvCustomers
                 let fields = customer.Split(',')
@@ -87,8 +87,7 @@ namespace LinqToXml
                         new XElement("City", fields[6]),
                         new XElement("Region", fields[7]),
                         new XElement("PostalCode", fields[8]),
-                        new XElement("Country", fields[9])
-                        )
+                        new XElement("Country", fields[9]))
                )
             );
             return xmlCustomers.ToString();
