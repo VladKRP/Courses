@@ -20,10 +20,14 @@ namespace AsyncIO
         public static IEnumerable<string> GetUrlContent(this IEnumerable<Uri> uris)
         {
             List<string> urisContent = new List<string>();
+            //foreach (var uri in uris)
+            //{
+            //    urisContent.Add(new WebClient().DownloadString(uri));
+            //}
             foreach (var uri in uris)
             {
-                using (WebClient webClient = new WebClient())
-                    urisContent.Add(webClient.DownloadString(uri));
+                var uriPageContent = Encoding.UTF8.GetString(new WebClient().DownloadData(uri));
+                urisContent.Add(uriPageContent);
             }
             return urisContent;
 
@@ -40,15 +44,14 @@ namespace AsyncIO
         /// <param name="uris">Sequence of required uri</param>
         /// <param name="maxConcurrentStreams">Max count of concurrent request streams</param>
         /// <returns>The sequence of downloaded url content</returns>
-        public static async IEnumerable<string> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
+        public static IEnumerable<string> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
         {
-            List<string> urisContent = new List<string>();
-            foreach (var uri in uris)
-            {
-                using (WebClient webClient = new WebClient())
-                    await urisContent.Add(webClient.DownloadStringAsync(uri));
-            }
-            return urisContent;
+            //List<string> urisContent = new List<string>();
+            //foreach (var uri in uris)
+            //{
+            //    var data = await new WebClient().DownloadDataTaskAsync(uri);
+            //}
+            //return urisContent;
             throw new NotImplementedException();
         }
 
@@ -61,15 +64,14 @@ namespace AsyncIO
         /// </summary>
         /// <param name="resource">Uri of resource</param>
         /// <returns>MD5 hash</returns>
-        public static Task<string> GetMD5Async(this Uri resource)
+        public static async  Task<string> GetMD5Async(this Uri resource)
         {
-            //using (var md5 = MD5.Create())
-            //{
-            //    byte[] byteSequenceHashRepresentation = md5.ComputeHash(Encoding.ASCII.GetBytes(resource.OriginalString));
-            //    string strHashRepresentation = Convert.ToBase64String(byteSequenceHashRepresentation);
-            //    return Task<>;
-            //}
-            throw new Exception();
+            using (var md5 = MD5.Create())
+            {
+                byte[] byteSequenceHashRepresentation = md5.ComputeHash(Encoding.ASCII.GetBytes(resource.OriginalString));
+                string strHashRepresentation = Convert.ToBase64String(byteSequenceHashRepresentation);
+                return strHashRepresentation;
+            }
         }
 
     }

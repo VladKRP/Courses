@@ -16,3 +16,12 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\
 E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.pdb
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.dll
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\obj\Debug\AsyncIO.Tests.pdb
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.Tests.dll.config
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.Tests.dll
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.Tests.pdb
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.dll
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO.Tests\bin\Debug\AsyncIO.pdb

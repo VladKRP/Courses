@@ -8,3 +8,8 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\De
 E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.pdb
 E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\bin\Debug\AsyncIO.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\bin\Debug\AsyncIO.pdb
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\bin\Debug\AsyncIO.dll
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\bin\Debug\AsyncIO.pdb
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.dll
+D:\Courses\Net-training-tasks\08-AsyncIO\AsyncIO\obj\Debug\AsyncIO.pdb
