@@ -60,6 +60,7 @@ namespace Collections.Tasks {
             if (reader == null) throw new ArgumentNullException();
 
             char[] delimeters = new[] { ',', ' ', '.', '\t', '\n' };
+
             string readedText = null;
             string textLine;
 

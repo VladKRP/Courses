@@ -215,7 +215,7 @@ namespace Task.Generics {
 		///       })
 		/// </example>
 		public static Predicate<T> CombinePredicates<T>(Predicate<T>[] predicates) {
-            return delegate (T condition)
+            return (condition) =>
             {
                 foreach(var predicate in predicates)
                 {
