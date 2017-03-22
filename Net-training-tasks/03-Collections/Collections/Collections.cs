@@ -60,14 +60,17 @@ namespace Collections.Tasks {
             if (reader == null) throw new ArgumentNullException();
 
             char[] delimeters = new[] { ',', ' ', '.', '\t', '\n' };
-
-            string readedText = null;
-            string textLine;
-
-            while ((textLine = reader.ReadLine()) != null)
-                readedText += textLine;
-            reader.Close();
-            return readedText == null ? new string[] { } : readedText.Split(delimeters, StringSplitOptions.RemoveEmptyEntries);
+            using (reader)
+            {
+                string textLine;
+                while ((textLine = reader.ReadLine()) != null)
+                {
+                    var words = textLine.Split(delimeters, StringSplitOptions.RemoveEmptyEntries);
+                    foreach(var word in words)
+                        yield return word;
+                }
+                
+            }
         }
 
 

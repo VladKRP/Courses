@@ -103,7 +103,8 @@ namespace Collections.Test {
                     "Tokenize should return the text if text is onw word only");
             }
 
-            using (var reader = new MockLargeStringReader("\n")) {
+            using (var reader = new MockLargeStringReader("\n"))
+            {
                 TokenizeTest(reader, Enumerable.Empty<string>(),
                     "Tokenize should return empty sequence if text is empty");
             }
