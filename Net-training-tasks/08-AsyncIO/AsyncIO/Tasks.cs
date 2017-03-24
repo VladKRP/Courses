@@ -18,19 +18,12 @@ namespace AsyncIO
         /// <param name="uris">Sequence of required uri</param>
         /// <returns>The sequence of downloaded url content</returns>
         public static IEnumerable<string> GetUrlContent(this IEnumerable<Uri> uris)
-        {
-            List<string> urisContent = new List<string>();
-            //foreach (var uri in uris)
-            //{
-            //    urisContent.Add(new WebClient().DownloadString(uri));
-            //}
-            foreach (var uri in uris)
+        {  
+            using(var webClient = new WebClient())
             {
-                var uriPageContent = Encoding.UTF8.GetString(new WebClient().DownloadData(uri));
-                urisContent.Add(uriPageContent);
+                foreach (var uri in uris)
+                    yield return Encoding.UTF8.GetString(webClient.DownloadData(uri));
             }
-            return urisContent;
-
         }
 
 
@@ -44,15 +37,39 @@ namespace AsyncIO
         /// <param name="uris">Sequence of required uri</param>
         /// <param name="maxConcurrentStreams">Max count of concurrent request streams</param>
         /// <returns>The sequence of downloaded url content</returns>
-        public static IEnumerable<string> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
+        public static async IEnumerable<string> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
         {
-            //List<string> urisContent = new List<string>();
-            //foreach (var uri in uris)
+            int concurrentStreamsCount = 0;
+            //using (var webClient = new WebClient())
             //{
-            //    var data = await new WebClient().DownloadDataTaskAsync(uri);
+            //    foreach (var uri in uris)
+            //    {
+            //        concurrentStreamsCount++;
+            //        if (maxConcurrentStreams > concurrentStreamsCount)
+            //        {
+            //            var taskContent = webClient.DownloadDataTaskAsync(uri);
+            //            if (taskContent.IsCompleted)
+            //            {
+            //                var uriContent = await taskContent;
+            //                concurrentStreamsCount--;
+            //                yield return Encoding.UTF8.GetString(uriContent);
+            //            }
+            //        }
+            //    }
             //}
-            //return urisContent;
-            throw new NotImplementedException();
+            using (var webClient = new WebClient())
+            {
+                foreach (var uri in uris)
+                {
+                    concurrentStreamsCount++;
+                    if (maxConcurrentStreams > concurrentStreamsCount)
+                    {
+                        var taskContent = await webClient.DownloadDataTaskAsync(uri);
+                        concurrentStreamsCount--;
+                        yield return Encoding.UTF8.GetString(taskContent);
+                    }
+                }
+            }
         }
 
 
@@ -64,14 +81,16 @@ namespace AsyncIO
         /// </summary>
         /// <param name="resource">Uri of resource</param>
         /// <returns>MD5 hash</returns>
-        public static async  Task<string> GetMD5Async(this Uri resource)
+        public static async Task<string> GetMD5Async(this Uri resource)
         {
-            using (var md5 = MD5.Create())
-            {
-                byte[] byteSequenceHashRepresentation = md5.ComputeHash(Encoding.ASCII.GetBytes(resource.OriginalString));
-                string strHashRepresentation = Convert.ToBase64String(byteSequenceHashRepresentation);
-                return strHashRepresentation;
+
+                var resourceContent = await new WebClient().DownloadDataTaskAsync(resource);
+                using (var md5Algorithm = MD5.Create())
+                {
+                    var hashedContent = md5Algorithm.ComputeHash(resourceContent);
+                    return BitConverter.ToString(hashedContent).Replace("-", "");
             }
+           
         }
 
     }

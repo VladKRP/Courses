@@ -19,13 +19,11 @@ namespace LinqToXml
         {
             XDocument xDocument = XDocument.Parse(xmlRepresentation);
             XElement rootElement = xDocument.Element("Root");
-            List<XElement> groups = new List<XElement>();
             rootElement.Element("TaxRate").Remove();
             var categories = from dataTag in rootElement.Elements()
                              select dataTag.Element("Category").Value;
             categories = categories.Distinct().OrderBy(x => x);
-            foreach (var category in categories)
-                groups.Add(generateGroup(rootElement, category));
+            var groups = from category in categories select generateGroup(rootElement, category);
             rootElement.ReplaceAll(groups);
             return xDocument.ToString();
         }
@@ -103,11 +101,11 @@ namespace LinqToXml
             XDocument xDocument = XDocument.Parse(xmlRepresentation);
             XElement rootElement = xDocument.Root;
             
-           var textFromXmlRepresentation = String.Concat(from sentence in rootElement.Elements()
+           var textFromXmlRepresentation = from sentence in rootElement.Elements()
                             let words = sentence.Elements()
                             from word in words
-                            select word.Value);
-            return textFromXmlRepresentation;
+                            select word.Value;
+            return String.Concat(textFromXmlRepresentation);
         }
 
 
@@ -196,7 +194,7 @@ namespace LinqToXml
                                   select order.Element("product").Value;
             var products = rootElement.Element("products").Elements()
                            .Select(x => new { id = x.Attribute("Id").Value, value = x.Attribute("Value").Value });
-            foreach(var order in ordersOfProduct)
+            foreach (var order in ordersOfProduct)
             {
                 totalPurchaseValue += int.Parse(products.FirstOrDefault(x => x.id == order).value);
             }

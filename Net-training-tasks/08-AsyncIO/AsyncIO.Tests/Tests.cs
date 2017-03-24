@@ -11,7 +11,7 @@ namespace AsyncIO.Tests
     [TestClass]
     public class Tests
     {
-        //private string[] sites = { 
+        //private string[] sites = {
         //   "google", "msdn",  "facebook", "linkedin", "twitter",
         //   "bing",   "yahoo", "youtube",  "baidu",    "amazon"
         //};

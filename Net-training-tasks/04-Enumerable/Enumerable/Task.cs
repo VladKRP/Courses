@@ -243,6 +243,7 @@ namespace EnumerableTask {
                 var occurence = data.Where(x => x == str).Count();
                 yield return new Tuple<string, int>( str, occurence );            
             }
+
         }
 
         /// <summary> Counts the number of strings with max length in sequence </summary>
@@ -410,18 +411,9 @@ namespace EnumerableTask {
         ///   {"ab","ba","aabb","baba"} => {"a","b"}
         /// </example>
         public IEnumerable<char> GetCommonChars(IEnumerable<string> data) {
-            var firstString = data.FirstOrDefault();
-            List<char> commonCharacters = new List<char>() { };
-
-            if (firstString == null)
-                return commonCharacters;
-
-            foreach (var character in firstString)
-            {
-                if (data.All(x => x.Contains(character)))
-                    commonCharacters.Add(character);
-            }
-            return commonCharacters;
+            if (data.Any(x => string.IsNullOrEmpty(x)) || data.Count() == 0)
+                return string.Empty;
+            return data.FirstOrDefault().Where(x => data.All(y => y.Contains(x)));
         }
 
         /// <summary> Calculates sum of all integers from object array </summary>
@@ -556,15 +548,7 @@ namespace EnumerableTask {
         ///    { "1.1", "1.2", "1.5", "2.0" }, "2.0" => null
         /// </example>
         public string GetNextVersionFromList(IEnumerable<string> versions, string currentVersion) {
-            int indexOfCurrentVersion;
-
-            string nextVersion = null;
-            if (versions.Contains(currentVersion))
-            {
-                indexOfCurrentVersion = versions.ToList().IndexOf(currentVersion);
-                nextVersion = versions.ElementAtOrDefault(++indexOfCurrentVersion);
-            }
-            return nextVersion;
+            return versions.Where(x => versions.Contains(currentVersion) && double.Parse(x) > double.Parse(currentVersion)).FirstOrDefault();
         }
 
         /// <summary>

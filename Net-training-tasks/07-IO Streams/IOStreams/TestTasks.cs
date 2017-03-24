@@ -27,17 +27,10 @@ namespace IOStreams
 		/// <returns>sequence of PlanetInfo</returns>
 		public static IEnumerable<PlanetInfo> ReadPlanetInfoFromXlsx(string xlsxFileName)
 		{
-            // TODO : Implement ReadPlanetInfoFromXlsx method using System.IO.Packaging + Linq-2-Xml
-            // HINT : Please be as simple & clear as possible.
-            //        No complex and common use cases, just this specified file.
-            //        Required data are stored in Planets.xlsx archive in 2 files:
-            //         /xl/sharedStrings.xml      - dictionary of all string values
-            //         /xl/worksheets/sheet1.xml  - main worksheet
             const string path = @"..\..\..\IOStreams.Tests\";
             string xlsxFilePath = path + xlsxFileName;
             const string workSheetPath = @"/xl/worksheets/sheet1.xml";
             const string stringValuesPath = @"/xl/sharedStrings.xml";
-            List<PlanetInfo> planets = new List<PlanetInfo>();
 
             using (var package = Package.Open(xlsxFilePath, FileMode.Open, FileAccess.Read))
             {
@@ -62,9 +55,8 @@ namespace IOStreams
                     PlanetInfo planet = new PlanetInfo();
                     planet.Name = planetsName.ElementAt(i);
                     planet.MeanRadius = double.Parse(planetsRadius.ElementAt(i));
-                    planets.Add(planet);
+                    yield return planet;
                 }
-                return planets;
             }
 		}
 
@@ -81,8 +73,7 @@ namespace IOStreams
             if (hashAlgorithm == null)
                 throw new ArgumentException();
             byte[] streamHashAsByteSequence = hashAlgorithm.ComputeHash(stream);
-            string streamHashStringRepresentation = BitConverter.ToString(streamHashAsByteSequence).Replace("-","");
-            return streamHashStringRepresentation;
+            return BitConverter.ToString(streamHashAsByteSequence).Replace("-", "");
         }
 
 
@@ -129,7 +120,6 @@ namespace IOStreams
             byte[] fileText = File.ReadAllBytes(path);
             var convertedFileText = Encoding.Convert(Encoding.GetEncoding(encoding), Encoding.Unicode, fileText);
             return Encoding.Unicode.GetString(convertedFileText);
-            
 		}
 	}
 
