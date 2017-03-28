@@ -14,21 +14,10 @@ namespace Reflection.Tasks
         /// <param name="assemblyName">name of assembly</param>
         /// <returns>List of public but obsolete classes</returns>
         public static IEnumerable<string> GetPublicObsoleteClasses(string assemblyName) {
-
-            List<string> obsoleteClassList = new List<string>();
-        
-            var classesQuery = from entity in Assembly.Load(assemblyName).GetTypes()
-                    where entity.IsClass && entity.IsPublic
-                               select entity;
-
-            foreach(var qclass in classesQuery)
-            {
-                 if(Attribute.IsDefined(qclass, typeof(ObsoleteAttribute)))
-                 {
-                    obsoleteClassList.Add(qclass.Name);
-                 }
-            }
-            return obsoleteClassList;
+            var obsoleteClasses = from entity in Assembly.Load(assemblyName).GetTypes()
+                                  where entity.IsClass && entity.IsPublic && Attribute.IsDefined(entity, typeof(ObsoleteAttribute))
+                                  select entity.Name;
+            return obsoleteClasses;  
         }
 
         /// <summary>
@@ -91,8 +80,6 @@ namespace Reflection.Tasks
             if (!propertyPath.Contains('.'))
             {
                 objType.GetProperty(propertyPath).SetValue(obj, value, null);
-               //var prop =  objType.GetProperty(propertyPath);
-
             }
             else
             {

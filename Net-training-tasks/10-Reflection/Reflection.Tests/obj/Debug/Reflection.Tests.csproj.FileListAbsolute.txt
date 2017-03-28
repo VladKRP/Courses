@@ -6,3 +6,11 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.
 E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\obj\Debug\Reflection.Tests.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\obj\Debug\Reflection.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\obj\Debug\Reflection.pdb
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\bin\Debug\Reflection.dll
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\bin\Debug\Reflection.pdb
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\bin\Debug\Reflection.Tasks.dll
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\bin\Debug\Reflection.Tasks.pdb
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\obj\Debug\Reflection.Tests.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\obj\Debug\Reflection.dll
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tests\obj\Debug\Reflection.pdb

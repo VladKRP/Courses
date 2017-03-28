@@ -3,3 +3,8 @@ E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.
 E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\obj\Debug\Reflection.Tasks.csprojResolveAssemblyReference.cache
 E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\obj\Debug\Reflection.Tasks.dll
 E:\Workspace\VersionControl\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\obj\Debug\Reflection.Tasks.pdb
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\bin\Debug\Reflection.Tasks.dll
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\bin\Debug\Reflection.Tasks.pdb
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\obj\Debug\Reflection.Tasks.csprojResolveAssemblyReference.cache
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\obj\Debug\Reflection.Tasks.dll
+D:\Courses\Net-training-tasks\10-Reflection\Reflection.Tasks\obj\Debug\Reflection.Tasks.pdb
