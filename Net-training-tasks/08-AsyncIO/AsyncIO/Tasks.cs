@@ -37,40 +37,18 @@ namespace AsyncIO
         /// <param name="uris">Sequence of required uri</param>
         /// <param name="maxConcurrentStreams">Max count of concurrent request streams</param>
         /// <returns>The sequence of downloaded url content</returns>
-        public static async IEnumerable<string> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
+        public static async Task<IEnumerable<string>> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
         {
-            int concurrentStreamsCount = 0;
-            //using (var webClient = new WebClient())
-            //{
-            //    foreach (var uri in uris)
-            //    {
-            //        concurrentStreamsCount++;
-            //        if (maxConcurrentStreams > concurrentStreamsCount)
-            //        {
-            //            var taskContent = webClient.DownloadDataTaskAsync(uri);
-            //            if (taskContent.IsCompleted)
-            //            {
-            //                var uriContent = await taskContent;
-            //                concurrentStreamsCount--;
-            //                yield return Encoding.UTF8.GetString(uriContent);
-            //            }
-            //        }
-            //    }
-            //}
             using (var webClient = new WebClient())
             {
-                foreach (var uri in uris)
-                {
-                    concurrentStreamsCount++;
-                    if (maxConcurrentStreams > concurrentStreamsCount)
-                    {
-                        var taskContent = await webClient.DownloadDataTaskAsync(uri);
-                        concurrentStreamsCount--;
-                        yield return Encoding.UTF8.GetString(taskContent);
-                    }
-                }
+                var downloadTasksQuery = from uri in uris select webClient.DownloadDataTaskAsync(uri);
+                var downloadTask = downloadTasksQuery.ToArray();
+                var urlsContentByte = await Task.WhenAll(downloadTask);
+                var urlsContentString = from url in urlsContentByte select Encoding.UTF8.GetString(url);
+                return urlsContentString;
             }
         }
+
 
 
         /// <summary>
@@ -89,7 +67,7 @@ namespace AsyncIO
                 {
                     var hashedContent = md5Algorithm.ComputeHash(resourceContent);
                     return BitConverter.ToString(hashedContent).Replace("-", "");
-            }
+                }
            
         }
 
