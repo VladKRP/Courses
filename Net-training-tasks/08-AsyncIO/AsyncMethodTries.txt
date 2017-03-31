@@ -1,0 +1,58 @@
+//1
+            //using (var webClient = new WebClient())
+            //{
+            //    var downloadTasksQuery = from uri in uris select webClient.DownloadDataTaskAsync(uri);
+            //    var downloadTask = downloadTasksQuery.ToArray();
+            //    var urlsContentByte = await Task.WhenAll(downloadTask);
+            //    var urlsContentString = from url in urlsContentByte select Encoding.UTF8.GetString(url);
+            //    return urlsContentString;
+            //}
+
+            //2
+            List<string> urlContent = new List<string>();
+            using (var webClient = new WebClient())
+            {
+                int overalNumberOfStreams = uris.Count();
+                int requestNumber = overalNumberOfStreams / maxConcurrentStreams;
+                int lastRequest = overalNumberOfStreams % maxConcurrentStreams;
+                if(overalNumberOfStreams < maxConcurrentStreams)
+                {
+                    var taskContent = uris.Take(overalNumberOfStreams).Select(x => webClient.DownloadDataTaskAsync(x));
+                    var downloaded = taskContent.ToArray();
+                    var content = await Task.WhenAll(downloaded);
+                    var urlsContentString = from url in content select Encoding.UTF8.GetString(url);
+                    urlContent.AddRange(urlsContentString);
+                }
+                else
+                {
+                    for (int i = 0, j = 0; i < requestNumber; i++, j *= i)
+                    {
+                        var taskContent = uris.Skip(j).Take(maxConcurrentStreams).Select(x => webClient.DownloadDataTaskAsync(x));
+                        var downloadTask = taskContent.ToArray();
+                        var urlsContentByte = await Task.WhenAll(downloadTask);
+                        var urlsContentString = from url in urlsContentByte select Encoding.UTF8.GetString(url);
+                        urlContent.AddRange(urlsContentString);
+                    }
+                }
+                
+                return urlContent;
+            }
+
+            //3
+            //int numberOfConcurentStreams = 0;
+            //var allTasks = new List<Task>();
+            //using (var webClient = new WebClient())
+            //{
+            //    foreach (var uri in uris)
+            //    {
+            //        numberOfConcurentStreams++;
+            //        allTasks.Add(webClient.DownloadDataTaskAsync(uri));
+            //        if(numberOfConcurentStreams > maxConcurrentStreams)
+            //        {
+            //            var downloadedTasks = allTasks.ToArray();
+            //            numberOfConcurentStreams -= maxConcurrentStreams;
+            //        }
+
+            //    }
+
+            //}

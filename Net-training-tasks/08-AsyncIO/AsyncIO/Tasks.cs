@@ -5,6 +5,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace AsyncIO
 {
@@ -41,12 +42,12 @@ namespace AsyncIO
         {
             using (var webClient = new WebClient())
             {
-                var downloadTasksQuery = from uri in uris select webClient.DownloadDataTaskAsync(uri);
-                var downloadTask = downloadTasksQuery.ToArray();
-                var urlsContentByte = await Task.WhenAll(downloadTask);
-                var urlsContentString = from url in urlsContentByte select Encoding.UTF8.GetString(url);
-                return urlsContentString;
+                using (var semaphore = new SemaphoreSlim(0, maxConcurrentStreams))
+                {
+
+                }
             }
+
         }
 
 
