@@ -79,7 +79,8 @@ namespace Reflection.Tasks
             Type objType = obj.GetType();
             if (!propertyPath.Contains('.'))
             {
-                objType.GetProperty(propertyPath).SetValue(obj, value, null);
+                var n = objType.GetProperty(propertyPath);
+                n.SetValue(obj, value, null);
             }
             else
             {
