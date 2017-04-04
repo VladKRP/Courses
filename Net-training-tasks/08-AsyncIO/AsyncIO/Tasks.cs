@@ -38,16 +38,19 @@ namespace AsyncIO
         /// <param name="uris">Sequence of required uri</param>
         /// <param name="maxConcurrentStreams">Max count of concurrent request streams</param>
         /// <returns>The sequence of downloaded url content</returns>
-        public static async Task<IEnumerable<string>> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
+        public static IEnumerable<string> GetUrlContentAsync(this IEnumerable<Uri> uris, int maxConcurrentStreams)
         {
-            using (var webClient = new WebClient())
+            int uriDownloadCompleted = 0;
+            while (uris.Count() > uriDownloadCompleted)
             {
-                using (var semaphore = new SemaphoreSlim(0, maxConcurrentStreams))
-                {
+                var downloadContentTask = uris.Skip(uriDownloadCompleted).Take(maxConcurrentStreams).Select(x => new WebClient().DownloadDataTaskAsync(x));
+                uriDownloadCompleted += maxConcurrentStreams;
+                var downloadedContent  = downloadContentTask.ToArray();
+                Task.WaitAll(downloadedContent);
+                foreach (var content in downloadedContent)
+                    yield return Encoding.Default.GetString(content.Result);
 
-                }
             }
-
         }
 
 

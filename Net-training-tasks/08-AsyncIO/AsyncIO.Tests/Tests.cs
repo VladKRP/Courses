@@ -47,7 +47,7 @@ namespace AsyncIO.Tests
         [TestCategory("GetUrlContentAsync")]
         public void GetUrlContentAsync_Should_Return_Content()
         {
-            TestContent(x => x.GetUrlContentAsync(3).Result);
+            TestContent(x => x.GetUrlContentAsync(3).ToArray());
         }
 
         [TestMethod]
@@ -58,7 +58,7 @@ namespace AsyncIO.Tests
                 UnitTestsTraceListener.IsActive = true;
                 try
                 {
-                    GetTestUris().GetUrlContentAsync(expectedConcurrentStreams);
+                    GetTestUris().GetUrlContentAsync(expectedConcurrentStreams).ToArray();
 
                     Assert.IsTrue(UnitTestsTraceListener.MaxConcurrentStreamsCount <= expectedConcurrentStreams,
                                   string.Format("Max concurrent streams should be less then {0}, actual : {1}",
@@ -83,7 +83,7 @@ namespace AsyncIO.Tests
         [TestCategory("GetUrlContentAsync")]
         public void GetUrlContentAsync_Should_Run_Asynchronous()
         {
-            Action<Uri> action =  (uri) =>  (new[] { uri }).GetUrlContentAsync(2);
+            Action<Uri> action =  (uri) =>  (new[] { uri }).GetUrlContentAsync(2).ToArray();
             Check_Is_Action_Asynchronous(action, true);
         }
 
