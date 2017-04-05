@@ -5,10 +5,10 @@ using System.Web;
 
 namespace BestTickets.Models
 {
-    public class Vehicle
+    public class Ticket
     {
-        public string Name { get; set; }
-        public string Type { get; set; }
+        public string VehicleName { get; set; }
+        public string VehicleType { get; set; }
         public string Route { get; set; }
         
         public DateTime DepartureTime { get; set; }

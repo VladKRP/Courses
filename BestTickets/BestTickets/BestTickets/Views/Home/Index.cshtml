@@ -1,4 +1,5 @@
-﻿
+﻿@model BestTickets.Models.RouteViewModel
+
 @{
     ViewBag.Title = "Best Tickets";
 }
@@ -8,5 +9,53 @@
     <p class="lead">This site extract information about tickets from 2 site ticketbus.by and rasp.rw.by and find best price ticket.</p>
 </div>
 
-<div class="row">
+@*<div class="row">
+    @using (Ajax.BeginForm("GetTickets", new AjaxOptions { UpdateTargetId = "tickets", Url = Url.Action("GetTickets") }))
+    {
+        <div>
+            @Html.Label("Откуда"):
+            @Html.EditorFor(x => x.DeparturePlace)
+            @Html.ValidationMessageFor(x => x.DeparturePlace)
+        </div>
+        <div>
+            @Html.Label("Куда"):
+            @Html.EditorFor(x => x.ArrivalPlace)
+            @Html.ValidationMessageFor(x => x.ArrivalPlace)
+        </div>
+        <div>
+            @Html.Label("Дата"):
+            <input type="date" />
+            @Html.ValidationMessageFor(x => x.Date)
+        </div>
+
+        <input type="submit" value="Поиск" />
+    }
+    
+</div>
+
+<div class="tickets">
+    @Html.Action("GetTickets")
+</div>*@
+
+<div>
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.Label("Откуда"):
+            @Html.EditorFor(x => x.DeparturePlace)
+            @Html.ValidationMessageFor(x => x.DeparturePlace)
+        </div>
+        <div>
+            @Html.Label("Куда"):
+            @Html.EditorFor(x => x.ArrivalPlace)
+            @Html.ValidationMessageFor(x => x.ArrivalPlace)
+        </div>
+        <div>
+            @Html.Label("Дата"):
+            <input type="date" />
+            @Html.ValidationMessageFor(x => x.Date)
+        </div>
+
+        <input type="submit" value="Поиск" />
+    }
 </div>

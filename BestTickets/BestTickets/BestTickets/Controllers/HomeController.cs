@@ -7,6 +7,8 @@ using BestTickets.Models;
 using System.Net;
 using System.Text;
 using System.Xml.Linq;
+using HtmlAgilityPack;
+using System.Threading.Tasks;
 
 namespace BestTickets.Controllers
 {
@@ -18,35 +20,52 @@ namespace BestTickets.Controllers
         }
 
         [HttpPost]
-        public ActionResult ShowTickets()
+        public ActionResult Index(RouteViewModel route)
         {
+            route.ArrivalPlace = "Брест";
+            route.DeparturePlace = "Минск";
+            route.Date = DateTime.Now;
+            var tickets = FindTickets(route);
             return View();
         }
 
-        private List<Vehicle> FindTickets(RouteViewModel route)
+        public PartialViewResult GetTickets(RouteViewModel route)
         {
-            
-            string site1 = "http://ticketbus.by/";
-            string site2 = String.Format($"http://rasp.rw.by/ru/route/?from={route.DeparturePlace}&to={route.ArrivalPlace}&date={route.Date}");
-            var site2Content = new WebClient().DownloadData(site2);
-            var site2ContentStr = Encoding.Default.GetString(site2Content);
+            //var tickets = FindTickets(route);
+            return PartialView();
         }
 
-        //private List<Vehicle> FirstSiteSearch()
-        //{
+        private IEnumerable<Ticket> FindTickets(RouteViewModel route)
+        {
+            string raspRwUrl = String.Format($"http://rasp.rw.by/ru/route/?from={route.DeparturePlace}&to={route.ArrivalPlace}&date={route.Date}");
+            var raspRwContent = ParseSite(raspRwUrl);
 
-        //}
+            string ticketsbusUrl = "http://ticketbus.by/";
+            var ticketsbusContent = ParseSite(ticketsbusUrl);
+            var specialUrl = ticketsbusContent.Skip(ticketsbusContent.IndexOf("var url")).Skip(11).TakeWhile(x => x != '"');
 
-        //private List<Vehicle> SecondSiteSearch(string siteContent) {
-        //    XDocument siteXml = XDocument.Parse(siteContent);
-        //    var pageRoot = siteXml.Root;
-        //    var que = from x in pageRoot.Element("body").Elements()
-        //              where x.FirstAttribute.Value == "g - wrapper"
-        //              from y in x.Elements()
-        //              where y.FirstAttribute.Value == "g-wrapper_inner"
-        //              from z in y.Elements()
-        //              where z.FirstAttribute.Value == "g-main"
-        //              select z.Elements();
-        //}
+            
+            //var trainName = raspRwContent.IndexOf("train_name");
+            var siteCont = SecondSiteSearch(raspRwUrl);
+            //var site2Cont = SecondSiteSearch(raspRwContent);
+            return null;
+            
+        }
+
+
+        private string ParseSite(string url)
+        {
+            var pageContent = new WebClient().DownloadData(url);
+            return Encoding.UTF8.GetString(pageContent);
+            //var defaultEncodingPage = Encoding.Default.GetString(pageContent);
+            //var charsetValue = defaultEncodingPage.Skip(defaultEncodingPage.IndexOf("charset=")).TakeWhile(x => x != '\n');
+            //var pageEncoding = string.Join("", charsetValue);
+            //return Encoding.GetEncoding(pageEncoding).GetString(pageContent);
+        }
+
+        private IEnumerable<Ticket> TicketSearch(string siteContent)
+        {
+            return null;
+        }
     }
 }

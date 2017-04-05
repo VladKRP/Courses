@@ -7,6 +7,6 @@ namespace BestTickets.Models
 {
     public class TicketsViewModel
     {
-        public List<Vehicle> vehicle { get; set; }
+        public List<Ticket> tickets { get; set; }
     }
 }

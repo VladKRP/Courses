@@ -1,0 +1,18 @@
+﻿@model BestTickets.Models.TicketsViewModel
+
+<div>
+ @if (Model.tickets.Count > 0)
+ {
+    <div>
+        @foreach (var ticket in Model.tickets)
+        {
+            <p>ticket</p>
+        }
+    </div>
+ }
+ else
+ {
+     <p>Билетов нет</p>
+ }
+</div>
+
