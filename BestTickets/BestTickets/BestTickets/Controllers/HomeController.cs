@@ -22,33 +22,28 @@ namespace BestTickets.Controllers
         [HttpPost]
         public ActionResult Index(RouteViewModel route)
         {
-            route.ArrivalPlace = "Брест";
-            route.DeparturePlace = "Минск";
-            route.Date = DateTime.Now;
-            var tickets = FindTickets(route);
-            return View();
+            return View("GetTickets",FindTickets(route).ToList());
         }
 
-        public PartialViewResult GetTickets(RouteViewModel route)
-        {
-            //var tickets = FindTickets(route);
-            return PartialView();
-        }
+        //public PartialViewResult GetTickets(RouteViewModel route)
+        //{
+        //    var tickets = FindTickets(route);
+        //    return PartialView();
+        //}
 
         private IEnumerable<Ticket> FindTickets(RouteViewModel route)
         {
             string raspRwUrl = String.Format($"http://rasp.rw.by/ru/route/?from={route.DeparturePlace}&to={route.ArrivalPlace}&date={route.Date}");
             var raspRwContent = ParseSite(raspRwUrl);
+            var raspRwTickets = RaspRwSearch(raspRwContent);
 
-            string ticketsbusUrl = "http://ticketbus.by/";
-            var ticketsbusContent = ParseSite(ticketsbusUrl);
-            var specialUrl = ticketsbusContent.Skip(ticketsbusContent.IndexOf("var url")).Skip(11).TakeWhile(x => x != '"');
 
-            
-            //var trainName = raspRwContent.IndexOf("train_name");
-            var siteCont = SecondSiteSearch(raspRwUrl);
-            //var site2Cont = SecondSiteSearch(raspRwContent);
-            return null;
+            //string ticketsbusUrl = "http://ticketbus.by/";
+            //var ticketsbusContent = ParseSite(ticketsbusUrl);
+            //var ticketsbusKey = ticketsbusContent.Skip(ticketsbusContent.IndexOf("var url")).Skip(11).TakeWhile(x => x != '"');
+            //ticketsbusUrl = ticketsbusUrl + string.Join("",ticketsbusKey);
+
+            return raspRwTickets;
             
         }
 
@@ -63,9 +58,35 @@ namespace BestTickets.Controllers
             //return Encoding.GetEncoding(pageEncoding).GetString(pageContent);
         }
 
-        private IEnumerable<Ticket> TicketSearch(string siteContent)
+        private IEnumerable<Ticket> RaspRwSearch(string siteContent)
         {
-            return null;
+            HtmlDocument html = new HtmlDocument();
+            html.LoadHtml(siteContent);
+            var ticketsInfoNodes = html.DocumentNode.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == "schedule_list")).SelectMany(x => x.ChildNodes.Where(y => y.Name == "tr"));
+            //var vehiclePlaceTypes = from ticket in ticketsInfoNodes select ticket.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == "train_details-group"));
+            //var vehiclePlace = from place in vehiclePlaceTypes
+            //                   select new Tuple<string, int, int>(
+            //                       GetElementValue(place, "train_note"),
+            //                       GetElementValue(place, "train_place"),
+            //                       GetElementValue(place, "train_price")
+            //                    );
+            var tickets = from ticket in ticketsInfoNodes
+                          select new Ticket() {
+                              VehicleName = GetElementValue(ticket, "train_id"),               
+                              VehicleType = GetElementValue(ticket, "train_description"),
+                              Route = GetElementValue(ticket, "train_name -map"),
+                              DepartureTime = GetElementValue(ticket, "train_start-time"),
+                              ArrivalTime = GetElementValue(ticket, "train_end-time")            
+                          };
+            return tickets;
         }
+
+        private string GetElementValue(HtmlNode node, string className)
+        {
+            var data = node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className)).Select(x => x.InnerText);
+            return String.Join("", data);
+        }
+
+
     }
 }

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace BestTickets.Models
 {
@@ -11,11 +9,14 @@ namespace BestTickets.Models
         public string VehicleType { get; set; }
         public string Route { get; set; }
         
-        public DateTime DepartureTime { get; set; }
-        public DateTime ArrivalTime { get; set; }
-        public DateTime Date { get; set; }
+        public string DepartureTime { get; set; }
+        public string ArrivalTime { get; set; }
+        public string TimeInWay { get; set; }
 
-        public int Price { get; set; }
-        public int FreePlaceAmount { get; set; }
+        //Implement method to calc TimeInWay
+
+        public List<Tuple<string,int,int>> VehiclePlace { get; set; }
+        //public int Price { get; set; }
+        //public int FreePlaceAmount { get; set; }
     }
 }

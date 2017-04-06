@@ -52,7 +52,7 @@
         </div>
         <div>
             @Html.Label("Дата"):
-            <input type="date" />
+            @Html.EditorFor(x => x.Date)
             @Html.ValidationMessageFor(x => x.Date)
         </div>
 

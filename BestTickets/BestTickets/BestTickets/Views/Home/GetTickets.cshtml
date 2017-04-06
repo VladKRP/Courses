@@ -1,18 +1,27 @@
-﻿@model BestTickets.Models.TicketsViewModel
+﻿@model IEnumerable<BestTickets.Models.Ticket>
 
-<div>
- @if (Model.tickets.Count > 0)
- {
-    <div>
-        @foreach (var ticket in Model.tickets)
+<table>
+    <thead>
+        <tr>
+            <th>Номер транспорта</th>    
+            <th>Тип</th>    
+            <th>Маршрут</th>
+            <th>Время отправления</th>
+            <th>Время прибытия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ticket in Model)
         {
-            <p>ticket</p>
+        <tr>
+            <td>@ticket.VehicleName</td>
+            <td>@ticket.VehicleType</td>
+            <td>@ticket.Route</td>
+            <td>@ticket.DepartureTime</td>
+            <td>@ticket.ArrivalTime</td>
+        </tr>
         }
-    </div>
- }
- else
- {
-     <p>Билетов нет</p>
- }
-</div>
+    </tbody>
+</table>
+
 

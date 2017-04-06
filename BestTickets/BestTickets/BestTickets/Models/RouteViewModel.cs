@@ -9,11 +9,6 @@ namespace BestTickets.Models
     {
         public string DeparturePlace { get; set; }
         public string ArrivalPlace { get; set; }
-        public DateTime Date { get; set; }
-
-        public RouteViewModel()
-        {
-            Date = DateTime.Now.Date;
-        }
+        public string Date { get; set; }
     }
 }
