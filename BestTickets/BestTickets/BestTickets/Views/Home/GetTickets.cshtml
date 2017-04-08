@@ -8,6 +8,9 @@
             <th>Маршрут</th>
             <th>Время отправления</th>
             <th>Время прибытия</th>
+            <th>Место</th>
+            <th>Количество</th>
+            <th>Стоимость</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +22,14 @@
             <td>@ticket.Route</td>
             <td>@ticket.DepartureTime</td>
             <td>@ticket.ArrivalTime</td>
+                    @foreach (var ticketType in ticket.VehiclePlace)
+                    {
+                     
+                    <td>@ticketType.Item1</td>
+                    <td>@ticketType.Item2</td>
+                    <td>@ticketType.Item3</td>
+                     }
+            
         </tr>
         }
     </tbody>
