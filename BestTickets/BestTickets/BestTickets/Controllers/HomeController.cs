@@ -12,10 +12,10 @@ namespace BestTickets.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(RouteViewModel route)
+        public ActionResult GetTickets(RouteViewModel route)
         {
-            var tickets = RouteViewModel.FindTickets(route).ToList();
-            return View("GetTickets", tickets);
+            var tickets = TicketChecker.FindTickets(route).ToList();
+            return View(tickets);
         }
 
     }

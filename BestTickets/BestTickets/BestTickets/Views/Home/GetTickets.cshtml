@@ -1,38 +1,47 @@
 ﻿@model IEnumerable<BestTickets.Models.Ticket>
 
-<table>
-    <thead>
-        <tr>
-            <th>Номер транспорта</th>    
-            <th>Тип</th>    
-            <th>Маршрут</th>
-            <th>Время отправления</th>
-            <th>Время прибытия</th>
-            <th>Место</th>
-            <th>Количество</th>
-            <th>Стоимость</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var ticket in Model)
-        {
-        <tr>
-            <td>@ticket.VehicleName</td>
-            <td>@ticket.VehicleType</td>
-            <td>@ticket.Route</td>
-            <td>@ticket.DepartureTime</td>
-            <td>@ticket.ArrivalTime</td>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="col-sm-1">Номер транспорта</th>
+                <th>Тип</th>
+                <th>Маршрут</th>
+                <th>Время отправления</th>
+                <th>Время прибытия</th>
+                <th>Место</th>
+                <th>Количество</th>
+                <th>Стоимость</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                <tr>
+                    <td class="col-sm-1">@ticket.VehicleName</td>
+                    <td>@ticket.VehicleType</td>
+                    <td>@ticket.Route</td>
+                    <td>@ticket.DepartureTime</td>
+                    <td>@ticket.ArrivalTime</td>
                     @foreach (var ticketType in ticket.VehiclePlace)
                     {
-                     
-                    <td>@ticketType.Item1</td>
-                    <td>@ticketType.Item2</td>
-                    <td>@ticketType.Item3</td>
-                     }
-            
-        </tr>
-        }
-    </tbody>
-</table>
+
+                        <td class="vehiclePlaces">
+                            <span>@ticketType.Item1</span>
+                            <span>@ticketType.Item2 </span>
+                            <span>@ticketType.Item3</span>    
+                        </td>
+                    }
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+@if (Model.Count() < 1)
+{
+        <h4 class="text-center text-info">Билетов не найдено</h4>
+}
 
 

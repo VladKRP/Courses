@@ -54,7 +54,3 @@ E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\bin\Newtonsoft.Json.
 E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\obj\Debug\BestTickets.csprojResolveAssemblyReference.cache
 E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\obj\Debug\BestTickets.dll
 E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\obj\Debug\BestTickets.pdb
-E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\bin\Fizzler.dll
-E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\bin\Fizzler.Systems.HtmlAgilityPack.dll
-E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\bin\Fizzler.xml
-E:\Workspace\C#\Courses\BestTickets\BestTickets\BestTickets\bin\Fizzler.Systems.HtmlAgilityPack.xml

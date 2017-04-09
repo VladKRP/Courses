@@ -13,10 +13,6 @@ namespace BestTickets.Models
         public string ArrivalTime { get; set; }
         public string TimeInWay { get; set; }
 
-        //Implement method to calc TimeInWay
-
         public IEnumerable<Tuple<string,string,string>> VehiclePlace { get; set; }
-        //public int Price { get; set; }
-        //public int FreePlaceAmount { get; set; }
     }
 }

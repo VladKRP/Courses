@@ -38,24 +38,30 @@
 </div>*@
 
 <div>
-    @using (Html.BeginForm())
+    @using (Html.BeginForm("GetTickets","Home",FormMethod.Post))
     {
-        <div>
-            @Html.Label("Откуда"):
-            @Html.EditorFor(x => x.DeparturePlace)
-            @Html.ValidationMessageFor(x => x.DeparturePlace)
-        </div>
-        <div>
-            @Html.Label("Куда"):
-            @Html.EditorFor(x => x.ArrivalPlace)
-            @Html.ValidationMessageFor(x => x.ArrivalPlace)
-        </div>
-        <div>
-            @Html.Label("Дата"):
-            @Html.EditorFor(x => x.Date)
-            @Html.ValidationMessageFor(x => x.Date)
-        </div>
-
-        <input type="submit" value="Поиск" />
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-inline">
+            <div class="form-group">
+                @Html.LabelFor(x => x.DeparturePlace, new {@class = "control-label"})
+                @Html.TextBoxFor(x => x.DeparturePlace, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.DeparturePlace, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.ArrivalPlace, new { @class = "control-label" })
+                @Html.TextBoxFor(x => x.ArrivalPlace, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.ArrivalPlace, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.Date, new { @class = "control-label" })
+                @Html.TextBoxFor(x => x.Date, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Date, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                    @Html.Label("Search", "Search", new { @class = "invisible" })
+                    <input class="btn btn-default form-control" type="submit" value="Поиск" />
+            </div>
+        </div>      
     }
 </div>
