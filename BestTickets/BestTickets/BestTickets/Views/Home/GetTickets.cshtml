@@ -18,19 +18,22 @@
             @foreach (var ticket in Model)
             {
                 <tr>
-                    <td class="col-sm-1">@ticket.VehicleName</td>
+                    <td>@ticket.VehicleName</td>
                     <td>@ticket.VehicleType</td>
                     <td>@ticket.Route</td>
                     <td>@ticket.DepartureTime</td>
                     <td>@ticket.ArrivalTime</td>
                     @foreach (var ticketType in ticket.VehiclePlace)
                     {
-
                         <td class="vehiclePlaces">
-                            <span>@ticketType.Item1</span>
-                            <span>@ticketType.Item2 </span>
-                            <span>@ticketType.Item3</span>    
+                            <p>
+                                <span>@ticketType.Item1</span>
+                                <span>@ticketType.Item2</span>
+                                <span>@ticketType.Item3</span>
+                            </p>
                         </td>
+                        
+                        
                     }
 
                 </tr>

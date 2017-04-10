@@ -14,8 +14,7 @@ namespace BestTickets.Controllers
         [HttpPost]
         public ActionResult GetTickets(RouteViewModel route)
         {
-            var tickets = TicketChecker.FindTickets(route).ToList();
-            return View(tickets);
+            return View(TicketChecker.FindTickets(route).ToList());
         }
 
     }

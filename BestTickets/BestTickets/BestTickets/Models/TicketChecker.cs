@@ -17,8 +17,8 @@ namespace BestTickets.Models
             string ticketsbusUrl = "http://ticketbus.by/";
             var ticketsbusContent = Parser.ParseSiteAsString(ticketsbusUrl);
             var ticketsbusKey = ticketsbusContent.Skip(ticketsbusContent.IndexOf("var url")).Skip(11).TakeWhile(x => x != '"');
-            //ticketsbusUrl = ticketsbusUrl + string.Join("", ticketsbusKey);
-            //var ticketbyTickets = TicketsbySearch(ticketsbusContent);
+            var sessionId = string.Join("", ticketsbusKey);
+            var ticketbyTickets = TicketsbySearch(ticketsbusContent);
 
             return raspRwTickets;
 
@@ -28,9 +28,7 @@ namespace BestTickets.Models
         private static IEnumerable<Ticket> TicketsbySearch(string siteContent)
         {
             HtmlDocument html = new HtmlDocument();
-            //Incorrect document exception
-                html.Load(siteContent);
-            //
+            html.LoadHtml(siteContent);
             var htmlDocument = html.DocumentNode;
 
             var cityInfo = Parser.GetElementById(htmlDocument, "getcity").ChildNodes.Where(x => x.Name == "option");
