@@ -1,0 +1,6 @@
+POST http://ticketbus.by/getdata.php?PHPSESSID=4bj2tj5ugblaefruadd3ei4p75&prog=marshrut1&host=1 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://ticketbus.by/
+Accept-Encoding: gzip, deflate
+
+station_id=100001&station_id1=500000&date=12.04.2017

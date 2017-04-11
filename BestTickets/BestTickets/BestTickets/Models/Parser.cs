@@ -15,16 +15,11 @@ namespace BestTickets.Models
             return Encoding.UTF8.GetString(pageContent);
         }
 
-        public static string GetElementValueByClass(HtmlNode node, string className)
+        public static HtmlNode LoadHtmlRoot(string siteContent)
         {
-            var data = node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className))
-                .Select(x => x.InnerText);
-            return String.Join("", data);
-        }
-
-        public static IEnumerable<HtmlNode> GetElementByClass(HtmlNode node, string className)
-        {
-            return node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className));
+            HtmlDocument html = new HtmlDocument();
+            html.LoadHtml(siteContent);
+            return html.DocumentNode;
         }
 
         public static HtmlNode GetElementById(HtmlNode node, string id)
@@ -32,9 +27,17 @@ namespace BestTickets.Models
             return node.Descendants().Where(x => (x.Attributes["id"] != null && x.Attributes["id"].Value == id)).FirstOrDefault();
         }
 
-        //public static IEnumerable<HtmlNode> GetElementById(HtmlNode node, string id)
-        //{
-        //    return node.Descendants().Where(x => (x.Attributes["id"] != null && x.Attributes["id"].Value == id));
-        //}
+        public static IEnumerable<HtmlNode> GetElementByClass(HtmlNode node, string className)
+        {
+            return node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className));
+        }
+
+        public static string GetElementValueByClass(HtmlNode node, string className)
+        {
+            var data = node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className))
+                .Select(x => x.InnerText);
+            return String.Join("", data);
+        }
+        
     }
 }
