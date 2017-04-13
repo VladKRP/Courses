@@ -16,10 +16,10 @@ namespace BestTickets.Models
             return Encoding.UTF8.GetString(pageContent);
         }
 
-        public static string SendPostRequest(string postData, string url, string referer)
+        public static string SendPostRequest(string dataToSend, string url, string referer)
         {
             var request = (HttpWebRequest)WebRequest.Create(url);
-            var data = Encoding.ASCII.GetBytes(postData);
+            var data = Encoding.ASCII.GetBytes(dataToSend);
 
             if (request != null)
             {
