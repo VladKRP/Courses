@@ -10,33 +10,38 @@
 </div>
 
 @*<div class="row">
-    @using (Ajax.BeginForm("GetTickets", new AjaxOptions { UpdateTargetId = "tickets", Url = Url.Action("GetTickets") }))
-    {
-        <div>
-            @Html.Label("Откуда"):
-            @Html.EditorFor(x => x.DeparturePlace)
-            @Html.ValidationMessageFor(x => x.DeparturePlace)
-        </div>
-        <div>
-            @Html.Label("Куда"):
-            @Html.EditorFor(x => x.ArrivalPlace)
-            @Html.ValidationMessageFor(x => x.ArrivalPlace)
-        </div>
-        <div>
-            @Html.Label("Дата"):
-            <input type="date" />
-            @Html.ValidationMessageFor(x => x.Date)
-        </div>
+        @using (Ajax.BeginForm("GetTickets", new AjaxOptions { UpdateTargetId = "tickets", InsertionMode = InsertionMode.Replace, Url = Url.Action("GetTickets") }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-inline">
+                <div class="form-group">
+                    @Html.LabelFor(x => x.DeparturePlace, new {@class = "control-label"})
+                    @Html.TextBoxFor(x => x.DeparturePlace, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.DeparturePlace, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.ArrivalPlace, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.ArrivalPlace, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.ArrivalPlace, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Date, new { @class = "control-label" })
+                    @Html.TextBoxFor(x => x.Date, "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Date, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                        @Html.Label("Search", "Search", new { @class = "invisible" })
+                        <input class="btn btn-default form-control" type="submit" value="Поиск" />
+                </div>
+            </div>
+        }
 
-        <input type="submit" value="Поиск" />
-    }
-    
-</div>
+  </div>
 
-<div class="tickets">
-    @Html.Action("GetTickets")
-</div>*@
-
+    <div id="tickets">
+        @Html.Action("GetTickets")
+    </div>*@
 <div>
     @using (Html.BeginForm("GetTickets","Home",FormMethod.Post))
     {
@@ -65,3 +70,6 @@
         </div>      
     }
 </div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

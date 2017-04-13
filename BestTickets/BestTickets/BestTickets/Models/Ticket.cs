@@ -11,8 +11,8 @@ namespace BestTickets.Models
         
         public string DepartureTime { get; set; }
         public string ArrivalTime { get; set; }
-        public string TimeInWay { get; set; }
 
         public IEnumerable<Tuple<string,string,string>> VehiclePlace { get; set; }
+
     }
 }
