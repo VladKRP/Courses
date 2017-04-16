@@ -1,50 +1,43 @@
-﻿@model IEnumerable<BestTickets.Models.Ticket>
+﻿@model IEnumerable<BestTickets.Models.Vehicle>
 
-<div class="table-responsive" >
-    <table class="table">
-        <thead>
-            <tr>
-                <th class="col-sm-1">Номер транспорта</th>
-                <th>Тип</th>
-                <th>Маршрут</th>
-                <th>Время отправления</th>
-                <th>Время прибытия</th>
-                <th>Место</th>
-                <th>Количество</th>
-                <th>Стоимость</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var ticket in Model)
-            {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@ticket.VehicleName</td>
-                    <td>@ticket.VehicleType</td>
-                    <td>@ticket.Route</td>
-                    <td>@ticket.DepartureTime</td>
-                    <td>@ticket.ArrivalTime</td>
-                    @foreach (var ticketType in ticket.VehiclePlace)
-                    {
-                        <td class="vehiclePlaces">
-                            <p>
-                                <span>@ticketType.Item1</span>
-                                <span>@ticketType.Item2</span>
-                                <span>@ticketType.Item3</span>
-                            </p>
-                        </td>
-                        
-                        
-                    }
-
+                    <th>Номер транспорта</th>
+                    <th>Тип</th>
+                    <th>Маршрут</th>
+                    <th>Время отправления</th>
+                    <th>Время прибытия</th>
+                    <th>Тип места/Количество свободных мест/Стоимость</th>
                 </tr>
+            </thead>
+            @if (Model == null || Model.Count() < 1)
+            {
+                <tbody>
+                    <tr><td><h4 class="text-center text-info">Билетов не найдено</h4></td></tr>
+                </tbody>
             }
-        </tbody>
-    </table>
-
-</div>
-@if (Model.Count() < 1)
-{
-        <h4 class="text-center text-info">Билетов не найдено</h4>
-}
-
-
+            else
+            {
+                <tbody>
+                    @foreach (var ticket in Model)
+                    {
+                        <tr>
+                            <td>@ticket.Name</td>
+                            <td>@ticket.Type</td>
+                            <td>@ticket.Route</td>
+                            <td>@ticket.DepartureTime</td>
+                            <td>@ticket.ArrivalTime</td>    
+                            <td>
+                                @foreach (var place in ticket.Places)
+                                {
+                                    <p>
+                                        <span>@place.Type</span>/<span>@place.Amount</span>/<span><strong>@place.Cost</strong></span>
+                                    </p>                                   
+                                }
+                            </td>   
+                         </tr>
+                    }
+                </tbody>
+            }
+        </table>

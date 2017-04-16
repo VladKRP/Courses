@@ -158,8 +158,9 @@
     </Compile>
     <Compile Include="Models\Parser.cs" />
     <Compile Include="Models\RouteViewModel.cs" />
-    <Compile Include="Models\Ticket.cs" />
+    <Compile Include="Models\Vehicle.cs" />
     <Compile Include="Models\TicketChecker.cs" />
+    <Compile Include="Models\VehiclePlace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
