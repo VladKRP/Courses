@@ -3,37 +3,43 @@
 @{
     ViewBag.Title = "Best Tickets";
 }
-
 <div class="jumbotron">
     <h1>Best tickets</h1>
-    <p class="lead">This site extract information about tickets from 2 site ticketbus.by and rasp.rw.by and find best price ticket.</p>
+     <h3>Выбор лучших билетов.</h3>
 </div>
 
-<div>
-        @using (Html.BeginForm("GetTickets","Home",FormMethod.Post))
-        {
-            @Html.AntiForgeryToken()
-            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-            <div class="form-inline">
-                <div class="form-group">
-                    @Html.LabelFor(x => x.DeparturePlace, new {@class = "control-label"})
-                    @Html.TextBoxFor(x => x.DeparturePlace, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.DeparturePlace, "", new { @class = "text-danger" })
-                </div>
-                <div class="form-group">
-                    @Html.LabelFor(x => x.ArrivalPlace, new { @class = "control-label" })
-                    @Html.TextBoxFor(x => x.ArrivalPlace, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.ArrivalPlace, "", new { @class = "text-danger" })
-                </div>
-                <div class="form-group">
-                        @Html.LabelFor(x => x.Date, new { @class = "control-label" })
-                        <input type="date" class = "form-control" name="Date" />
-                        @Html.ValidationMessageFor(x => x.Date, "", new { @class = "text-danger" })
-                    </div>
-                <div class="form-group">
-                        @Html.Label("Search", "Search", new { @class = "invisible" })
-                        <input class="btn btn-default form-control" type="submit" value="Поиск" />
-                </div>
+<div class="row text-center">
+
+    @using (Ajax.BeginForm("GetTickets", new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "tickets", InsertionMode = InsertionMode.Replace }))
+    {
+        <div>
+            @Html.ValidationMessageFor(x => x.DeparturePlace, "", new { @class = "text-danger" })<br />
+            @Html.ValidationMessageFor(x => x.ArrivalPlace, "", new { @class = "text-danger" })<br />
+        </div>
+
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-inline">
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.DeparturePlace, new { @class = "form-control", @placeholder = "Отправление" })
+                
             </div>
-        }
-    </div>
+            <div class="form-group">
+                @Html.TextBoxFor(x => x.ArrivalPlace, new { @class = "form-control", @placeholder = "Прибытие" })
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control" name="Date"/>
+            </div>
+            <div class="form-group">
+                <input class="btn btn-default form-control" type="submit" value="Поиск" />
+            </div>
+        </div>
+    } 
+</div>
+<div id="tickets" class="row">
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/ajax")
+}

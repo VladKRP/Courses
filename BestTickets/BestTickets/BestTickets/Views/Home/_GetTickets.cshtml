@@ -11,7 +11,7 @@
                     <th>Тип места/Количество свободных мест/Стоимость</th>
                 </tr>
             </thead>
-            @if (Model == null || Model.Count() < 1)
+            @if (Model.Count() < 1)
             {
                 <tbody>
                     <tr><td><h4 class="text-center text-info">Билетов не найдено</h4></td></tr>
