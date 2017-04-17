@@ -1,43 +1,83 @@
 ﻿@model IEnumerable<BestTickets.Models.Vehicle>
 
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Номер транспорта</th>
-                    <th>Тип</th>
-                    <th>Маршрут</th>
-                    <th>Время отправления</th>
-                    <th>Время прибытия</th>
-                    <th>Тип места/Количество свободных мест/Стоимость</th>
-                </tr>
-            </thead>
-            @if (Model.Count() < 1)
+<div class="ticketsSchedule col-sm-12 hidden-xs">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Номер транспорта</th>
+                <th class="hidden-xs hidden-sm">Тип</th>
+                <th>Маршрут</th>
+                <th>Время отправления</th>
+                <th>Время прибытия</th>
+                <th>Тип места/Количество свободных мест/Стоимость</th>
+            </tr>
+        </thead>
+        @if (Model.Count() < 1)
             {
-                <tbody>
-                    <tr><td><h4 class="text-center text-info">Билетов не найдено</h4></td></tr>
-                </tbody>
-            }
-            else
+            <tbody>
+                <tr><td><h4 class="text-center text-info">Билетов не найдено</h4></td></tr>
+            </tbody>
+        }
+        else
+        {
+            <tbody>
+                @foreach (var ticket in Model)
+                {
+                    <tr>
+                        <td>@ticket.Name</td>
+                        <td class="hidden-xs hidden-sm">@ticket.Type</td>
+                        <td>@ticket.Route</td>
+                        <td>@ticket.DepartureTime</td>
+                        <td>@ticket.ArrivalTime</td>
+                        <td>
+                            @foreach (var place in ticket.Places)
+                            {
+                                <p>
+                                    <span>@place.Type</span>/<span>@place.Amount</span>/<span><strong>@place.Cost</strong><span>руб.</span></span>
+                                </p>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        }
+    </table>
+</div>
+
+<div class="ticketsSchedule col-sm-12 visible-xs">
+    @if (Model.Count() < 1)
+    {
+        <h4 class="text-center text-info">Билетов не найдено</h4>
+    }
+    else
+    {
+        <div class="schedule">
+            @foreach (var ticket in Model)
             {
-                <tbody>
-                    @foreach (var ticket in Model)
-                    {
-                        <tr>
-                            <td>@ticket.Name</td>
-                            <td>@ticket.Type</td>
-                            <td>@ticket.Route</td>
-                            <td>@ticket.DepartureTime</td>
-                            <td>@ticket.ArrivalTime</td>    
-                            <td>
-                                @foreach (var place in ticket.Places)
-                                {
-                                    <p>
-                                        <span>@place.Type</span>/<span>@place.Amount</span>/<span><strong>@place.Cost</strong></span>
-                                    </p>                                   
-                                }
-                            </td>   
-                         </tr>
-                    }
-                </tbody>
+                <div class="col-xs-12 text-center routeLabel"><strong>@ticket.Name <span>Маршрут:</span> @ticket.Route</strong></div>
+                <div class="col-xs-12 text-center">
+                    <div>
+                        <span>Тип:</span> @ticket.Type
+                    </div>
+                    <div>
+                        <span>Отправление: </span>
+                        @ticket.DepartureTime
+                        <span >Прибытие: </span>  
+                        @ticket.ArrivalTime
+                    </div>
+                    <div>
+                        <span>Свободные места:</span>
+                        @foreach (var place in ticket.Places)
+                       {
+                        <p>
+                            <span>@place.Type</span> <span>@place.Amount</span> <span><strong>@place.Cost</strong><span> руб.</span></span>
+                        </p>
+                        }
+                </div>
+            </div>
             }
-        </table>
+
+        </div>
+    }
+    
+</div>

@@ -45,10 +45,10 @@ namespace BestTickets.Models
                               DepartureTime = Parser.GetElementValueByClass(ticket, "train_start-time"),
                               ArrivalTime = Parser.GetElementValueByClass(ticket, "train_end-time"),
                               Places = from place in Parser.GetElementByClass(ticket, "train_details-group")
-                                             select new VehiclePlace(
-                                               Parser.GetElementValueByClass(place, "train_note"),
-                                               Parser.GetElementValueByClass(place, "train_place"),
-                                               Parser.GetElementValueByClass(place, "denom_after")
+                                       select new VehiclePlace(
+                                         Parser.GetElementValueByClass(place, "train_note"),
+                                         Parser.GetElementValueByClass(place, "train_place"),
+                                         Parser.GetFirstElementValueByClass(place, "denom_after").Replace("&nbsp;", "").Replace("руб.","")
                                             )
                           };
             return tickets;

@@ -1,7 +1,6 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 using BestTickets.Models;
-using System;
 
 namespace BestTickets.Controllers
 {
@@ -16,7 +15,8 @@ namespace BestTickets.Controllers
         {
             if (route.Date == null)
                 route.Date = route.SetCurrentDate();
-            return PartialView("_GetTickets", TicketChecker.FindTickets(route).ToList());
+            var tickets = TicketChecker.FindTickets(route).OrderBy(x => x.Places.Min());
+            return PartialView("_GetTickets", tickets.ToList());
         }
     }
 }

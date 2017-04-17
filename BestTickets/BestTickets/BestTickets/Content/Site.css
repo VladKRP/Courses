@@ -21,14 +21,19 @@ body {
 input,
 select,
 textarea {
-    max-width: 280px;
+    min-width: 280px;
 }
 
-.vehiclePlaces > span{
+.ticketsSchedule{
     display:block;
-    width:100%;
+    margin-top:32px;
 }
 
-.vehiclePlaces{
-    display:inline-block;
+.routeLabel{
+    background-color:rgb(190,210,210);
+    padding:0.5em;
+}
+
+.schedule > div{
+    border-bottom:0.5px solid rgb(150, 150, 150);
 }
