@@ -50,8 +50,7 @@ namespace BestTickets.Models
 
         public static IEnumerable<string> GetElementValueByTag(HtmlNode node, string className)
         {
-            var value = node.Descendants().Where(x => x.Name == className).Select(x => x.InnerText);
-            return value;
+            return node.Descendants().Where(x => x.Name == className).Select(x => x.InnerText);   
         }
 
         public static IEnumerable<HtmlNode> GetElementByClass(HtmlNode node, string className)

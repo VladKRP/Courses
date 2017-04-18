@@ -1,10 +1,11 @@
 ﻿@model IEnumerable<BestTickets.Models.Vehicle>
-
-
+@{ 
+    var averageTicketPrice = Model.SelectMany(x => x.Places.Select(y => y.Cost)).Average();
+}
         
 @if (Model.Count() < 1)
 {
-    <p><h4 class="text-center text-info">Билетов не найдено</h4></p>
+    <p><h4 class="text-center ticketNotFoundColor">Билетов не найдено</h4></p>
 }
 else
 {
@@ -34,19 +35,18 @@ else
                             {
                                 <p>
                                     <span class="placeType">
-                                        @if (place.Type == "")
+                                        @if (string.IsNullOrWhiteSpace(place.Type))
                                         {
-                                            <span>Не указано /</span>
+                                            <span>@place.Type</span>
                                         }
                                         else
                                         {
-                                            <span>@place.Type /</span>
+                                            <span>@place.Type</span>
                                         }
                                     </span>
                                     <span class="placeAmount">
                                         @if (place.Amount == "")
                                         {
-                                            <span>Не указано /</span>
                                         }
                                         else
                                         {
@@ -54,13 +54,13 @@ else
                                         }
                                     </span>
                                     <span class="placeCost">
-                                        @if (place.Cost == 0)
+                                        @if (place.Cost < averageTicketPrice)
                                         {
-                                            <span>Не указано </span>
+                                            <span class="label-success"><strong >@place.Cost</strong><span>руб.</span></span>
                                         }
                                         else
                                         {
-                                            <span><strong>@place.Cost</strong><span>руб.</span></span>
+                                            <span class="label-danger"><strong >@place.Cost</strong><span>руб.</span></span>
                                         }
 
                                     </span>
@@ -91,7 +91,7 @@ else
                         {
                             <p>
                                 <span class="placeType">
-                                    @if (place.Type == "")
+                                    @if (string.IsNullOrEmpty(place.Type))
                                     {
                                         <span>Не указано /</span>
                                     }
@@ -111,13 +111,13 @@ else
                                     }
                                 </span>
                                 <span class="placeCost">
-                                    @if (place.Cost == 0)
+                                    @if (place.Cost < averageTicketPrice)
                                     {
-                                        <span>Не указано </span>
+                                        <span class="label-success"><strong>@place.Cost</strong><span>руб.</span></span>
                                     }
                                     else
                                     {
-                                        <span><strong>@place.Cost</strong><span>руб.</span></span>
+                                        <span class="label-danger"><strong >@place.Cost</strong><span>руб.</span></span>
                                     }
 
                                 </span>
