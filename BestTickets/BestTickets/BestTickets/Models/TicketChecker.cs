@@ -40,7 +40,7 @@ namespace BestTickets.Models
                           {
                               Name = Parser.GetElementValueByClass(ticket, "train_id"),
                               Type = Parser.GetElementValueByClass(ticket, "train_description"),
-                              Route = Parser.GetElementValueByClass(ticket, "train_name -map")
+                              Route = Parser.GetElementValueByTag(Parser.GetElementByClass(ticket, "train_name -map").FirstOrDefault(), "a").FirstOrDefault()
                                               .Replace("&nbsp;", "").Replace("&mdash;", " - "),
                               DepartureTime = Parser.GetElementValueByClass(ticket, "train_start-time"),
                               ArrivalTime = Parser.GetElementValueByClass(ticket, "train_end-time"),

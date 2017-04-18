@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Net;
@@ -49,6 +48,12 @@ namespace BestTickets.Models
             return node.Descendants().Where(x => (x.Attributes["id"] != null && x.Attributes["id"].Value == id)).FirstOrDefault();
         }
 
+        public static IEnumerable<string> GetElementValueByTag(HtmlNode node, string className)
+        {
+            var value = node.Descendants().Where(x => x.Name == className).Select(x => x.InnerText);
+            return value;
+        }
+
         public static IEnumerable<HtmlNode> GetElementByClass(HtmlNode node, string className)
         {
             return node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className));
@@ -56,12 +61,14 @@ namespace BestTickets.Models
 
         public static string GetFirstElementValueByClass(HtmlNode node, string className)
         {
-            return node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className)).FirstOrDefault().InnerText;
+            var value = node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className)).FirstOrDefault();
+            return value == null ? string.Empty : value.InnerText;
         }
 
         public static string GetLastElementValueByClass(HtmlNode node, string className)
         {
-            return node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className)).LastOrDefault().InnerText;
+            var value =  node.Descendants().Where(x => (x.Attributes["class"] != null && x.Attributes["class"].Value == className)).LastOrDefault();
+            return value == null ? string.Empty : value.InnerText;
         }
 
         public static string GetElementValueByClass(HtmlNode node, string className)

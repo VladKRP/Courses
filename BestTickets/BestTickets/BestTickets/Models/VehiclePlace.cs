@@ -18,7 +18,9 @@ namespace BestTickets.Models
 
         private double moneyToDouble(string cost)
         {
-            var money = cost.TakeWhile(c => char.IsDigit(c) || c == '.' || c == ',').Select(c =>  c == '.' ? ',' : c).Aggregate("", (x, y) => x += y);
+            if (cost == string.Empty)
+                return 0;
+            var money = cost.TakeWhile(c => char.IsDigit(c) || c == '.' || c == ',').Select(c =>  c == ',' ? '.' : c).Aggregate("", (x, y) => x += y);
             var doubleMoney = Convert.ToDouble(money);
             return doubleMoney;
         }

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace BestTickets.Models
 {
-    public class Vehicle:IComparable<Vehicle>
+    public class Vehicle
     {
         public string Name { get; set; }
         public string Type { get; set; }
@@ -14,9 +13,5 @@ namespace BestTickets.Models
 
         public IEnumerable<VehiclePlace> Places { get; set; }
         
-        public int CompareTo(Vehicle obj)
-        { 
-            return 0;
-        }
     }
 }

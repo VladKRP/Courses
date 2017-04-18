@@ -31,12 +31,12 @@ footer{
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 23px;
+    padding-bottom: 32px;
 }
+/*background-color:rgb(50,90,80);*/
 
 .jumbocolor{
-    background-color:rgb(50,90,80);
-    /*background-color:rgb(65,100,95);*/
+    background-color:rgb(85,120,115);
 }
 
 .dl-horizontal dt {

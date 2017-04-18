@@ -1,28 +1,28 @@
 ﻿@model IEnumerable<BestTickets.Models.Vehicle>
 
-    <table class="table-responsive  ticketsSchedule hidden-xs ">
-        <thead>
-            <tr>
-                <th>Номер транспорта</th>
-                <th class="hidden-xs hidden-sm">Тип</th>
-                <th>Маршрут</th>
-                <th>Время отправления</th>
-                <th>Время прибытия</th>
-                <th>Тип места/Количество свободных мест/Стоимость</th>
-            </tr>
-        </thead>
-        @if (Model.Count() < 1)
-            {
-            <tbody>
-                <tr><td><h4 class="text-center text-info">Билетов не найдено</h4></td></tr>
-                <tr></tr>
-            </tbody>
-        }
-        else
-        {
-            <tbody>
-                @foreach (var ticket in Model)
-                {
+
+        
+@if (Model.Count() < 1)
+{
+    <p><h4 class="text-center text-info">Билетов не найдено</h4></p>
+}
+else
+{
+    <div>
+            <table class="table-responsive  ticketsSchedule hidden-xs col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 ">
+                <thead>
+                    <tr>
+                        <th>Номер транспорта</th>
+                        <th class="hidden-xs hidden-sm">Тип</th>
+                        <th>Маршрут</th>
+                        <th>Время отправления</th>
+                        <th>Время прибытия</th>
+                        <th>Тип места/Количество свободных мест/Стоимость</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ticket in Model)
+                    {
                     <tr>
                         <td>@ticket.Name</td>
                         <td class="hidden-xs hidden-sm">@ticket.Type</td>
@@ -33,25 +33,47 @@
                             @foreach (var place in ticket.Places)
                             {
                                 <p>
-                                    <span>@place.Type</span>/<span>@place.Amount</span>/<span><strong>@place.Cost</strong><span>руб.</span></span>
+                                    <span class="placeType">
+                                        @if (place.Type == "")
+                                        {
+                                            <span>Не указано /</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@place.Type /</span>
+                                        }
+                                    </span>
+                                    <span class="placeAmount">
+                                        @if (place.Amount == "")
+                                        {
+                                            <span>Не указано /</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@place.Amount /</span>
+                                        }
+                                    </span>
+                                    <span class="placeCost">
+                                        @if (place.Cost == 0)
+                                        {
+                                            <span>Не указано </span>
+                                        }
+                                        else
+                                        {
+                                            <span><strong>@place.Cost</strong><span>руб.</span></span>
+                                        }
+
+                                    </span>
                                 </p>
                             }
                         </td>
                     </tr>
-                }
-            </tbody>
-        }
-    </table>
-
-    @if (Model.Count() < 1)
-    {
-        <h4 class="text-center text-info">Билетов не найдено</h4>
-    }
-    else
-    {
-        <div class="schedule ticketsSchedule visible-xs">
-            @foreach (var ticket in Model)
-            {
+                    }
+                </tbody>
+            </table>
+            <div class="schedule ticketsSchedule visible-xs">
+                @foreach(var ticket in Model)
+                {
                 <div class="col-xs-12 text-center routeLabel"><strong>@ticket.Name <span>Маршрут:</span> @ticket.Route</strong></div>
                 <div class="col-xs-12 text-center">
                     <div>
@@ -60,21 +82,53 @@
                     <div>
                         <span>Отправление: </span>
                         @ticket.DepartureTime
-                        <span >Прибытие: </span>  
+                        <span>Прибытие: </span>
                         @ticket.ArrivalTime
                     </div>
                     <div>
                         <span>Свободные места:</span>
                         @foreach (var place in ticket.Places)
-                       {
-                        <p>
-                            <span>@place.Type</span> <span>@place.Amount</span> <span><strong>@place.Cost</strong><span> руб.</span></span>
-                        </p>
-                        }
-                </div>
-            </div>
-            }
+                        {
+                            <p>
+                                <span class="placeType">
+                                    @if (place.Type == "")
+                                    {
+                                        <span>Не указано /</span>
+                                    }
+                                    else
+                                    {
+                                        <span>@place.Type /</span>
+                                    }
+                                </span>
+                                <span class="placeAmount">
+                                    @if (place.Amount == "")
+                                    {
+                                        <span>Не указано /</span>
+                                    }
+                                    else
+                                    {
+                                        <span>@place.Amount /</span>
+                                    }
+                                </span>
+                                <span class="placeCost">
+                                    @if (place.Cost == 0)
+                                    {
+                                        <span>Не указано </span>
+                                    }
+                                    else
+                                    {
+                                        <span><strong>@place.Cost</strong><span>руб.</span></span>
+                                    }
 
-        </div>
-    }
+                                </span>
+
+                            </p>
+                        }
+                    </div>
+                </div>
+                }
+            </div>
+    </div>
+}
+
     
