@@ -8,21 +8,25 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="page">
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="navbar-header">
-                @Html.ActionLink("BestTicket", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        <div class="page">
+
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-header">
+                    @Html.ActionLink("BestTicket", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+            </div>
+            <div class="container-fluid body-content">
+                <div>
+                    @RenderBody()
+                </div>
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>
+            <div class="pageFade">
             </div>
         </div>
-        <div class="container-fluid body-content">
-            <div>
-                @RenderBody()
-            </div>
-            <footer>
-                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-            </footer>
-        </div>
-    </div>
+    
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

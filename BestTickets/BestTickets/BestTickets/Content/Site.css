@@ -16,6 +16,7 @@ html{
     min-height:100%;
 }
 
+
 footer{
   background-color:rgb(34,34,34);
   color:rgb(200,200,180);
@@ -70,4 +71,43 @@ footer{
 .ticketsSchedule td, .ticketsSchedule th{
     border:1px solid rgb(155,125,125);
     padding:0.5em;
+}
+
+
+.loadingProgress {
+  display: none;
+  position: fixed;
+  z-index:100;
+  border: 16px dotted rgb(230,230,200);
+  border-radius: 50%;
+  border-top: 16px solid rgb(250,120,120);
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left:50%;
+  margin-top: -50px;
+    margin-left: -40px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.pageFade{
+    display:none;
+    position:fixed;
+    z-index:50;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(34,34,34,0.8);
 }
