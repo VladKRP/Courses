@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<BestTickets.Models.Vehicle>
-@{ 
-    var averageTicketPrice = Model.SelectMany(x => x.Places.Select(y => y.Cost)).Average();
+@{
+    var averageTicketPrice = BestTickets.Models.TicketCollectionExtension.GetAverageTicketsPrice(Model);
 }
         
 @if (Model.Count() < 1)
@@ -10,7 +10,7 @@
 else
 {
     <div>
-            <table class="table-responsive  ticketsSchedule hidden-xs col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 ">
+            <table class="table-responsive ticketsSchedule hidden-xs col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8 ">
                 <thead>
                     <tr>
                         <th>Номер транспорта</th>
@@ -34,27 +34,10 @@ else
                             @foreach (var place in ticket.Places)
                             {
                                 <p>
-                                    <span class="placeType">
-                                        @if (string.IsNullOrWhiteSpace(place.Type))
-                                        {
-                                            <span>@place.Type</span>
-                                        }
-                                        else
-                                        {
-                                            <span>@place.Type</span>
-                                        }
-                                    </span>
-                                    <span class="placeAmount">
-                                        @if (place.Amount == "")
-                                        {
-                                        }
-                                        else
-                                        {
-                                            <span>@place.Amount /</span>
-                                        }
-                                    </span>
+                                    <span class="placeType">@place.Type / </span>
+                                    <span class="placeAmount">@place.Amount / </span>
                                     <span class="placeCost">
-                                        @if (place.Cost < averageTicketPrice)
+                                        @if (place.Cost <= averageTicketPrice)
                                         {
                                             <span class="label-success"><strong >@place.Cost</strong><span>руб.</span></span>
                                         }
@@ -62,7 +45,6 @@ else
                                         {
                                             <span class="label-danger"><strong >@place.Cost</strong><span>руб.</span></span>
                                         }
-
                                     </span>
                                 </p>
                             }
@@ -90,28 +72,10 @@ else
                         @foreach (var place in ticket.Places)
                         {
                             <p>
-                                <span class="placeType">
-                                    @if (string.IsNullOrEmpty(place.Type))
-                                    {
-                                        <span>Не указано /</span>
-                                    }
-                                    else
-                                    {
-                                        <span>@place.Type /</span>
-                                    }
-                                </span>
-                                <span class="placeAmount">
-                                    @if (place.Amount == "")
-                                    {
-                                        <span>Не указано /</span>
-                                    }
-                                    else
-                                    {
-                                        <span>@place.Amount /</span>
-                                    }
-                                </span>
+                                <span class="placeType">@place.Type / </span>
+                                <span class="placeAmount">@place.Amount / </span>
                                 <span class="placeCost">
-                                    @if (place.Cost < averageTicketPrice)
+                                    @if (place.Cost <= averageTicketPrice)
                                     {
                                         <span class="label-success"><strong>@place.Cost</strong><span>руб.</span></span>
                                     }
@@ -119,9 +83,7 @@ else
                                     {
                                         <span class="label-danger"><strong >@place.Cost</strong><span>руб.</span></span>
                                     }
-
                                 </span>
-
                             </p>
                         }
                     </div>

@@ -24,9 +24,10 @@ namespace BestTickets.Models
             {
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
+                request.AutomaticDecompression = DecompressionMethods.GZip;
                 request.Referer = referer;
                 request.ContentLength = data.Length;
-
+                
                 using (var requestStream = request.GetRequestStream())
                     requestStream.Write(data, 0, data.Length);
 
