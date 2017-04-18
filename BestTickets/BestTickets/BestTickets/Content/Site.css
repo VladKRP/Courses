@@ -1,39 +1,73 @@
 ﻿
 body {
+    height:100%;
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:rgb(230,230,200);
+
+}
+
+html{
+    height:100%;
+}
+
+.page{
+    position:relative;
+    min-height:100%;
+}
+
+footer{
+  background-color:rgb(34,34,34);
+  color:rgb(200,200,180);
+  position: absolute;
+  left: 0;
+  bottom: -1.4em;
+  width: 100%;
+  padding:0.7em 2em 0.2em 0;
+  text-align:right;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 23px;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
+.jumbocolor{
+    background-color:rgb(50,90,80);
+    /*background-color:rgb(65,100,95);*/
+}
+
 .dl-horizontal dt {
     white-space: normal;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    min-width: 280px;
+.form-control{
+    background-color:rgb(230,220,180);
 }
 
-.ticketsSchedule{
-    display:block;
-    margin-top:32px;
+.form-control:focus{
+     background-color:rgb(230,220,200);
+     border:1.3px solid rgb(150,220,160);
+}
+
+#tickets{
+    margin-top:5em;
 }
 
 .routeLabel{
-    background-color:rgb(190,210,210);
-    padding:0.5em;
+    /*background-color:rgb(190,210,210);*/
+    background-color:rgb(34,34,34);
+    color:rgb(200,200,180);
+    padding:0.8em;
 }
 
 .schedule > div{
-    border-bottom:0.5px solid rgb(150, 150, 150);
+    border-bottom:0.5px solid rgb(34,34,34);
+}
+
+.ticketsSchedule td, .ticketsSchedule th{
+    border:1px solid rgb(155,125,125);
+    padding:0.5em;
 }

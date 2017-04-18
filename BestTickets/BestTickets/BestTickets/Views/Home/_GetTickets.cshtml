@@ -1,7 +1,6 @@
 ﻿@model IEnumerable<BestTickets.Models.Vehicle>
 
-<div class="ticketsSchedule col-sm-12 hidden-xs">
-    <table class="table">
+    <table class="table-responsive  ticketsSchedule hidden-xs ">
         <thead>
             <tr>
                 <th>Номер транспорта</th>
@@ -16,6 +15,7 @@
             {
             <tbody>
                 <tr><td><h4 class="text-center text-info">Билетов не найдено</h4></td></tr>
+                <tr></tr>
             </tbody>
         }
         else
@@ -42,16 +42,14 @@
             </tbody>
         }
     </table>
-</div>
 
-<div class="ticketsSchedule col-sm-12 visible-xs">
     @if (Model.Count() < 1)
     {
         <h4 class="text-center text-info">Билетов не найдено</h4>
     }
     else
     {
-        <div class="schedule">
+        <div class="schedule ticketsSchedule visible-xs">
             @foreach (var ticket in Model)
             {
                 <div class="col-xs-12 text-center routeLabel"><strong>@ticket.Name <span>Маршрут:</span> @ticket.Route</strong></div>
@@ -80,4 +78,3 @@
         </div>
     }
     
-</div>

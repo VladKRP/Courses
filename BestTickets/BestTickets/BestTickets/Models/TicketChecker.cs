@@ -48,7 +48,7 @@ namespace BestTickets.Models
                                        select new VehiclePlace(
                                          Parser.GetElementValueByClass(place, "train_note"),
                                          Parser.GetElementValueByClass(place, "train_place"),
-                                         Parser.GetFirstElementValueByClass(place, "denom_after").Replace("&nbsp;", "").Replace("руб.","")
+                                         Parser.GetFirstElementValueByClass(place, "denom_after")
                                             )
                           };
             return tickets;
